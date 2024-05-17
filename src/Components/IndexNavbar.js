@@ -191,20 +191,24 @@ function IndexNavbar() {
                         </Link></button>
                             {PortMobile && (<div className={`dropPort ${PortMobile ? 'open' : ''}  my-2`}>
                                 <div className=' grid grid-cols-1 gap-3  text-sm px-2 py-2'>
-                                    <div className='flex justify-center items-center'>
-                                        <img src='https://wpriverthemes.com/synck/wp-content/uploads/2024/02/portfolio-mega-menu-1.jpg' alt='' className='w-5/12 h-full rounded-md' />
-                                        <div className='flex flex-col justify-center pl-3  '> <h3 className=' font-semibold'>E-commerce</h3><p>We undertook a project to migrate their existing.</p></div>
+                                    <a href='/portfolio/portfolio-details'><div className='flex justify-center items-center hover:cursor-pointer' >
+                                        <img src='https://wpriverthemes.com/synck/wp-content/uploads/2024/02/portfolio-mega-menu-1.jpg' alt='' className='w-5/12 max-lg:w-4/12 max-lg:h-1/2' />
+                                        <div className='flex flex-col justify-center pl-3 w-7/12 max-lg:w-8/12 '> <h3 className=' font-semibold'>E-commerce</h3><p>We undertook a project to migrate their existing.</p></div>
                                     </div>
-                                    <div className='flex justify-center items-center'>
-                                        <img src='https://wpriverthemes.com/synck/wp-content/uploads/2024/02/portfolio-mega-menu-2.jpg' alt='' className='w-5/12 h-full rounded-md ' />
-                                        <div className='flex flex-col justify-center pl-3  '> <h3 className=' font-semibold'>App Development</h3><p>The mobile application has significantly improved.</p></div>
-                                    </div><div className='flex justify-center items-center'>
-                                        <img src='https://wpriverthemes.com/synck/wp-content/uploads/2024/02/portfolio-mega-menu-3.jpeg' alt='' className='w-5/12 h-full rounded-md' />
-                                        <div className='flex flex-col justify-center pl-3 w-6/12 max-lg:w-8/12 '> <h3 className=' font-semibold'>SAAS Integration</h3><p>We partnered with DEF to upgrade their outdated IT.</p></div>
-                                    </div><div className='flex justify-center items-center'>
-                                        <img src='https://wpriverthemes.com/synck/wp-content/uploads/2024/02/portfolio-mega-menu-4.jpeg' alt='' className='w-5/12 h-full rounded-md' />
-                                        <div className='flex flex-col justify-center pl-3 w-6/12 max-lg:w-8/12 '> <h3 className=' font-semibold'>Virtual Reality</h3><p>Enter into the virtual reality world for real experience.</p></div>
-                                    </div>
+                                    </a>
+                                    <a href='/portfolio/portfolio-details'>
+                                        <div className='flex justify-center items-center hover:cursor-pointer' >
+                                            <img src='https://wpriverthemes.com/synck/wp-content/uploads/2024/02/portfolio-mega-menu-2.jpg' alt='' className='w-5/12 max-lg:w-4/12 max-lg:h-1/2' />
+                                            <div className='flex flex-col justify-center pl-3 w-7/12 max-lg:w-8/12 '> <h3 className=' font-semibold'>App Development</h3><p>The mobile application has significantly improved.</p></div>
+                                        </div></a>
+                                    <a href='/portfolio/portfolio-details'><div className='flex justify-center items-center hover:cursor-pointer' >
+                                        <img src='https://wpriverthemes.com/synck/wp-content/uploads/2024/02/portfolio-mega-menu-3.jpeg' alt='' className='w-5/12 max-lg:w-4/12 max-lg:h-1/2' />
+                                        <div className='flex flex-col justify-center pl-3 w-7/12 max-lg:w-8/12 '> <h3 className=' font-semibold'>SAAS Integration</h3><p>We partnered with DEF to upgrade their outdated IT.</p></div>
+                                    </div></a>
+                                    <a href='/portfolio/portfolio-details'><div className='flex justify-center items-center hover:cursor-pointer' >
+                                        <img src='https://wpriverthemes.com/synck/wp-content/uploads/2024/02/portfolio-mega-menu-4.jpeg' alt='' className='w-5/12 max-lg:w-4/12 max-lg:h-1/2' />
+                                        <div className='flex flex-col justify-center pl-3 w-7/12 max-lg:w-8/12 '> <h3 className=' font-semibold'>Virtual Reality</h3><p>Enter into the virtual reality world for real experience.</p></div>
+                                    </div></a>
 
                                 </div>
                                 <hr className='my-4' />
@@ -229,7 +233,7 @@ function IndexNavbar() {
                                         <h3 className=' font-semibold'>Our product hits</h3>
                                         <p>Develop IT solutions based on the
                                             analysis phase.</p>
-                                        <a href="/">View more</a>
+                                        <a href="/view_more" className='text-blue-700 font-semibold underline underline-offset-2'>View more</a>
                                     </div>
                                 </div>
                             </div>)}</div>
@@ -238,39 +242,43 @@ function IndexNavbar() {
                                 <div className='flex flex-col'>
                                     <div className='flex flex-col px-3'>
                                         <div className=' grid grid-cols-1 gap-3 text-sm max-lg:text-xs py-5 pr-5 '>
-                                            <div className='flex p-3 bg-gray-100 rounded-md'>
+                                            <a href="/brainstorming"><div className='flex p-3 bg-gray-100 rounded-md hover:bg-gray-400 hover:text-white hover:cursor-pointer'>
                                                 <img src='https://ik.imagekit.io/2q7cgnqzi/Panacee%20React%20/logo/hwd-icon-1.svg?updatedAt=1713440854392' alt='' className='w-4/12 p-1 bg-gray-300 rounded-lg' />
                                                 <div className='pl-3' > <h3 className=' font-semibold'>Brainstroming</h3><p>Ideas</p></div>
                                             </div>
-                                            <div className='flex p-3 bg-gray-100 rounded-md'>
+                                            </a>
+                                            <a href="/brainstorming"><div className='flex p-3 bg-gray-100 rounded-md  hover:bg-gray-400 hover:text-white hover:cursor-pointer'>
                                                 <img src='https://ik.imagekit.io/2q7cgnqzi/Panacee%20React%20/logo/hwd-icon-2%20(1).svg?updatedAt=1713441749519' alt='' className='w-4/12 p-1 bg-gray-300 rounded-lg' />
                                                 <div className='pl-3' > <h3 className=' font-semibold'>Product</h3><p>Design</p></div>
                                             </div>
-                                            <div className='flex p-3 bg-gray-100 rounded-md'>
+                                            </a>
+                                            <a href="/brainstorming"><div className='flex p-3 bg-gray-100 rounded-md  hover:bg-gray-400 hover:text-white hover:cursor-pointer'>
                                                 <img src='https://ik.imagekit.io/2q7cgnqzi/Panacee%20React%20/logo/hwd-icon-3.svg?updatedAt=1713440667501' alt='' className='w-4/12 p-1 bg-gray-300 rounded-lg' />
                                                 <div className='pl-3' > <h3 className=' font-semibold'>SEO</h3><p>Optimisation</p></div>
                                             </div>
-                                            <div className='flex p-3 bg-gray-100 rounded-md'>
+                                            </a>
+                                            <a href="/brainstorming"><div className='flex p-3 bg-gray-100 rounded-md  hover:bg-gray-400 hover:text-white hover:cursor-pointer'>
                                                 <img src='https://ik.imagekit.io/2q7cgnqzi/Panacee%20React%20/logo/hwd-icon-4.svg?updatedAt=1713441484235' alt='' className='w-4/12 p-1 bg-gray-300 rounded-lg' />
                                                 <div className='pl-3' > <h3 className=' font-semibold'>Front-End</h3><p>Development</p></div>
                                             </div>
+                                            </a>
                                         </div>
                                         <div className='mb-4'>
                                             <span className=' font-semibold'>Services</span>
-                                            <Link to="/ourservices"><li>Development</li></Link>
-                                            <Link to="/ourservices"><li>Web Design</li></Link>
-                                            <Link to="/ourservices"><li>IT Support</li></Link>
-                                            <Link to="/ourservices"><li>E-Cpmmerce</li></Link>
-                                            <Link to="/ourservices"><li>CRM Solutions</li></Link>
+                                            <a href="/ourservices/itsupport"><li>Development</li></a>
+                                            <a href="/ourservices/itsupport"><li>Web Design</li></a>
+                                            <a href="/ourservices/itsupport"><li>IT Support</li></a>
+                                            <a href="/ourservices/itsupport"><li>E-Commerce</li></a>
+                                            <a href="/ourservices/itsupport"><li>CRM Solutions</li></a>
 
                                         </div>
                                         <div className='my-3'>
                                             <span className=' font-semibold'>Our Fields</span>
-                                            <Link to="/"><li>Healthcare</li></Link>
-                                            <Link to="/"><li>Travel</li></Link>
-                                            <Link to="/"><li>Supermarket</li></Link>
-                                            <Link to="/"><li>Industries</li></Link>
-                                            <Link to="/"><li>Hotels</li></Link>
+                                            <a href="/ourservices/healthcare"><li>Healthcare</li></a>
+                                            <a href="/ourservices/healthcare"><li>Travel</li></a>
+                                            <a href="/ourservices/healthcare"><li>Supermarket</li></a>
+                                            <a href="/ourservices/healthcare"><li>Industries</li></a>
+                                            <a href="/ourservices/healthcare"><li>Hotels</li></a>
 
 
                                         </div>
@@ -298,12 +306,11 @@ function IndexNavbar() {
                                         <h3 className=' font-semibold'>Our product hits</h3>
                                         <p>Develop IT solutions based on the
                                             analysis phase.</p>
-                                        <a href="/">View more</a>
+                                        <a href="/view_more" className='text-blue-700 font-semibold underline underline-offset-2'>View more</a>
                                     </div>
                                 </div>
                             </div>)}
                         </div>
-                        <div className='my-2 border-b-2 py-2'>FAQ</div>
                     </div>
                 </div>)}
             </Narrow >
