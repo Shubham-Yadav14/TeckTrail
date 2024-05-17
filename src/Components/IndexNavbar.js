@@ -94,19 +94,19 @@ function IndexNavbar() {
                                             <div className='w-9/12 border-r-2'>
                                                 <div className='flex  px-3'>
                                                     <div className='w-6/12 grid grid-cols-2 gap-5 text-sm max-lg:text-xs py-5 pr-5 '>
-                                                        <div onClick={()=>{navigate("/");}} className='flex p-3 bg-gray-100 rounded-md hover:bg-gray-400 hover:text-white hover:cursor-pointer'>
+                                                        <div onClick={()=>{navigate("/brainstorming");}} className='flex p-3 bg-gray-100 rounded-md hover:bg-gray-400 hover:text-white hover:cursor-pointer'>
                                                             <img src='https://ik.imagekit.io/2q7cgnqzi/Panacee%20React%20/logo/hwd-icon-1.svg?updatedAt=1713440854392' alt='' className='w-4/12 p-1 bg-gray-300 rounded-lg' />
                                                             <div className='pl-3' > <h3 className=' font-semibold'>Brainstroming</h3><p>Ideas</p></div>
                                                         </div>
-                                                        <div onClick={()=>{navigate("/");}} className='flex p-3 bg-gray-100 rounded-md  hover:bg-gray-400 hover:text-white hover:cursor-pointer'>
+                                                        <div onClick={()=>{navigate("/brainstorming");}} className='flex p-3 bg-gray-100 rounded-md  hover:bg-gray-400 hover:text-white hover:cursor-pointer'>
                                                             <img src='https://ik.imagekit.io/2q7cgnqzi/Panacee%20React%20/logo/hwd-icon-2%20(1).svg?updatedAt=1713441749519' alt='' className='w-4/12 p-1 bg-gray-300 rounded-lg' />
                                                             <div className='pl-3' > <h3 className=' font-semibold'>Product</h3><p>Design</p></div>
                                                         </div>
-                                                        <div onClick={()=>{navigate("/");}} className='flex p-3 bg-gray-100 rounded-md  hover:bg-gray-400 hover:text-white hover:cursor-pointer'>
+                                                        <div onClick={()=>{navigate("/brainstorming");}} className='flex p-3 bg-gray-100 rounded-md  hover:bg-gray-400 hover:text-white hover:cursor-pointer'>
                                                             <img src='https://ik.imagekit.io/2q7cgnqzi/Panacee%20React%20/logo/hwd-icon-3.svg?updatedAt=1713440667501' alt='' className='w-4/12 p-1 bg-gray-300 rounded-lg' />
                                                             <div className='pl-3' > <h3 className=' font-semibold'>SEO</h3><p>Optimisation</p></div>
                                                         </div>
-                                                        <div onClick={()=>{navigate("/");}} className='flex p-3 bg-gray-100 rounded-md  hover:bg-gray-400 hover:text-white hover:cursor-pointer'>
+                                                        <div onClick={()=>{navigate("/brainstorming");}} className='flex p-3 bg-gray-100 rounded-md  hover:bg-gray-400 hover:text-white hover:cursor-pointer'>
                                                             <img src='https://ik.imagekit.io/2q7cgnqzi/Panacee%20React%20/logo/hwd-icon-4.svg?updatedAt=1713441484235' alt='' className='w-4/12 p-1 bg-gray-300 rounded-lg' />
                                                             <div className='pl-3' > <h3 className=' font-semibold'>Front-End</h3><p>Development</p></div>
                                                         </div>
