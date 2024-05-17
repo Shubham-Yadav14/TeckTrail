@@ -258,6 +258,10 @@ p {
   border-radius: 15px;
 }
 
+.darkbg{
+  background: #1c1c1c;
+}
+
 
 .contypecard a {
   /* background-color: #000000; */

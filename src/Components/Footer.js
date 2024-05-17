@@ -113,22 +113,22 @@ function Footer() {
                 <Row className="footerdivider leading-10 p-3 pt-5">
                   <Col md="3" className="footitem max-xl:mt-10">
                     <h5 className="text-xl font-semibold">Services</h5>
-                    <a href="/ourservices">
+                    <a href="/ourservices/itsupport">
                       <li>IT Support</li>
                     </a>
-                    <a href="/ourservices">
+                    <a href="/ourservices/itsupport">
                       <li>Web Design</li>
                     </a>
-                    <a href="/ourservices">
+                    <a href="/ourservices/itsupport">
                       <li>Development</li>
                     </a>
-                    <a href="/ourservices">
+                    <a href="/ourservices/itsupport">
                       <li>Cloud Things</li>
                     </a>
-                    <a href="/ourservices">
+                    <a href="/ourservices/itsupport">
                       <li>E-Commerce</li>
                     </a>
-                    <a href="/ourservices">
+                    <a href="/ourservices/itsupport">
                       <li>CRM Solutions</li>
                     </a>
                   </Col>
@@ -179,22 +179,22 @@ function Footer() {
                   </Col>
                   <Col md="3" className="footitem ">
                     <h5 className="text-xl font-semibold">Our Fields</h5>
-                    <a href="/ourservices">
+                    <a href="/ourservices/healthcare">
                       <li>Healthcare</li>
                     </a>
-                    <a href="/ourservices">
+                    <a href="/ourservices/healthcare">
                       <li>Banks</li>
                     </a>
-                    <a href="/ourservices">
+                    <a href="/ourservices/healthcare">
                       <li>Logistics</li>
                     </a>
-                    <a href="/ourservices">
+                    <a href="/ourservices/healthcare">
                       <li>Supermarkets</li>
                     </a>
-                    <a href="/ourservices">
+                    <a href="/ourservices/healthcare">
                       <li>Industries</li>
                     </a>
-                    <a href="/ourservices">
+                    <a href="/ourservices/healthcare">
                       <li>Hotels</li>
                     </a>
                   </Col>
