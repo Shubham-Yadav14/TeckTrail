@@ -46,20 +46,24 @@ function IndexNavbar() {
                                         <Narrow class="flex ">
                                             <div className='w-9/12 border-r-2'>
                                                 <div className=' grid grid-cols-2 gap-5 text-sm max-lg:text-xs pt-5 pb-5 pr-5 '>
-                                                    <div className='flex justify-center items-center hover:cursor-pointer' onClick={()=>{navigate('/portfolio/portfolio-details');}}>
+                                                    <a href='/portfolio/portfolio-details'><div className='flex justify-center items-center hover:cursor-pointer' >
                                                         <img src='https://wpriverthemes.com/synck/wp-content/uploads/2024/02/portfolio-mega-menu-1.jpg' alt='' className='w-5/12 max-lg:w-4/12 max-lg:h-1/2' />
                                                         <div className='flex flex-col justify-center pl-3 w-7/12 max-lg:w-8/12 '> <h3 className=' font-semibold'>E-commerce</h3><p>We undertook a project to migrate their existing.</p></div>
                                                     </div>
-                                                    <div className='flex justify-center items-center hover:cursor-pointer' onClick={()=>{navigate('/portfolio/portfolio-details');}}>
-                                                        <img src='https://wpriverthemes.com/synck/wp-content/uploads/2024/02/portfolio-mega-menu-2.jpg' alt='' className='w-5/12 max-lg:w-4/12 max-lg:h-1/2' />
-                                                        <div className='flex flex-col justify-center pl-3 w-7/12 max-lg:w-8/12 '> <h3 className=' font-semibold'>App Development</h3><p>The mobile application has significantly improved.</p></div>
-                                                    </div><div className='flex justify-center items-center hover:cursor-pointer' onClick={()=>{navigate('/portfolio/portfolio-details');}}>
+                                                    </a>
+                                                    <a href='/portfolio/portfolio-details'>
+                                                        <div className='flex justify-center items-center hover:cursor-pointer' >
+                                                            <img src='https://wpriverthemes.com/synck/wp-content/uploads/2024/02/portfolio-mega-menu-2.jpg' alt='' className='w-5/12 max-lg:w-4/12 max-lg:h-1/2' />
+                                                            <div className='flex flex-col justify-center pl-3 w-7/12 max-lg:w-8/12 '> <h3 className=' font-semibold'>App Development</h3><p>The mobile application has significantly improved.</p></div>
+                                                        </div></a>
+                                                    <a href='/portfolio/portfolio-details'><div className='flex justify-center items-center hover:cursor-pointer' >
                                                         <img src='https://wpriverthemes.com/synck/wp-content/uploads/2024/02/portfolio-mega-menu-3.jpeg' alt='' className='w-5/12 max-lg:w-4/12 max-lg:h-1/2' />
                                                         <div className='flex flex-col justify-center pl-3 w-7/12 max-lg:w-8/12 '> <h3 className=' font-semibold'>SAAS Integration</h3><p>We partnered with DEF to upgrade their outdated IT.</p></div>
-                                                    </div><div className='flex justify-center items-center hover:cursor-pointer' onClick={()=>{navigate('/portfolio/portfolio-details');}}>
+                                                    </div></a>
+                                                    <a href='/portfolio/portfolio-details'><div className='flex justify-center items-center hover:cursor-pointer' >
                                                         <img src='https://wpriverthemes.com/synck/wp-content/uploads/2024/02/portfolio-mega-menu-4.jpeg' alt='' className='w-5/12 max-lg:w-4/12 max-lg:h-1/2' />
                                                         <div className='flex flex-col justify-center pl-3 w-7/12 max-lg:w-8/12 '> <h3 className=' font-semibold'>Virtual Reality</h3><p>Enter into the virtual reality world for real experience.</p></div>
-                                                    </div>
+                                                    </div></a>
                                                 </div>
                                                 <hr />
                                                 <div className='px-5 pt-8 pb-7 max-lg:text-xs flex items-center justify-between'>
@@ -81,52 +85,56 @@ function IndexNavbar() {
                                                     <h3 className='text-lg font-semibold'>Our product hits</h3>
                                                     <p>Develop IT solutions based on the <br />
                                                         analysis phase.</p>
-                                                    <a href="/" className='text-blue-700 font-semibold underline underline-offset-2'>View more</a>
+                                                    <a href="/view_more" className='text-blue-700 font-semibold underline underline-offset-2'>View more</a>
                                                 </div>
                                             </div>
                                         </Narrow>
                                     </div>
 
-                                </span>
+                                </span >
                                 <span className='Serv h-full '><Link to='/ourservices' className='flex h-full justify-center items-center hover:text-black'>Services&nbsp;<svg xmlns="http://www.w3.org/2000/svg" height="14" width="8.75" viewBox="0 0 320 512"><path fill="#000000" d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z" /></svg></Link>
                                     <div className='bg-white dropServ1  border-b hover' style={{ minHeight: "385px", width: "100vw" }} >
                                         <Narrow class="flex">
                                             <div className='w-9/12 border-r-2'>
                                                 <div className='flex  px-3'>
                                                     <div className='w-6/12 grid grid-cols-2 gap-5 text-sm max-lg:text-xs pt-5 pb-16 pr-5 '>
-                                                        <div onClick={()=>{navigate("/brainstorming");}} className='flex p-3 bg-gray-100 rounded-md hover:bg-gray-400 hover:text-white hover:cursor-pointer'>
+                                                        <a href="/brainstorming"><div className='flex p-3 bg-gray-100 rounded-md hover:bg-gray-400 hover:text-white hover:cursor-pointer'>
                                                             <img src='https://ik.imagekit.io/2q7cgnqzi/Panacee%20React%20/logo/hwd-icon-1.svg?updatedAt=1713440854392' alt='' className='w-4/12 p-1 bg-gray-300 rounded-lg' />
                                                             <div className='pl-3' > <h3 className=' font-semibold'>Brainstroming</h3><p>Ideas</p></div>
                                                         </div>
-                                                        <div onClick={()=>{navigate("/brainstorming");}} className='flex p-3 bg-gray-100 rounded-md  hover:bg-gray-400 hover:text-white hover:cursor-pointer'>
+                                                        </a>
+                                                        <a href="/brainstorming"><div className='flex p-3 bg-gray-100 rounded-md  hover:bg-gray-400 hover:text-white hover:cursor-pointer'>
                                                             <img src='https://ik.imagekit.io/2q7cgnqzi/Panacee%20React%20/logo/hwd-icon-2%20(1).svg?updatedAt=1713441749519' alt='' className='w-4/12 p-1 bg-gray-300 rounded-lg' />
                                                             <div className='pl-3' > <h3 className=' font-semibold'>Product</h3><p>Design</p></div>
                                                         </div>
-                                                        <div onClick={()=>{navigate("/brainstorming");}} className='flex p-3 bg-gray-100 rounded-md  hover:bg-gray-400 hover:text-white hover:cursor-pointer'>
+                                                        </a>
+                                                        <a href="/brainstorming"><div className='flex p-3 bg-gray-100 rounded-md  hover:bg-gray-400 hover:text-white hover:cursor-pointer'>
                                                             <img src='https://ik.imagekit.io/2q7cgnqzi/Panacee%20React%20/logo/hwd-icon-3.svg?updatedAt=1713440667501' alt='' className='w-4/12 p-1 bg-gray-300 rounded-lg' />
                                                             <div className='pl-3' > <h3 className=' font-semibold'>SEO</h3><p>Optimisation</p></div>
                                                         </div>
-                                                        <div onClick={()=>{navigate("/brainstorming");}} className='flex p-3 bg-gray-100 rounded-md  hover:bg-gray-400 hover:text-white hover:cursor-pointer'>
+                                                        </a>
+                                                        <a href="/brainstorming"><div className='flex p-3 bg-gray-100 rounded-md  hover:bg-gray-400 hover:text-white hover:cursor-pointer'>
                                                             <img src='https://ik.imagekit.io/2q7cgnqzi/Panacee%20React%20/logo/hwd-icon-4.svg?updatedAt=1713441484235' alt='' className='w-4/12 p-1 bg-gray-300 rounded-lg' />
                                                             <div className='pl-3' > <h3 className=' font-semibold'>Front-End</h3><p>Development</p></div>
                                                         </div>
+                                                        </a>
                                                     </div>
                                                     <div className='w-3/12 pl-10 py-10 leading-8 -' >
                                                         <span className=' font-semibold'>Services</span>
-                                                        <Link to="/ourservices/itsupport"><li>Development</li></Link>
-                                                        <Link to="/ourservices/itsupport"><li>Web Design</li></Link>
-                                                        <Link to="/ourservices/itsupport"><li>IT Support</li></Link>
-                                                        <Link to="/ourservices/itsupport"><li>E-Commerce</li></Link>
-                                                        <Link to="/ourservices/itsupport"><li>CRM Solutions</li></Link>
+                                                        <a href="/ourservices/itsupport"><li>Development</li></a>
+                                                        <a href="/ourservices/itsupport"><li>Web Design</li></a>
+                                                        <a href="/ourservices/itsupport"><li>IT Support</li></a>
+                                                        <a href="/ourservices/itsupport"><li>E-Commerce</li></a>
+                                                        <a href="/ourservices/itsupport"><li>CRM Solutions</li></a>
 
                                                     </div>
                                                     <div className='w-3/12 pl-10 leading-8 py-10'>
                                                         <span className=' font-semibold'>Our Fields</span>
-                                                        <Link to="/ourservices/healthcare"><li>Healthcare</li></Link>
-                                                        <Link to="/ourservices/healthcare"><li>Travel</li></Link>
-                                                        <Link to="/ourservices/healthcare"><li>Supermarket</li></Link>
-                                                        <Link to="/ourservices/healthcare"><li>Industries</li></Link>
-                                                        <Link to="/ourservices/healthcare"><li>Hotels</li></Link>
+                                                        <a href="/ourservices/healthcare"><li>Healthcare</li></a>
+                                                        <a href="/ourservices/healthcare"><li>Travel</li></a>
+                                                        <a href="/ourservices/healthcare"><li>Supermarket</li></a>
+                                                        <a href="/ourservices/healthcare"><li>Industries</li></a>
+                                                        <a href="/ourservices/healthcare"><li>Hotels</li></a>
 
 
                                                     </div>
@@ -151,14 +159,14 @@ function IndexNavbar() {
                                                     <h3 className='text-lg font-semibold'>Our product hits</h3>
                                                     <p>Develop IT solutions based on the <br />
                                                         analysis phase.</p>
-                                                    <a href="/" className='text-blue-700 font-semibold underline underline-offset-2'>View more</a>
+                                                    <a href="/view_more" className='text-blue-700 font-semibold underline underline-offset-2'>View more</a>
                                                 </div>
                                             </div>
                                         </Narrow>
                                     </div></span>
-                            </div>
+                            </div >
 
-                        </div>
+                        </div >
                         <div className='flex'>
                             <div className='flax items-center max-md:hidden text-sm'>
                                 <div className='flex text-blue-700'>Call Us &nbsp; <svg xmlns="http://www.w3.org/2000/svg" height="14" width="12.25" viewBox="0 0 448 512" className='callsvg'><path fill="#1351d8" d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" /></svg></div>
@@ -170,9 +178,9 @@ function IndexNavbar() {
                                 <button onClick={toggle}><svg xmlns="http://www.w3.org/2000/svg" height="30" width="30" viewBox="0 0 448 512"><path fill="#000000" d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" /></svg>
                                 </button></div>
                         </div>
-                    </div>
-                </Narrow>
-            </div>
+                    </div >
+                </Narrow >
+            </div >
             <Narrow >
                 {(<div className={`absolute dropdownMenu ${isOpen ? 'open' : 'close'}`}>
                     <div className='flex justify-end pr-4 py-3 '><button onClick={toggle} className='rounded-full border-3 p-2'><svg xmlns="http://www.w3.org/2000/svg" height="20" width="20" viewBox="0 0 384 512"><path d="M376.6 84.5c11.3-13.6 9.5-33.8-4.1-45.1s-33.8-9.5-45.1 4.1L192 206 56.6 43.5C45.3 29.9 25.1 28.1 11.5 39.4S-3.9 70.9 7.4 84.5L150.3 256 7.4 427.5c-11.3 13.6-9.5 33.8 4.1 45.1s33.8 9.5 45.1-4.1L192 306 327.4 468.5c11.3 13.6 31.5 15.4 45.1 4.1s15.4-31.5 4.1-45.1L233.7 256 376.6 84.5z" /></svg></button></div>
