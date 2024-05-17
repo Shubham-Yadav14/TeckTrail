@@ -7,8 +7,6 @@ function IndexNavbar() {
     const navigate = useNavigate();
 
     const [isOpen, setIsOpen] = useState(false);
-    const [Port, setPort] = useState(false);
-    const [Serv, setServ] = useState(false);
     const [PortMobile, setPortMobile] = useState(false);
     const [ServMobile, setServMobile] = useState(false);
     const toggle = () => {
@@ -16,14 +14,6 @@ function IndexNavbar() {
         setServMobile(false);
         setPortMobile(false);
     };
-    const displayPortfolio = () => {
-        setPort(!Port);
-        setServ(false);
-    }
-    const displayServ = () => {
-        setServ(!Serv);
-        setPort(false);
-    }
     const displayPortfolioMobile = () => {
         setPortMobile(!PortMobile);
         setServMobile(false);
@@ -104,39 +94,39 @@ function IndexNavbar() {
                                             <div className='w-9/12 border-r-2'>
                                                 <div className='flex  px-3'>
                                                     <div className='w-6/12 grid grid-cols-2 gap-5 text-sm max-lg:text-xs py-5 pr-5 '>
-                                                        <div className='flex p-3 bg-gray-100 rounded-md'>
+                                                        <div onClick={()=>{navigate("/");}} className='flex p-3 bg-gray-100 rounded-md hover:bg-gray-400 hover:text-white hover:cursor-pointer'>
                                                             <img src='https://ik.imagekit.io/2q7cgnqzi/Panacee%20React%20/logo/hwd-icon-1.svg?updatedAt=1713440854392' alt='' className='w-4/12 p-1 bg-gray-300 rounded-lg' />
                                                             <div className='pl-3' > <h3 className=' font-semibold'>Brainstroming</h3><p>Ideas</p></div>
                                                         </div>
-                                                        <div className='flex p-3 bg-gray-100 rounded-md'>
+                                                        <div onClick={()=>{navigate("/");}} className='flex p-3 bg-gray-100 rounded-md  hover:bg-gray-400 hover:text-white hover:cursor-pointer'>
                                                             <img src='https://ik.imagekit.io/2q7cgnqzi/Panacee%20React%20/logo/hwd-icon-2%20(1).svg?updatedAt=1713441749519' alt='' className='w-4/12 p-1 bg-gray-300 rounded-lg' />
                                                             <div className='pl-3' > <h3 className=' font-semibold'>Product</h3><p>Design</p></div>
                                                         </div>
-                                                        <div className='flex p-3 bg-gray-100 rounded-md'>
+                                                        <div onClick={()=>{navigate("/");}} className='flex p-3 bg-gray-100 rounded-md  hover:bg-gray-400 hover:text-white hover:cursor-pointer'>
                                                             <img src='https://ik.imagekit.io/2q7cgnqzi/Panacee%20React%20/logo/hwd-icon-3.svg?updatedAt=1713440667501' alt='' className='w-4/12 p-1 bg-gray-300 rounded-lg' />
                                                             <div className='pl-3' > <h3 className=' font-semibold'>SEO</h3><p>Optimisation</p></div>
                                                         </div>
-                                                        <div className='flex p-3 bg-gray-100 rounded-md'>
+                                                        <div onClick={()=>{navigate("/");}} className='flex p-3 bg-gray-100 rounded-md  hover:bg-gray-400 hover:text-white hover:cursor-pointer'>
                                                             <img src='https://ik.imagekit.io/2q7cgnqzi/Panacee%20React%20/logo/hwd-icon-4.svg?updatedAt=1713441484235' alt='' className='w-4/12 p-1 bg-gray-300 rounded-lg' />
                                                             <div className='pl-3' > <h3 className=' font-semibold'>Front-End</h3><p>Development</p></div>
                                                         </div>
                                                     </div>
                                                     <div className='w-3/12 pl-10 py-10 leading-8 -' >
                                                         <span className=' font-semibold'>Services</span>
-                                                        <Link to="/ourservices"><li>Development</li></Link>
-                                                        <Link to="/ourservices"><li>Web Design</li></Link>
-                                                        <Link to="/ourservices"><li>IT Support</li></Link>
-                                                        <Link to="/ourservices"><li>E-Cpmmerce</li></Link>
-                                                        <Link to="/ourservices"><li>CRM Solutions</li></Link>
+                                                        <Link to="/ourservices/itsupport"><li>Development</li></Link>
+                                                        <Link to="/ourservices/itsupport"><li>Web Design</li></Link>
+                                                        <Link to="/ourservices/itsupport"><li>IT Support</li></Link>
+                                                        <Link to="/ourservices/itsupport"><li>E-Commerce</li></Link>
+                                                        <Link to="/ourservices/itsupport"><li>CRM Solutions</li></Link>
 
                                                     </div>
                                                     <div className='w-3/12 pl-10 leading-8 py-10'>
                                                         <span className=' font-semibold'>Our Fields</span>
-                                                        <Link to="/"><li>Healthcare</li></Link>
-                                                        <Link to="/"><li>Travel</li></Link>
-                                                        <Link to="/"><li>Supermarket</li></Link>
-                                                        <Link to="/"><li>Industries</li></Link>
-                                                        <Link to="/"><li>Hotels</li></Link>
+                                                        <Link to="/ourservices/healthcare"><li>Healthcare</li></Link>
+                                                        <Link to="/ourservices/healthcare"><li>Travel</li></Link>
+                                                        <Link to="/ourservices/healthcare"><li>Supermarket</li></Link>
+                                                        <Link to="/ourservices/healthcare"><li>Industries</li></Link>
+                                                        <Link to="/ourservices/healthcare"><li>Hotels</li></Link>
 
 
                                                     </div>
