@@ -85,7 +85,7 @@ function IndexNavbar() {
                                                     <h3 className='text-lg font-semibold'>Our product hits</h3>
                                                     <p>Develop IT solutions based on the <br />
                                                         analysis phase.</p>
-                                                    <a href="/view_more" className='text-blue-700 font-semibold underline underline-offset-2'>View more</a>
+                                                    <a href="/viewmore" className='text-blue-700 font-semibold underline underline-offset-2'>View more</a>
                                                 </div>
                                             </div>
                                         </Narrow>
@@ -159,7 +159,7 @@ function IndexNavbar() {
                                                     <h3 className='text-lg font-semibold'>Our product hits</h3>
                                                     <p>Develop IT solutions based on the <br />
                                                         analysis phase.</p>
-                                                    <a href="/view_more" className='text-blue-700 font-semibold underline underline-offset-2'>View more</a>
+                                                    <a href="/viewmore" className='text-blue-700 font-semibold underline underline-offset-2'>View more</a>
                                                 </div>
                                             </div>
                                         </Narrow>
@@ -233,7 +233,7 @@ function IndexNavbar() {
                                         <h3 className=' font-semibold'>Our product hits</h3>
                                         <p>Develop IT solutions based on the
                                             analysis phase.</p>
-                                        <a href="/view_more" className='text-blue-700 font-semibold underline underline-offset-2'>View more</a>
+                                        <a href="/viewmore" className='text-blue-700 font-semibold underline underline-offset-2'>View more</a>
                                     </div>
                                 </div>
                             </div>)}</div>
@@ -306,7 +306,7 @@ function IndexNavbar() {
                                         <h3 className=' font-semibold'>Our product hits</h3>
                                         <p>Develop IT solutions based on the
                                             analysis phase.</p>
-                                        <a href="/view_more" className='text-blue-700 font-semibold underline underline-offset-2'>View more</a>
+                                        <a href="/viewmore" className='text-blue-700 font-semibold underline underline-offset-2'>View more</a>
                                     </div>
                                 </div>
                             </div>)}

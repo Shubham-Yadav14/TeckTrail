@@ -53,7 +53,7 @@ export default function ITsupport() {
       </div>
 
       <Narrow>
-        <div className="background p-20 rounded-lg">
+        <div className="background p-20 max-xl:p-3 rounded-lg">
           <div className="flex max-xl:flex-col gap-10">
             <div className="w-1/2 max-xl:w-full">
               <p className="home1para">SOFTWARE DEVELOPMENT</p>
@@ -138,7 +138,7 @@ export default function ITsupport() {
       </div>
 
       <Narrow>
-        <div className="background p-20 rounded-lg">
+        <div className="background p-20 max-xl:p-3 rounded-lg">
           <div className="w-full max-xl:w-full">
             <p className="home1para">FEATURES</p>
             <h1 className=" text-5xl font-bold mt-3">
@@ -148,7 +148,7 @@ export default function ITsupport() {
 
           <hr className="mt-14 " />
 
-          <div className="grid grid-cols-2 max-xl:grid-cols-2">
+          <div className="grid grid-cols-2 max-xl:grid-cols-1">
             <div className="p-5">
               <div className="flex gap-2">
                 <img

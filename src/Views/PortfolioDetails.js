@@ -44,7 +44,7 @@ export default function PortfolioDetails() {
                 </Row>
             </div>
 
-            <div className="background rounded-lg p-32">
+            <div className="background rounded-lg p-32 max-xl:p-3 mt-32 mb-32">
                 <h1 className="text-5xl font-bold mb-5">Introduction</h1>
                 <p className="text-2xl leading-10 text-gray-700">
                     In today's fast-paced and technologically advanced world, businesses
@@ -86,7 +86,7 @@ export default function PortfolioDetails() {
                     protected against cyberattacks.
                 </p>
 
-                <div className="mt-20 text-3xl font-normal text-black px-32 border-l-8 border-blue-700 py-16">
+                <div className="mt-20 text-3xl font-normal text-black px-32 border-l-8 border-blue-700 py-16 max-xl:p-3">
                     <i>
                         In a dynamic business environment, scalability is crucial. IT
                         services provide the flexibility to scale up or down your
