@@ -45,24 +45,24 @@ function IndexNavbar() {
                                     <div className='bg-white dropPort1 border-b' style={{ minHeight: "385px", width: '100vw' }}>
                                         <Narrow class="flex ">
                                             <div className='w-9/12 border-r-2'>
-                                                <div className=' grid grid-cols-2 gap-5 text-sm max-lg:text-xs pt-4 pb-5 pr-5 '>
-                                                    <div className='flex justify-center items-center'>
+                                                <div className=' grid grid-cols-2 gap-5 text-sm max-lg:text-xs pt-5 pb-5 pr-5 '>
+                                                    <div className='flex justify-center items-center hover:cursor-pointer' onClick={()=>{navigate('/portfolio/portfolio-details');}}>
                                                         <img src='https://wpriverthemes.com/synck/wp-content/uploads/2024/02/portfolio-mega-menu-1.jpg' alt='' className='w-5/12 max-lg:w-4/12 max-lg:h-1/2' />
                                                         <div className='flex flex-col justify-center pl-3 w-7/12 max-lg:w-8/12 '> <h3 className=' font-semibold'>E-commerce</h3><p>We undertook a project to migrate their existing.</p></div>
                                                     </div>
-                                                    <div className='flex justify-center items-center'>
+                                                    <div className='flex justify-center items-center hover:cursor-pointer' onClick={()=>{navigate('/portfolio/portfolio-details');}}>
                                                         <img src='https://wpriverthemes.com/synck/wp-content/uploads/2024/02/portfolio-mega-menu-2.jpg' alt='' className='w-5/12 max-lg:w-4/12 max-lg:h-1/2' />
                                                         <div className='flex flex-col justify-center pl-3 w-7/12 max-lg:w-8/12 '> <h3 className=' font-semibold'>App Development</h3><p>The mobile application has significantly improved.</p></div>
-                                                    </div><div className='flex justify-center items-center'>
+                                                    </div><div className='flex justify-center items-center hover:cursor-pointer' onClick={()=>{navigate('/portfolio/portfolio-details');}}>
                                                         <img src='https://wpriverthemes.com/synck/wp-content/uploads/2024/02/portfolio-mega-menu-3.jpeg' alt='' className='w-5/12 max-lg:w-4/12 max-lg:h-1/2' />
                                                         <div className='flex flex-col justify-center pl-3 w-7/12 max-lg:w-8/12 '> <h3 className=' font-semibold'>SAAS Integration</h3><p>We partnered with DEF to upgrade their outdated IT.</p></div>
-                                                    </div><div className='flex justify-center items-center'>
+                                                    </div><div className='flex justify-center items-center hover:cursor-pointer' onClick={()=>{navigate('/portfolio/portfolio-details');}}>
                                                         <img src='https://wpriverthemes.com/synck/wp-content/uploads/2024/02/portfolio-mega-menu-4.jpeg' alt='' className='w-5/12 max-lg:w-4/12 max-lg:h-1/2' />
                                                         <div className='flex flex-col justify-center pl-3 w-7/12 max-lg:w-8/12 '> <h3 className=' font-semibold'>Virtual Reality</h3><p>Enter into the virtual reality world for real experience.</p></div>
                                                     </div>
                                                 </div>
-                                                <hr className='my-2' />
-                                                <div className='px-5 py-8 max-lg:text-xs flex items-center justify-between'>
+                                                <hr />
+                                                <div className='px-5 pt-8 pb-7 max-lg:text-xs flex items-center justify-between'>
                                                     <div className='flex '>
                                                         <a href="/"><svg xmlns="http://www.w3.org/2000/svg" height="40" width="25" viewBox="0 0 512 512" className='mx-3'> <path fill="#000000" d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z" /></svg></a>
 
@@ -78,10 +78,10 @@ function IndexNavbar() {
                                             <div className='w-3/12 flex flex-col justify-center items-center p-3 text-sm max-lg:text-xs'>
                                                 <img src='https://wpriverthemes.com/synck/wp-content/uploads/2024/02/ipad.jpg' alt="Image1" />
                                                 <div  >
-                                                    <h3 className=' font-semibold'>Our product hits</h3>
+                                                    <h3 className='text-lg font-semibold'>Our product hits</h3>
                                                     <p>Develop IT solutions based on the <br />
                                                         analysis phase.</p>
-                                                    <a href="/">View more</a>
+                                                    <a href="/" className='text-blue-700 font-semibold underline underline-offset-2'>View more</a>
                                                 </div>
                                             </div>
                                         </Narrow>
@@ -93,7 +93,7 @@ function IndexNavbar() {
                                         <Narrow class="flex">
                                             <div className='w-9/12 border-r-2'>
                                                 <div className='flex  px-3'>
-                                                    <div className='w-6/12 grid grid-cols-2 gap-5 text-sm max-lg:text-xs py-5 pr-5 '>
+                                                    <div className='w-6/12 grid grid-cols-2 gap-5 text-sm max-lg:text-xs pt-5 pb-16 pr-5 '>
                                                         <div onClick={()=>{navigate("/brainstorming");}} className='flex p-3 bg-gray-100 rounded-md hover:bg-gray-400 hover:text-white hover:cursor-pointer'>
                                                             <img src='https://ik.imagekit.io/2q7cgnqzi/Panacee%20React%20/logo/hwd-icon-1.svg?updatedAt=1713440854392' alt='' className='w-4/12 p-1 bg-gray-300 rounded-lg' />
                                                             <div className='pl-3' > <h3 className=' font-semibold'>Brainstroming</h3><p>Ideas</p></div>
@@ -131,8 +131,8 @@ function IndexNavbar() {
 
                                                     </div>
                                                 </div>
-                                                <hr className='my-3' />
-                                                <div className='px-5 py-8 max-lg:text-xs flex items-center justify-between'>
+                                                <hr className='mt-3' />
+                                                <div className='px-5 pt-9 pb-7 max-lg:text-xs flex items-center justify-between'>
                                                     <div className='flex '>
                                                         <a href="/"><svg xmlns="http://www.w3.org/2000/svg" height="40" width="25" viewBox="0 0 512 512" className='mx-3'> <path fill="#000000" d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z" /></svg></a>
 
@@ -146,12 +146,12 @@ function IndexNavbar() {
                                                 </div>
                                             </div>
                                             <div className='w-3/12 flex flex-col justify-center items-center p-3 text-sm max-lg:text-xs'>
-                                                <img src='https://wpriverthemes.com/synck/wp-content/uploads/2024/02/ipad.jpg' alt="Image2" />
+                                                <img src='https://wpriverthemes.com/synck/wp-content/uploads/2024/02/ipad.jpg' alt="Image1" />
                                                 <div  >
-                                                    <h3 className=' font-semibold'>Our product hits</h3>
+                                                    <h3 className='text-lg font-semibold'>Our product hits</h3>
                                                     <p>Develop IT solutions based on the <br />
                                                         analysis phase.</p>
-                                                    <a href="/">View more</a>
+                                                    <a href="/" className='text-blue-700 font-semibold underline underline-offset-2'>View more</a>
                                                 </div>
                                             </div>
                                         </Narrow>

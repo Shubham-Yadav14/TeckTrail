@@ -13,6 +13,7 @@ import Portfolio from './Views/Portfolio';
 import ITsupport from './Views/ITsupport';
 import Healthcare from './Views/Healthcare';
 import Brainstorming from './Views/Brainstorming';
+import PortfolioDetails from './Views/PortfolioDetails';
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
           <Route path='/impact' element = {<Impact/>}/>
           <Route path='/career' element = {<Career/>}/>
           <Route path='/portfolio' element = {<Portfolio/>}/>
+          <Route path='/portfolio/portfolio-details' element = {<PortfolioDetails/>}/>
         </Routes>
         <Footer />
       </BrowserRouter>
