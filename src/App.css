@@ -456,11 +456,12 @@ Button {
   z-index: 10;
   position: fixed; /* Add position relative to make animation work */
   transform: translateX(-100%); /* Initial state off-screen */
-  backdrop-filter: blur(100px);
+  
 }
 
 .dropdownMenu.open {
   animation: slidein 0.5s forwards; /* Change animation on open */
+  
 }
 .dropdownMenu .close{
   animation: slidein 0.5s forwards;
