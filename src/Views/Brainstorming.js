@@ -55,7 +55,7 @@ export default function Brainstorming() {
       </Narrow>
 
       <Narrow>
-        <div className="background rounded-lg p-32">
+        <div className="background rounded-lg p-32 max-xl:p-3">
           <h1 className="text-5xl font-bold mb-5">Introduction</h1>
           <p className="text-2xl leading-10 text-gray-700">
             In today's fast-paced and technologically advanced world, businesses
@@ -97,7 +97,7 @@ export default function Brainstorming() {
             protected against cyberattacks.
           </p>
 
-          <div className="mt-20 text-3xl font-normal text-black px-32 border-l-8 border-blue-700 py-16">
+          <div className="mt-20 text-3xl font-normal text-black px-32 border-l-8 border-blue-700 py-16 max-xl:p-3">
             <i>
               In a dynamic business environment, scalability is crucial. IT
               services provide the flexibility to scale up or down your
@@ -182,7 +182,7 @@ export default function Brainstorming() {
         </div>
       </Narrow>
 
-      <div className="whybetter py-36 max-xl:p-3 mt-32 mb-32">
+      <div className="whybetter py-36 max-xl:p-0 mt-32 mb-32">
         <Narrow>
           <div>
             <div className="flex max-xl:flex-col">

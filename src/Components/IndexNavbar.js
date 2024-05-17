@@ -81,7 +81,7 @@ function IndexNavbar() {
                                                     <h3 className=' font-semibold'>Our product hits</h3>
                                                     <p>Develop IT solutions based on the <br />
                                                         analysis phase.</p>
-                                                    <a href="/">View more</a>
+                                                    <a href="/viewmore">View more</a>
                                                 </div>
                                             </div>
                                         </Narrow>

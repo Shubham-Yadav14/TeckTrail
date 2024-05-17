@@ -98,7 +98,7 @@ export default function Healthcare() {
         </Narrow>
       </div>
 
-      <div className="darkbg">
+      <div className="darkbg max-xl:p-3">
         <Narrow>
           <div className="py-20 rounded-lg mb-32">
             <div className="flex max-xl:flex-col gap-10">
@@ -146,7 +146,7 @@ export default function Healthcare() {
       </div>
 
       <Narrow>
-        <div className="background p-20 rounded-lg">
+        <div className="background p-20 max-xl:p-3 rounded-lg">
           <div className="w-full max-xl:w-full">
             <p className="home1para">FEATURES</p>
             <h1 className=" text-5xl font-bold mt-3">
@@ -156,7 +156,7 @@ export default function Healthcare() {
 
           <hr className="mt-14 " />
 
-          <div className="grid grid-cols-2 max-xl:grid-cols-2">
+          <div className="grid grid-cols-2 max-xl:grid-cols-1">
             <div className="p-5">
               <div className="flex gap-2">
                 <img
@@ -263,7 +263,7 @@ export default function Healthcare() {
         </div>
       </Narrow>
 
-      <div className="whybetter py-36 max-xl:p-3 mt-32 mb-32">
+      <div className="whybetter py-36 max-xl:p-0 mt-32 mb-32">
         <Narrow>
           <div>
             <div className="flex max-xl:flex-col">
