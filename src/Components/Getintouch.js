@@ -60,9 +60,10 @@ function Getintouch() {
                         First Name
                       </label>
                       <input
-                        className=" appearance-none border rounded w-full py-2 px-2 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                        className=" appearance-none border rounded w-full py-2  text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                         id="firstName"
                         name="firstName"
+                        placeholder="First Name"
                         type="text"
                         value={formData.firstName}
                         onChange={handleChange}
@@ -80,6 +81,7 @@ function Getintouch() {
                         id="lastName"
                         name="lastName"
                         type="text"
+                        placeholder="Last Name"
                         value={formData.lastName}
                         onChange={handleChange}
                       />
@@ -97,6 +99,7 @@ function Getintouch() {
                       id="email"
                       name="email"
                       type="email"
+                      placeholder="Your Email"
                       value={formData.email}
                       onChange={handleChange}
                     />
@@ -115,6 +118,7 @@ function Getintouch() {
                         id="phoneNumber"
                         name="phoneNumber"
                         type="number"
+                        placeholder="Your Number"
                         value={formData.phoneNumber}
                         onChange={handleChange}
                       />
@@ -131,6 +135,7 @@ function Getintouch() {
                         id="country"
                         name="country"
                         type="text"
+                        placeholder="Your Country"
                         value={formData.country}
                         onChange={handleChange}
                       />
@@ -147,7 +152,8 @@ function Getintouch() {
                       className="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                       id="message"
                       name="message"
-                      placeholder="Message"
+                      rows={6}
+                      placeholder="Leave us a message..."
                       value={formData.message}
                       onChange={handleChange}
                     ></textarea>

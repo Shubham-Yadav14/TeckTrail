@@ -14,9 +14,9 @@ import img1 from "../../src/Images/lshape.png";
 import ReviewSlider from "../Components/ReviewSlider";
 
 function Home() {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+  // useEffect(() => {
+  //   window.scrollTo(0, 0);
+  // }, []);
   
 
   const [isVisible, setIsVisible] = useState(false);
@@ -141,12 +141,12 @@ function Home() {
                 <Card className="card1 w-3/12  py-3 px-3 flex items-center justify-center max-md:w-9/12 ">
                   <div className="flex items-center justify-center w-full ">
                     <img
-                      src="https://ik.imagekit.io/2q7cgnqzi/Panacee%20React%20/logo/brain-svgrepo-com.svg?updatedAt=1710937497361"
+                      src='https://ik.imagekit.io/2q7cgnqzi/Panacee%20React%20/logo/hwd-icon-1.svg?updatedAt=1713440854392'
                       alt=""
                       className="w-4/12 p-2 rounded-xl bg-[#1351d81a]"
                     />
                     <div className="w-8/12 pl-2 max-md:w-8/12 max-md:pl-5">
-                      <h6>Brainstorming</h6>
+                      <h6 className="text-blue-600 font-semibold">Brainstorming</h6>
                       <p>Ideas</p>
                     </div>
                   </div>
@@ -154,12 +154,12 @@ function Home() {
                 <Card className="card1 w-3/12  py-3 px-3 mx-24 flex items-center justify-center max-md:w-9/12  max-md:my-10">
                   <div className="flex items-center justify-center w-full">
                     <img
-                      src="https://ik.imagekit.io/2q7cgnqzi/Panacee%20React%20/logo/icons8-seo-50.png?updatedAt=1711008899519"
+                      src='https://ik.imagekit.io/2q7cgnqzi/Panacee%20React%20/logo/hwd-icon-2%20(1).svg?updatedAt=1713441749519'
                       alt=""
                       className="w-4/12 p-2 rounded-xl bg-[#1351d81a]"
                     />
                     <div className="w-8/12 pl-2 max-md:w-8/12 max-md:pl-5">
-                      <h6>Product</h6>
+                      <h6 className="text-blue-600 font-semibold">Product</h6>
                       <p>Design</p>
                     </div>
                   </div>
@@ -168,13 +168,13 @@ function Home() {
                   <div className="flex items-center justify-center w-full">
 
                     <img
-                      src="https://ik.imagekit.io/2q7cgnqzi/Panacee%20React%20/logo/graphic-design.png?updatedAt=1711008512725"
+                      src='https://ik.imagekit.io/2q7cgnqzi/Panacee%20React%20/logo/hwd-icon-3.svg?updatedAt=1713440667501'
                       alt=""
                       className="w-4/12 p-2 rounded-xl bg-[#1351d81a]"
                     />
 
                     <div className="w-8/12 pl-2 max-md:w-8/12 max-md:pl-5">
-                      <h6>Front-End</h6>
+                      <h6 className="text-blue-600 font-semibold">Front-End</h6>
                       <p>Development</p>
                     </div>
                   </div>
@@ -186,13 +186,13 @@ function Home() {
                   <div className="flex items-center justify-center w-full ">
 
                     <img
-                      src="https://ik.imagekit.io/2q7cgnqzi/Panacee%20React%20/logo/icons8-seo-50.png?updatedAt=1711008899519"
+                      src='https://ik.imagekit.io/2q7cgnqzi/Panacee%20React%20/logo/hwd-icon-4.svg?updatedAt=1713441484235'
                       alt=""
                       className="w-4/12 p-2 rounded-xl bg-[#1351d81a]"
                     />
 
                     <div className="w-8/12 pl-2 max-md:w-8/12 max-md:pl-5">
-                      <h6>SEO</h6>
+                      <h6 className="text-blue-600 font-semibold">SEO</h6>
                       <p>Optimization</p>
                     </div>
                   </div>
@@ -201,13 +201,13 @@ function Home() {
                   <div className="flex items-center justify-center w-full">
 
                     <img
-                      src="https://ik.imagekit.io/2q7cgnqzi/Panacee%20React%20/logo/icons8-seo-50.png?updatedAt=1711008899519"
+                      src="https://wpriverthemes.com/synck/wp-content/uploads/2023/11/hwd-icon-5.svg"
                       alt=""
                       className="w-4/12 p-2 rounded-xl bg-[#1351d81a]"
                     />
 
                     <div className="w-8/12 pl-2 max-md:w-8/12 max-md:pl-5">
-                      <h6>Back-End</h6>
+                      <h6 className="text-blue-600 font-semibold">Back-End</h6>
                       <p>Development</p>
                     </div>
                   </div>
@@ -219,13 +219,13 @@ function Home() {
                 <Card className="w-3/12  py-3 px-3 flex items-center justify-center max-md:w-9/12 mx-auto">
                   <div className="flex items-center justify-center  w-full">
                     <img
-                      src="https://ik.imagekit.io/2q7cgnqzi/Panacee%20React%20/logo/icons8-seo-50.png?updatedAt=1711008899519"
+                      src="https://wpriverthemes.com/synck/wp-content/uploads/2023/11/hwd-icon-6.svg"
                       alt=""
                       className="w-4/12 p-2 rounded-xl bg-[#1351d81a]"
                     />
 
                     <div className="w-8/12 pl-2 max-md:w-8/12 max-md:pl-5">
-                      <h6>Digital</h6>
+                      <h6 className="text-blue-600 font-semibold">Digital</h6>
                       <p>Marketing</p>
                     </div>
                   </div>
