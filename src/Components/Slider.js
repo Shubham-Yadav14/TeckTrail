@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 function Slider() {
     return (
-        <>
+        <div className='mb-48'>
             <Swiper
                 modules={[Navigation, Pagination, A11y, Autoplay]}
                 spaceBetween={20}
@@ -41,7 +41,7 @@ function Slider() {
 
             </Swiper>
 
-        </>
+        </div>
     )
 }
 
