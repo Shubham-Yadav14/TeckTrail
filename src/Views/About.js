@@ -7,10 +7,10 @@ import Getintouch from "../Components/Getintouch";
 import Narrow from "../Components/Common/Narrow";
 
 function About() {
-  // useEffect(() => {
+  useEffect(() => {
 
-  //   window.scrollTo(0, 0);
-  // }, [])
+    window.scrollTo(0, 0);
+  }, [])
 
   useEffect(() => {
     const elements = document.querySelectorAll(".professionalservicescard");
