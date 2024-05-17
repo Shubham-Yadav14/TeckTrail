@@ -10,6 +10,8 @@ import OurServices from './Views/OurServices'
 import Impact from './Views/Impact';
 import Career from './Views/Career';
 import Portfolio from './Views/Portfolio';
+import ITsupport from './Views/ITsupport';
+import Healthcare from './Views/Healthcare';
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
           <Route path="/contactus" element={<Contactus />} />
           <Route path='/how-we-do' element = {<Hwd/>}/>
           <Route path='/ourservices' element = {<OurServices/>}/>
+          <Route path='/ourservices/healthcare' element = {<Healthcare/>}/>
+          <Route path='/ourservices/itsupport' element = {<ITsupport/>}/>
           <Route path='/impact' element = {<Impact/>}/>
           <Route path='/career' element = {<Career/>}/>
           <Route path='/portfolio' element = {<Portfolio/>}/>
