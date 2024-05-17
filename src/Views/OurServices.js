@@ -1,201 +1,388 @@
-import React from 'react'
-import Getintouch from '../Components/Getintouch'
-import { Container, Row, Col, Button, Card } from 'reactstrap'
-function Pages() {
+import React, { useState, useRef, useEffect } from "react";
+import { Container, Row, Col, Button, Card } from "reactstrap";
+import Narrow from "../Components/Common/Narrow";
+import { Link } from "react-router-dom";
+import MultiTab2 from "../Components/MultiTab2";
+import img from "../../src/Images/Screenshot 2024-05-13 140345.png";
+import Getintouch from "../Components/Getintouch";
+
+export default function OurServices() {
+  useEffect(() => {
+    const elements = document.querySelectorAll(".professionalservicescard");
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("fade-in");
+        } else {
+          entry.target.classList.remove("fade-in");
+        }
+      });
+    });
+
+    elements.forEach((element) => {
+      observer.observe(element);
+    });
+
+    // Cleanup observer on unmount
+    return () => observer.disconnect();
+  }, []);
+
+  const sectionRef = useRef(null);
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    setIsVisible(true);
+  }, []);
+
   return (
-    <>
-
-      <div className='hwd1'>
-        <Container >
-          <Row >
-            <Col style={{ display: 'flex', justifyContent: 'center', marginTop: '50px' }}>
-
-              <span className='hwd1btn'>Development</span>
-
-            </Col>
-          </Row>
-
-          <br /><br />
-          <Row style={{ marginTop: '10px' }} >
-            <Col>
-              <p className='aboutheader1 hwd'>Development is the pillar of our company</p>
-
-              <p className='aboutheader2' >Software development is the process of designing, programming, testing, <br />
-                and maintaining software applications and systems.</p>
-
-
-            </Col>
-          </Row>
-
-          <Row >
-            <Col style={{ display: 'flex', justifyContent: 'center', marginTop: '50px' }}>
-
-              <Button className='bookappoinmentnow'> Book an appointment now</Button>
-
-            </Col>
-          </Row>
-
-        </Container>
-      </div>
-
-      <div style={{ margin: 'auto', width: '80%', marginTop: '45px' }} >
-
-        <img src="https://wpriverthemes.com/synck/wp-content/uploads/2024/01/service-details.jpg" alt="" />
-
-      </div>
-
-      {/* <Container style={{ marginTop: '40px' }} >
-      </Container> */}
-
-
-
-      <Container style={{ backgroundColor: '#f3f6fd', marginTop: '50px', borderRadius: '15px' }} >
-        <Row>
-          <Col md='5' style={{ padding: '60px' }}>
-            <Row>
-              <Col style={{ display: 'flex', flexDirection: 'column', gap: '9px' }} >
-                <p className='delinglogheading'>WHAT WE’RE OFFERING</p>
-                <p style={{ fontSize: '50px', fontWeight: '500' }}>Engine of progress</p>
-                <h3>Development as stone of innovation.</h3>
-              </Col>
-            </Row>
-
-            <Row style={{ marginTop: "25px" }}>
-              <Col style={{ display: 'flex', flexDirection: 'column', gap: '15px' }} >
-                <p style={{ fontSize: '20px' }} >Software development is the stab process of designing, programming, solids to testing, and maintaining software as the applications and systems.
-                  It empowers us to turn ideas</p>
-
-                <p style={{ fontSize: '20px' }}>Software developers, often rest referred to as coders or programmers, are sat the creative minds behind the digital innovations we use daily. They possess a unique blend of</p>
-                <p style={{ fontSize: '20px' }}>Developers write lines of code by state using programming languages such as Python, Java, JavaScript, and C++,</p>
-              </Col>
-            </Row>
-          </Col>
-          <Col md='3' style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
-            <img src="https://wpriverthemes.com/synck/wp-content/uploads/2024/01/service-details-2.jpg" alt="" />
-          </Col>
-          <Col md='3' style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
-            <img src="https://wpriverthemes.com/synck/wp-content/uploads/2024/01/service-details-3.jpg" alt="" style={{ objectFit: 'contain', height: '90vh' }} />
-          </Col>
-        </Row>
-      </Container>
-
-      <div className='whybetter' >
-
-        <Container>
+    <div>
+      <Narrow>
+        <div className="mb-36 mt-24 max-xl:mt-3">
           <Row>
-            <Col md='6' className='whybetterimg' >
-              <img src="https://wpriverthemes.com/synck/wp-content/uploads/2024/01/about-service-7.jpg" alt="" style={{ borderRadius: '10px' }} />
-            </Col>
-
-            <Col md='6' className='whybettertext' >
-
-              <h1>The Role of Developers</h1>
-              <p style={{ fontSize: '20px' }} >Software developers, often referred to as coders or programmers, are the creative minds behind the digital innovations we use daily.</p>
-              <Row>
-                <Col style={{ display: 'flex', gap: '65px', flexDirection: 'column'}}>
-                  <Row style={{ display: 'flex', flexFlow: 'row', marginTop: '35px'}}>
-                    <img src="https://ik.imagekit.io/2q7cgnqzi/icon/check.png?updatedAt=1711451555962" alt="" className='ourmodelimg' />
-                    <h5>PPD Development </h5>
-                  </Row>
-                  <Row style={{ display: 'flex', flexFlow: 'row'}} >
-                    <img src="https://ik.imagekit.io/2q7cgnqzi/icon/check.png?updatedAt=1711451555962" alt="" className='ourmodelimg' />
-                    <h5>Easy to Use </h5>
-                  </Row>
-
-                </Col>
-              </Row>
+            <Col className="firstbtnsec ">
+              <span className="abouta1">Our Services</span>
             </Col>
           </Row>
-        </Container>
+          <Row
+            className={`header ${isVisible ? "fade-in" : ""}`}
+            style={{ marginTop: "10px" }}
+          >
+            <Col>
+              <p className="aboutheader1 max-xl:text-3xl font-semibold">
+                Empowering you with premier{" "}
+              </p>
+              <p className="aboutheader1 max-xl:text-3xl font-semibold">
+                {" "}
+                solutions and support
+              </p>
 
+              <p className="aboutheader2 text-2xl max-xl:px-3">
+                At Premier Services, we are committed to providing exceptional
+                solutions and
+                <br /> unwavering support to meet your every need.
+              </p>
+            </Col>
+          </Row>
+        </div>
+      </Narrow>
+
+      <div className="bg-[#F3F6FD]">
+        <Narrow>
+          <div className="OURCOMPANY py-32 px-3">
+            <Row>
+              <Col className="my-2">
+                <img
+                  src="https://wpriverthemes.com/synck/wp-content/uploads/2024/01/hero-service-about.jpg"
+                  alt=""
+                  className="ourpopulaityimage"
+                />
+                <p style={{ marginTop: "30px" }} className="text-2xl px-3">
+                  Our team is a collective force of top talents, pros, experts,
+                  and visionaries from diverse fields. With a passion for
+                  excellence, our professionals bring a wealth of experience and
+                  knowledge to every project. At Slack, we are committed to
+                  delivering nothing short of excellence. From concept to
+                  implementation, we maintain the highest standards of quality
+                  and craftsmanship, leaving no room for compromise.
+                </p>
+              </Col>
+            </Row>
+            <br />
+            <div className="flex max-xl:flex-col justify-between px-3 text-xl">
+              <div className="flex items-center">
+                <img
+                  src="https://ik.imagekit.io/2q7cgnqzi/icon/check.png?updatedAt=1711451555962"
+                  alt=""
+                  className=" w-1/12"
+                />
+                <h5 className="pl-2">Managed Services and Products </h5>
+              </div>
+              <div className="flex items-center">
+                <img
+                  src="https://ik.imagekit.io/2q7cgnqzi/icon/check.png?updatedAt=1711451555962"
+                  alt=""
+                  className=" w-1/12"
+                />
+                <h5 className="pl-2">Flexibility and Adaptability </h5>
+              </div>
+              <div className="flex items-center">
+                <img
+                  src="https://ik.imagekit.io/2q7cgnqzi/icon/check.png?updatedAt=1711451555962"
+                  alt=""
+                  className=" w-1/12"
+                />
+                <h5 className="pl-2">Competitive Advantage </h5>
+              </div>
+            </div>
+          </div>
+        </Narrow>
       </div>
 
+      <Narrow>
+        <div className="whatweoffering mt-40 max-xl:mt-10 max-xl:p-3">
+          <Row>
+            <Col md="6" className="homaepara2">
+              <p className="delinglogheading">WHAT WE’RE OFFERING</p>
+              <h1 className="delingheading">
+                Dealing in all professional <br />
+                IT services.
+              </h1>
+            </Col>
+            <Col md="6">
+              <h6 className="delingcontent">
+                One fundamental aspect of IT services is infrastructure
+                management. This involves the design, implementation, and
+                maintenance of the hardware, software, networks, and servers.
+              </h6>
+            </Col>
+          </Row>
+        </div>
+      </Narrow>
 
+      <Narrow>
+        <div className="professionalservicescontainer mt-20 max-xl:mt-2 pb-32 max-xl:pb-0">
+          <div className="professionalservicesrow justify-between w-full max-xl:p-3 flex max-xl:flex-col max-xl:gap-3">
+            <div sm="1" md="2">
+              <Card className="professionalservicescard">
+                <img
+                  src="https://wpriverthemes.com/synck/wp-content/uploads/2023/11/service-icon-1-2.svg"
+                  alt=""
+                  className="services5"
+                />
+                <div className="text-xl font-bold">Development</div>
+                <p>Our development is pixel perfect in all ways.</p>
+              </Card>
+            </div>
+            <div sm="1" md="2">
+              <div className="professionalservicescard bg-white">
+                <img
+                  src="https://wpriverthemes.com/synck/wp-content/uploads/2023/11/service-icon-2-2.svg"
+                  alt=""
+                  className="services5"
+                />
+                <div className="text-xl font-bold">Woo Commerce</div>
+                <p>Our development is pixel perfect in all ways.</p>
+              </div>
+            </div>
+            <div sm="1" md="2">
+              <Card className="professionalservicescard">
+                <img
+                  src="https://wpriverthemes.com/synck/wp-content/uploads/2023/11/service-icon-3-2.svg"
+                  alt=""
+                  className="services5"
+                />
+                <div className="text-xl font-bold">CRM Solutions</div>
+                <p>Our development is pixel perfect in all ways.</p>
+              </Card>
+            </div>
+            <div sm="1" md="2">
+              <Card className="professionalservicescard">
+                <img
+                  src="https://wpriverthemes.com/synck/wp-content/uploads/2023/11/service-icon-4-2.svg"
+                  alt=""
+                  className="services5"
+                />
+                <div className="text-xl font-bold">Web Design</div>
+                <p>Our development is pixel perfect in all ways.</p>
+              </Card>
+            </div>
+            <div sm="1" md="2">
+              <Card className="professionalservicescard">
+                <img
+                  src="https://wpriverthemes.com/synck/wp-content/uploads/2023/11/service-icon-5-2.svg"
+                  alt=""
+                  className="services5"
+                />
+                <div className="text-xl font-bold">IT Support</div>
+                <p>Our development is pixel perfect in all ways.</p>
+              </Card>
+            </div>
+          </div>
+        </div>
+      </Narrow>
 
-      <Container className='boostcon'  >
-        <Row>
-          <Col>
-            <p className='delinglogheading'>WHAT WE’RE OFFERING</p>
-            <p style={{ fontSize: '50px', fontWeight: '500' }}>Boosting your business using our team</p>
-          </Col>
-        </Row>
-        <hr />
-        <Row>
-          <Col md='6' >
+      <div className="background p-3">
+        <Narrow>
+          <MultiTab2 />
+        </Narrow>
+      </div>
 
-            <Row  >
-              <Col style={{ display: 'flex', flexFlow: 'row', marginTop: '35px' }}>
-                <img src="https://ik.imagekit.io/2q7cgnqzi/icon/check.png?updatedAt=1711451555962" alt="" style={{ width: 50, height: 28, objectFit: 'contain' }} />
-                <h5>Requirements Gathering </h5>
-              </Col>
-              <p style={{ fontSize: '20px', marginTop: '20px' }} >Software developers, often referred to as coders or programmers, are the creative
-                minds behind the digital innovations we use daily.</p>
-            </Row>
-            <Row  >
-              <Col style={{ display: 'flex', flexFlow: 'row', marginTop: '35px' }}>
-                <img src="https://ik.imagekit.io/2q7cgnqzi/icon/check.png?updatedAt=1711451555962" alt="" style={{ width: 50, height: 28, objectFit: 'contain' }} />
-                <h5>
-                  Data Integration </h5>
-              </Col>
-              <p style={{ fontSize: '20px', marginTop: '20px' }} >Software applications should be designed and
-                developed with scalability in mind. As user bases grow and data increases, the software should be able to handle.</p>
-            </Row>
-            <Row  >
-              <Col style={{ display: 'flex', flexFlow: 'row', marginTop: '35px' }}>
-                <img src="https://ik.imagekit.io/2q7cgnqzi/icon/check.png?updatedAt=1711451555962" alt="" style={{ width: 50, height: 28, objectFit: 'contain' }} />
-                <h5>Requirements Gathering </h5>
-              </Col>
-              <p style={{ fontSize: '20px', marginTop: '20px' }} >Software developers, often referred to as coders or programmers, are the creative
-                minds behind the digital innovations we use daily.</p>
-            </Row>
-          </Col>
+      <div className="mt-28">
+        <Narrow>
+          <div className="px-3 py-14 max-xl:pb-10 max-xl:pt-0 mb-28 max-xl:mt-0 max-xl:mb-0 flex max-xl:flex-col gap-5">
+            <div className="w-1/3 max-xl:w-full" style={{ marginTop: "2vh" }}>
+              <p className="home1para">CONSULTING EXCELLENCE</p>
+              <h1 className="delingheading">Best pathway to our clients.</h1>
+              <p className="homepara3">
+                Our consulting process begins with a thorough assessment of your
+                current IT infrastructure, workflows, and pain points.
+              </p>
+              <div className=" mt-5">
+                <div
+                  style={{ display: "flex", gap: "1vw", alignItems: "center" }}
+                >
+                  <p>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      height={20}
+                      viewBox="0 0 512 512"
+                      fill="blue"
+                    >
+                      <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z" />
+                    </svg>
+                  </p>
+                  <p style={{ fontSize: "20px" }}>24/7 Full Service Support</p>
+                </div>
+                <div
+                  style={{ display: "flex", gap: "1vw", alignItems: "center" }}
+                >
+                  <p>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      height={20}
+                      viewBox="0 0 512 512"
+                      fill="blue"
+                    >
+                      <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z" />
+                    </svg>
+                  </p>
+                  <p style={{ fontSize: "20px" }}>Immediate Response</p>
+                </div>
+                <div
+                  style={{ display: "flex", gap: "1vw", alignItems: "center" }}
+                >
+                  <p>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      height={20}
+                      viewBox="0 0 512 512"
+                      fill="blue"
+                    >
+                      <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z" />
+                    </svg>
+                  </p>
+                  <p style={{ fontSize: "20px" }}>Easy to Approach us</p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="w-2/3 max-xl:w-full flex max-xl:flex-col gap-5 max-xl:gap-0 justify-between"
+              style={{}}
+            >
+              <div className="my-auto">
+                <div
+                  className=" background max-xl:ml-0 max-xl:mt-5 hover:bg-black hover:text-gray-100 transition duration-500 ease-in-out"
+                  style={{
+                    padding: "2rem",
+                    width: "320px",
+                    borderRadius: "15px",
+                  }}
+                >
+                  <div className="text-xl font-bold">Tailored Solutions</div>
+                  <p className=" text-lg text-gray-500 mt-2">
+                    Develop IT solutions based on the analysis phase.
+                  </p>
+                </div>
+              </div>
+              <div className="max-xl:hidden">
+                <img src={img} style={{ height: "500px" }} alt="" />
+              </div>
+              <div className="flex flex-col justify-between max-xl:-mt-10">
+                <div
+                  className=" background max-xl:ml-0 max-xl:mt-5 hover:bg-black hover:text-gray-100 transition duration-500 ease-in-out"
+                  style={{
+                    padding: "2rem",
+                    width: "320px",
+                    borderRadius: "15px",
+                  }}
+                >
+                  <div className="text-xl font-bold">Tailored Solutions</div>
+                  <p className=" text-lg text-gray-500 mt-2">
+                    Develop IT solutions based on the analysis phase.
+                  </p>
+                </div>
+                <div
+                  className=" background max-xl:ml-0 max-xl:mt-5 hover:bg-black hover:text-gray-100 transition duration-500 ease-in-out"
+                  style={{
+                    padding: "2rem",
+                    width: "320px",
+                    borderRadius: "15px",
+                  }}
+                >
+                  <div className="text-xl font-bold">Tailored Solutions</div>
+                  <p className=" text-lg text-gray-500 mt-2">
+                    Develop IT solutions based on the analysis phase.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </Narrow>
+      </div>
 
+      <div className="whybetter py-36 max-xl:p-3">
+        <Narrow>
+          <div>
+            <div className="flex max-xl:flex-col">
+              <div className="whybetterimg w-1/2 max-xl:w-full">
+                <img
+                  src="https://wpriverthemes.com/synck/wp-content/uploads/2024/01/about-service-3.png"
+                  alt=""
+                  className="bettertanother h-full"
+                />
+              </div>
+              <div className="whybettertext w-1/2 max-xl:w-full">
+                <h1 className="text-5xl font-bold">
+                  Why our services are better than others?
+                </h1>
+                <h5 className="text-xl text-gray-200">
+                  We don't believe in a one-size-fit-all approach. Our services
+                  are carefully customized to suit your specific need, ensuring
+                  you to achieve your goals.
+                </h5>
+                <h5 className="text-xl text-gray-200">
+                  We believe in delivering value that extends your beyond the
+                  immediate project. Our services are designed to provide a
+                  long-term benefits.
+                </h5>
 
-          <Col md='6' >
+                <div>
+                  <div className="flex max-xl:flex-col gap-10">
+                    <div className="tasksign">
+                      <img
+                        src="https://ik.imagekit.io/2q7cgnqzi/icon/check.png?updatedAt=1711451555962"
+                        alt=""
+                        className="righticonimagesize w-10"
+                      />
+                      <h5 className="text-xl my-auto text-gray-200">
+                        PPD Development{" "}
+                      </h5>
+                    </div>
 
-            <Row  >
-              <Col style={{ display: 'flex', flexFlow: 'row', marginTop: '35px' }}>
-                <img src="https://ik.imagekit.io/2q7cgnqzi/icon/check.png?updatedAt=1711451555962" alt="" style={{ width: 50, height: 28, objectFit: 'contain' }} />
-                <h5>Devops Interoperability </h5>
-              </Col>
-              <p style={{ fontSize: '20px', marginTop: '20px' }} >In today's interconnected world, software often needs to integrate with other systems and platforms. Developing software with interoperability
-                in mind ensures.</p>
-            </Row>
-            <Row  >
-              <Col style={{ display: 'flex', flexFlow: 'row', marginTop: '35px' }}>
-                <img src="https://ik.imagekit.io/2q7cgnqzi/icon/check.png?updatedAt=1711451555962" alt="" style={{ width: 50, height: 28, objectFit: 'contain' }} />
-                <h5>
-                  Analytics Performance </h5>
-              </Col>
-              <p style={{ fontSize: '20px', marginTop: '20px' }} >The development process starts with gathering and analyzing the requirements from stakeholders, including clients, end and business analysts.
-                As user bases grow and data increases</p>
-            </Row>
-            <Row  >
-              <Col style={{ display: 'flex', flexFlow: 'row', marginTop: '35px' }}>
-                <img src="https://ik.imagekit.io/2q7cgnqzi/icon/check.png?updatedAt=1711451555962" alt="" style={{ width: 50, height: 28, objectFit: 'contain' }} />
-                <h5>
-                  Analytics Performance </h5>
-              </Col>
-              <p style={{ fontSize: '20px', marginTop: '20px' }} >The development process starts with gathering and analyzing the requirements from stakeholders, including clients, end and business analysts.
-                As user bases grow and data increases</p>
-            </Row>
+                    <div className="tasksign">
+                      <img
+                        src="https://ik.imagekit.io/2q7cgnqzi/icon/check.png?updatedAt=1711451555962"
+                        alt=""
+                        className="righticonimagesize w-10"
+                      />
+                      <h5 className="text-xl my-auto text-gray-200">
+                        Quick Response{" "}
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </Narrow>
+      </div>
 
-          </Col>
-
-
-
-
-
-
-
-
-        </Row>
-
-
-      </Container>
-      <Getintouch />
-    </>
-  )
+      <div className="mt-32 mb-32">
+        <Narrow>
+          <Getintouch />
+        </Narrow>
+      </div>
+    </div>
+  );
 }
-
-export default Pages

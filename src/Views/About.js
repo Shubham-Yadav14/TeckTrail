@@ -1,4 +1,4 @@
-import { React, useEffect,useState,useRef } from "react";
+import { React, useEffect, useState, useRef } from "react";
 import { Container, Row, Col, Button, Card } from "reactstrap";
 import { Link } from "react-router-dom";
 
@@ -39,7 +39,6 @@ function About() {
   useEffect(() => {
     setIsVisible(true);
   }, []);
-
 
   useEffect(() => {
     const elements = document.querySelectorAll(".aboutheader1");
@@ -113,8 +112,12 @@ function About() {
             </Col>
           </Row>
 
-          <div ref={sectionRef}
-      className={`about mt-5 grid grid-cols-4 max-xl:grid-cols-1 gap-5 max-xl:p-3 ${isVisible ? 'fade-in' : ''}`}>
+          <div
+            ref={sectionRef}
+            className={`about mt-5 grid grid-cols-4 max-xl:grid-cols-1 gap-5 max-xl:p-3 ${
+              isVisible ? "fade-in" : ""
+            }`}
+          >
             <div>
               <Card className="aboutcard h-full max-xl:p-3">
                 <h1 className="text-4xl font-bold">300+</h1>
