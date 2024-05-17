@@ -26,14 +26,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 1000; /* Ensure it's above other elements within the relative container */
 }
 
 .dropPort1{
   position: absolute;
-  top:100%;
+  top:80%;
   left:0px;
-  background-color: rgba(0, 0, 0, 0.5); /* semi-transparent black */
   display: none;
   justify-content: center;
   align-items: center;
@@ -47,7 +45,7 @@ body {
 }
 .dropServ1{
   position: absolute;
-  top:100%;
+  top:80%;
   left:0px;
   display: none;
   justify-content: center;
@@ -428,6 +426,7 @@ Button {
   z-index: 10;
   height:10vh;
   max-height:120px;
+  z-index: 10;
 }
 .callsvg{
   transform: rotate(-45deg);
