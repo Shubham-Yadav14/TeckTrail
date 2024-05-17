@@ -11,6 +11,7 @@ import ShowcaseSlider from "../Components/ShowcaseSlider";
 import img from "../../src/Images/Screenshot 2024-05-13 140345.png";
 import MultiTab2 from "../Components/MultiTab2";
 import img1 from "../../src/Images/lshape.png";
+import ReviewSlider from "../Components/ReviewSlider";
 
 function Home() {
   useEffect(() => {
@@ -437,6 +438,15 @@ function Home() {
         </Narrow>
       </div>
 
+
+
+      <Narrow>
+        <ReviewSlider/>
+      </Narrow>
+
+
+
+
       <div className="py-24 max-xl:py-5 px-3 background">
         <Narrow>
           <Row>
@@ -512,172 +522,6 @@ function Home() {
           </Row>
         </Narrow>
       </div>
-
-      {/* <Container className="articlebox">
-        <Row>
-          <Col>
-            <p className="articleboxabout">INTERESTING ARTICLES</p>
-            <h1 className="articleboxabouthead">
-              Read daily news about startup companies
-            </h1>
-          </Col>
-          <Col>
-            <h5>
-              In today's rapidly evolving world, technology is constantly
-              shaping the way we live and interact. From artificial intelligence
-              and automation to virtual reality, the pace of technological
-              advancements is staggering.
-            </h5>
-          </Col>
-        </Row>
-        <Row className="articlecard">
-          <Col md="6" className="articlecardimg">
-            <img
-              src="https://wpriverthemes.com/synck/wp-content/uploads/2023/11/news-1.png"
-              alt=""
-              className="interestingimg"
-            />
-          </Col>
-          <Col md="6" className="articletextbox">
-            <p>INTERESTING ARTICLES</p>
-            <h4>
-              OpenAI launches new alignment division to tackle risks of
-              superintelligent AI
-            </h4>
-
-            <h5 style={{ marginTop: "35px" }}>
-              Small UK merchants, businesses, and other enterprises can now use
-              Tap to Pay on service to replace payment terminals at point of
-              sale.
-            </h5>
-          </Col>
-        </Row>
-      </Container> */}
-
-      {/* <Container>
-        <Row className="productcard">
-          <Col md="5" className="product">
-            <img
-              src="https://wpriverthemes.com/synck/wp-content/uploads/2023/11/news-2.jpg"
-              alt=""
-            />
-            <h6 className="spacingunique">WEB DEVELOPMENT</h6>
-            <h3 className="articlecardhead">
-              Bluebase launches Tap to Pay on smartphone for international and
-              domestic business
-            </h3>
-            <h style={{ marginTop: "23px" }}>
-              Small UK merchants, businesses, and other enterprises can now use
-              Tap to Pay on service to replace payment terminals at point of
-              sale.
-            </h>{" "}
-            <br />
-            <hr />
-            <Row>
-              <Col md="6" className="tasksign">
-                <img
-                  src="https://ik.imagekit.io/2q7cgnqzi/icon/check.png?updatedAt=1711451555962"
-                  alt=""
-                  className=""
-                  style={{ width: "28px", objectFit: "contain" }}
-                />
-                <h5>Collaboration Tools </h5>
-              </Col>
-              <Col md="6" className="tasksign">
-                <img
-                  src="https://ik.imagekit.io/2q7cgnqzi/icon/check.png?updatedAt=1711451555962"
-                  alt=""
-                  className=""
-                  style={{ width: "28px", objectFit: "contain" }}
-                />
-                <h5>Smart Reminders </h5>
-              </Col>
-            </Row>
-            <Row>
-              <Col md="6" className="tasksign">
-                <img
-                  src="https://ik.imagekit.io/2q7cgnqzi/icon/check.png?updatedAt=1711451555962"
-                  alt=""
-                  className=""
-                  style={{ width: "28px", objectFit: "contain" }}
-                />
-                <h5>Requirement </h5>
-              </Col>
-              <Col md="6" className="tasksign">
-                <img
-                  src="https://ik.imagekit.io/2q7cgnqzi/icon/check.png?updatedAt=1711451555962"
-                  alt=""
-                  className=""
-                  style={{ width: "28px", objectFit: "contain" }}
-                />
-                <h5>Task Management </h5>
-              </Col>
-            </Row>
-          </Col>
-
-          <Col md="5" className="product">
-            <img
-              src="https://wpriverthemes.com/synck/wp-content/uploads/2023/11/news-3.jpg"
-              alt=""
-            />
-            <h6>CLOUD COMPUTING</h6>
-
-            <h3 className="articlecardhead">
-              Google Bard launches in EU, overcoming data privacy concerns in
-              the region
-            </h3>
-
-            <p>
-              Small UK merchants, businesses, and other enterprises can now use
-              Tap to Pay on service to replace payment terminals at point of
-              sale.
-            </p>
-
-            <hr />
-
-            <Row>
-              <Col md="6" className="tasksign">
-                <img
-                  src="https://ik.imagekit.io/2q7cgnqzi/icon/check.png?updatedAt=1711451555962"
-                  alt=""
-                  className=""
-                  style={{ width: "28px", objectFit: "contain" }}
-                />
-                <h5>Collaboration Tools </h5>
-              </Col>
-              <Col md="6" className="tasksign">
-                <img
-                  src="https://ik.imagekit.io/2q7cgnqzi/icon/check.png?updatedAt=1711451555962"
-                  alt=""
-                  className=""
-                  style={{ width: "28px", objectFit: "contain" }}
-                />
-                <h5>Smart Reminders </h5>
-              </Col>
-            </Row>
-            <Row>
-              <Col md="6" className="tasksign">
-                <img
-                  src="https://ik.imagekit.io/2q7cgnqzi/icon/check.png?updatedAt=1711451555962"
-                  alt=""
-                  className=""
-                  style={{ width: "28px", objectFit: "contain" }}
-                />
-                <h5>Requirement </h5>
-              </Col>
-              <Col md="6" className="tasksign">
-                <img
-                  src="https://ik.imagekit.io/2q7cgnqzi/icon/check.png?updatedAt=1711451555962"
-                  alt=""
-                  className=""
-                  style={{ width: "28px", objectFit: "contain" }}
-                />
-                <h5>Task Management </h5>
-              </Col>
-            </Row>
-          </Col>
-        </Row>
-      </Container> */}
 
       <div className="productivity">
         <Narrow>
