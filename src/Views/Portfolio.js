@@ -1,11 +1,13 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import { Row, Col } from 'reactstrap';
 
 import Narrow from '../Components/Common/Narrow'
 import Getintouch from '../Components/Getintouch'
 
 export default function Portfolio() {
-
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
 
 
 
