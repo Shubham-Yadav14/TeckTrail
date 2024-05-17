@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card } from 'reactstrap';
+
 import { Navigation, Pagination, A11y, Autoplay } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
