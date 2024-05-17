@@ -203,7 +203,18 @@ p {
   justify-content: space-between;
   align-items: center;
   gap: 15px;
+  border: 0px solid gray;
+  box-shadow: 0 0px 20px rgba(0, 0, 0, 0.1); /* Adding a subtle shadow */
+  opacity: 0;
+  transform: scale(0.8);
 }
+
+.map{
+  border: 0px solid black;
+  box-shadow: 0 0px 20px rgba(0, 0, 0, 0.1); /* Adding a subtle shadow */
+  border-radius: 15px;
+}
+
 
 .contypecard a {
   /* background-color: #000000; */
