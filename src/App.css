@@ -1727,6 +1727,26 @@ a {
 }
 
 
+.stickycard1{
+  position: sticky;
+  top:10%;
+  z-index: 1;
+}
+
+
+.stickycard2{
+  position: sticky;
+  top:10%;
+  z-index: 2;
+}
+
+.stickycard3{
+  position: sticky;
+  top:10%;
+  z-index: 3;
+}
+
+
 
 @tailwind base;
 @tailwind components;

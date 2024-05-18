@@ -32,7 +32,7 @@ export default function Home2Review(props) {
         }}
       >
         <SwiperSlide >
-          <div className="flex flex-col bg-[url('https://wpriverthemes.com/synck/wp-content/uploads/2023/11/bg-shape-3-1.svg')] bg-cover bg-right justify-between darkbg rounded-lg p-4" style={{height:"280px"}}>
+          <div className="flex flex-col bg-[url('https://wpriverthemes.com/synck/wp-content/uploads/2023/11/bg-shape-3-1.svg')] bg-cover bg-right justify-between darkbg rounded-lg p-4"  >
             <div>
             <img src="https://wpriverthemes.com/synck/wp-content/uploads/2023/12/upwork-2.svg" className="mb-3" style={{width:"100px"}}/>
             <h1 className="text-white text-xl font-bold max-xl:text-lg mb-2">
@@ -61,7 +61,7 @@ export default function Home2Review(props) {
           </div>
         </SwiperSlide>
         <SwiperSlide >
-          <div className="flex flex-col bg-[url('https://wpriverthemes.com/synck/wp-content/uploads/2023/11/bg-shape-3-1.svg')] bg-cover bg-right justify-between darkbg rounded-lg p-4" style={{height:"280px"}}>
+          <div className="flex flex-col bg-[url('https://wpriverthemes.com/synck/wp-content/uploads/2023/11/bg-shape-3-1.svg')] bg-cover bg-right justify-between darkbg rounded-lg p-4" >
             <div>
             <img src="https://wpriverthemes.com/synck/wp-content/uploads/2023/12/webflow-3.svg" className="mb-3"  style={{width:"100px"}}/>
             <h1 className="text-white text-2xl font-bold max-xl:text-xl mb-2">
@@ -91,7 +91,7 @@ export default function Home2Review(props) {
         </SwiperSlide>
         
         <SwiperSlide >
-          <div className="flex flex-col bg-[url('https://wpriverthemes.com/synck/wp-content/uploads/2023/11/bg-shape-3-1.svg')] bg-cover bg-right justify-between darkbg rounded-lg p-4" style={{height:"280px"}}>
+          <div className="flex flex-col bg-[url('https://wpriverthemes.com/synck/wp-content/uploads/2023/11/bg-shape-3-1.svg')] bg-cover bg-right justify-between darkbg rounded-lg p-4" >
             <div>
             <img src="https://wpriverthemes.com/synck/wp-content/uploads/2023/12/upwork-2.svg" className="mb-3" style={{width:"100px"}}/>
             <h1 className="text-white text-xl font-bold max-xl:text-lg mb-2">
@@ -120,7 +120,7 @@ export default function Home2Review(props) {
           </div>
         </SwiperSlide>
         <SwiperSlide >
-          <div className="flex flex-col bg-[url('https://wpriverthemes.com/synck/wp-content/uploads/2023/11/bg-shape-3-1.svg')] bg-cover bg-right justify-between darkbg rounded-lg p-4" style={{height:"280px"}}>
+          <div className="flex flex-col bg-[url('https://wpriverthemes.com/synck/wp-content/uploads/2023/11/bg-shape-3-1.svg')] bg-cover bg-right justify-between darkbg rounded-lg p-4" >
             <div>
             <img src="https://wpriverthemes.com/synck/wp-content/uploads/2023/12/webflow-3.svg" className="mb-3"  style={{width:"100px"}}/>
             <h1 className="text-white text-2xl font-bold max-xl:text-xl mb-2">
@@ -149,7 +149,7 @@ export default function Home2Review(props) {
           </div>
         </SwiperSlide>
         <SwiperSlide >
-          <div className="flex flex-col bg-[url('https://wpriverthemes.com/synck/wp-content/uploads/2023/11/bg-shape-3-1.svg')] bg-cover bg-right justify-between darkbg rounded-lg p-4" style={{height:"280px"}}>
+          <div className="flex flex-col bg-[url('https://wpriverthemes.com/synck/wp-content/uploads/2023/11/bg-shape-3-1.svg')] bg-cover bg-right justify-between darkbg rounded-lg p-4" >
             <div>
             <img src="https://wpriverthemes.com/synck/wp-content/uploads/2023/12/upwork-2.svg" className="mb-3" style={{width:"100px"}}/>
             <h1 className="text-white text-xl font-bold max-xl:text-lg mb-2">
@@ -178,7 +178,7 @@ export default function Home2Review(props) {
           </div>
         </SwiperSlide>
         <SwiperSlide >
-          <div className="flex flex-col bg-[url('https://wpriverthemes.com/synck/wp-content/uploads/2023/11/bg-shape-3-1.svg')] bg-cover bg-right justify-between darkbg rounded-lg p-4" style={{height:"280px"}}>
+          <div className="flex flex-col bg-[url('https://wpriverthemes.com/synck/wp-content/uploads/2023/11/bg-shape-3-1.svg')] bg-cover bg-right justify-between darkbg rounded-lg p-4" >
             <div>
             <img src="https://wpriverthemes.com/synck/wp-content/uploads/2023/12/webflow-3.svg" className="mb-3"  style={{width:"100px"}}/>
             <h1 className="text-white text-2xl font-bold max-xl:text-xl mb-2">
