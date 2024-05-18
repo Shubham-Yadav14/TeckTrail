@@ -15,6 +15,7 @@ import Healthcare from './Views/Healthcare';
 import Brainstorming from './Views/Brainstorming';
 import PortfolioDetails from './Views/PortfolioDetails';
 import Viewmore from './Views/Viewmore';
+import Home2 from './Views/Home2';
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
           <Route path='/portfolio' element = {<Portfolio/>}/>
           <Route path='/portfolio/portfolio-details' element = {<PortfolioDetails/>}/>
           <Route path='/viewmore' element = {<Viewmore/>}/>
+          <Route path='/home' element = {<Home2/>}/>
         </Routes>
         <Footer />
       </BrowserRouter>
