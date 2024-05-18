@@ -1716,9 +1716,15 @@ a {
 }
 
 
+.macicons{
+  margin: 1rem 0.75rem;
+}
 
-
-
+@media screen and (max-width:"1280px"){
+  .macicons{
+    margin: 1rem 0.2rem;
+  }
+}
 
 
 
