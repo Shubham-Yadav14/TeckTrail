@@ -140,7 +140,7 @@ export default function Home2() {
                   </p>
                 </div>
               </div>
-              <div className="bg-white p-4 rounded-xl flex gap-5">
+              <div className="bg-white p-4 rounded-xl flex max-xl:flex-col gap-5">
                 <img
                   src="https://wpriverthemes.com/synck/wp-content/uploads/2023/12/service-5.png"
                   alt=""
@@ -202,7 +202,7 @@ export default function Home2() {
                   </p>
                 </div>
               </div>
-              <div className="bg-white p-4 rounded-xl flex gap-5">
+              <div className="bg-white p-4 rounded-xl flex max-xl:flex-col gap-5">
                 <img
                   src="https://wpriverthemes.com/synck/wp-content/uploads/2023/12/service-5.png"
                   alt=""
@@ -432,7 +432,7 @@ export default function Home2() {
           <div className="flex max-xl:flex-col gap-10">
             <div className="w-1/2">
               <h1 className="home1para">OUR TEAM</h1>
-              <h1 className="text-5xl font-bold mt-3 ">
+              <h1 className="text-5xl font-bold mt-3 pr-14">
                 Our team consists of world class experts
               </h1>
             </div>
