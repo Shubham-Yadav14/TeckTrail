@@ -114,12 +114,6 @@ function Home() {
         </div>
       </Narrow>
 
-      <div className=" mt-28 max-xl:mt-0">
-        <Narrow>
-          <Slider/>
-        </Narrow>
-      </div>
-
       <Narrow>
         <div className="bg-[url('https://wpriverthemes.com/synck/wp-content/uploads/2023/11/bg-shape-1-1.svg')] bg-cover bg-top howedo py-20 px-10 max-xl:p-5 max-xl:py-10 max-xl:rounded-none mt-36 max-xl:mt-20 mx-auto">
           <div className="flex max-lg:flex-col">
@@ -618,6 +612,12 @@ function Home() {
               </Row>
             </Col>
           </Row>
+        </Narrow>
+      </div>
+
+      <div className=" mt-28 max-xl:mt-0">
+        <Narrow>
+          <Slider/>
         </Narrow>
       </div>
 
