@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 function Slider() {
     return (
-        <div className='mb-48'>
+        <div className='swiperbg mb-48 bg-white'>
             <Swiper
                 modules={[Navigation, Pagination, A11y, Autoplay]}
                 spaceBetween={20}

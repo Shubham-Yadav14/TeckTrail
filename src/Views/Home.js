@@ -115,7 +115,9 @@ function Home() {
       </Narrow>
 
       <div className=" mt-28 max-xl:mt-0">
-        <Slider />
+        <Narrow>
+          <Slider/>
+        </Narrow>
       </div>
 
       <Narrow>
