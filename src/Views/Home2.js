@@ -10,6 +10,10 @@ export default function Home2() {
   useEffect(() => {
     setIsVisible(true);
   }, []);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  
 
   return (
     <div className="mb-28 ">

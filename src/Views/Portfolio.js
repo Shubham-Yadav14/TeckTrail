@@ -46,7 +46,7 @@ export default function Portfolio() {
                         <div>E-commerce platform development.</div>
                     </div>
                     <div className='flex h-full flex-col bg-[#1C1C1C] text-white rounded-xl px-5 py-4 my-3' >
-                        <div className='mb-3'>Woo Commerce</div>
+                        <div className='mb-3  text-xl'>Woo Commerce</div>
                         <div className='text-sm text-[#ffffffb3]'>A E-commerce site for london based company</div>
                     </div>
                 </div>
@@ -57,7 +57,7 @@ export default function Portfolio() {
 
                     </div>
                     <div className=' flex h-full flex-col bg-[#CECDCB] text-black rounded-xl px-5 py-4 my-3' >
-                        <div className='mb-3'>Branding for Studio</div>
+                        <div className='mb-3  text-xl'>Branding for Studio</div>
                         <div className='text-sm text-[#1c1c1cb3]'>Boosting service for electronic based company</div>
                     </div>
                 </div>
@@ -66,7 +66,7 @@ export default function Portfolio() {
                         <div className='w-2/3'>Mobile app development in ios.</div>
                     </div>
                     <div className='flex h-full flex-col bg-[#F1F1F1] text-black rounded-xl px-5 py-4 my-3' >
-                        <div className='mb-3'>Swift App Development</div>
+                        <div className='mb-3 text-xl'>Swift App Development</div>
                         <div className='text-sm text-[#1c1c1cb3]'>Mobile app for productivity in Iphone</div>
                     </div>
                 </div>
@@ -75,7 +75,7 @@ export default function Portfolio() {
                         <div className='w-2/3'>Get into a virtual reality world.</div>
                     </div>
                     <div className='flex h-full flex-col bg-[#1C1C1C] text-white rounded-xl px-5 py-4 my-3' >
-                        <div className='mb-3'>VR Development</div>
+                        <div className='mb-3 text-xl'>VR Development</div>
                         <div className='text-sm text-[#ffffffb3]'>Watch everything in virtual reality world </div>
                     </div>
                 </div>
@@ -88,7 +88,7 @@ export default function Portfolio() {
                         <div>Cloud services development by bluebase</div>
                     </div>
                     <div className='flex h-full flex-col bg-[#62759A] text-white rounded-xl px-5 py-4 my-3' >
-                        <div className='mb-3'>Cloud Service</div>
+                        <div className='mb-3 text-xl'>Cloud Service</div>
                         <div className='text-sm text-[#ffffffb3]'> Building a server for a new start up company</div>
                     </div>
                 </div>
@@ -99,7 +99,7 @@ export default function Portfolio() {
 
                     </div>
                     <div className=' flex h-full flex-col bg-[#F1F1F1] text-black rounded-xl px-5 py-4 my-3' >
-                        <div className='mb-3'>Application for Watch</div>
+                        <div className='mb-3 text-xl'>Application for Watch</div>
                         <div className='text-sm text-[#1c1c1cb3]'>Our slack app for your wrist smartwatch</div>
                     </div>
                 </div>
@@ -108,7 +108,7 @@ export default function Portfolio() {
                         <div className='w-2/3'>Customer crm in salesforce</div>
                     </div>
                     <div className='flex h-full flex-col bg-[#CECDCB] text-black rounded-xl px-5 py-4 my-3' >
-                        <div className='mb-3'>CRM Solutions</div>
+                        <div className='mb-3 text-xl'>CRM Solutions</div>
                         <div className='text-sm text-[#1c1c1cb3]'>Customer relationship app using Salesforce</div>
                     </div>
                 </div>
@@ -117,7 +117,7 @@ export default function Portfolio() {
                         <div className='w-2/3'>Erp solutions implemented bluebase</div>
                     </div>
                     <div className='flex h-full flex-col bg-[#EEEEDD] text-black rounded-xl px-5 py-4 my-3' >
-                        <div className='mb-3'>Erp Solutions</div>
+                        <div className='mb-3 text-xl'>Erp Solutions</div>
                         <div className='text-sm text-[#1c1c1cb3]'>Saas Service for a brand new Woo Commerce Company </div>
                     </div>
                 </div>
@@ -132,7 +132,7 @@ export default function Portfolio() {
                         <div>Unique personal prtfolio on market</div>
                     </div>
                     <div className='flex h-full flex-col bg-[#62759A] text-white rounded-xl px-5 py-4 my-3' >
-                        <div className='mb-3'>Uniqe Personal Portfolio</div>
+                        <div className='mb-3 text-xl'>Uniqe Personal Portfolio</div>
                         <div className='text-sm text-[#999999]'> Personal portfolio that hits everybody resume</div>
                     </div>
                 </div>
@@ -143,7 +143,7 @@ export default function Portfolio() {
 
                     </div>
                     <div className=' flex h-full flex-col bg-[#CECDCB] text-black rounded-xl px-5 py-4 my-3' >
-                        <div className='mb-3'>Clean Dashboard</div>
+                        <div className='mb-3 text-xl'>Clean Dashboard</div>
                         <div className='text-sm text-[#1c1c1cb3]'>Creating a dashboard for newly launched market</div>
                     </div>
                 </div>
@@ -152,7 +152,7 @@ export default function Portfolio() {
                         <div className='w-2/3'>Premier support and solutions by bluebase</div>
                     </div>
                     <div className='flex h-full flex-col bg-[#F1F1F1] text-black rounded-xl px-5 py-4 my-3' >
-                        <div className='mb-3'>Fast IT Support</div>
+                        <div className='mb-3 text-xl'>Fast IT Support</div>
                         <div className='text-sm text-[#1c1c1cb3]'>Our team give a quick response for the clients</div>
                     </div>
                 </div>
@@ -161,7 +161,7 @@ export default function Portfolio() {
                         <div className='w-2/3'>Electro online platform development</div>
                     </div>
                     <div className='flex h-full flex-col bg-[#443355] text-white rounded-xl px-5 py-4 my-3' >
-                        <div className='mb-3'>Electro E-commerce</div>
+                        <div className='mb-3 text-xl'>Electro E-commerce</div>
                         <div className='text-sm text-[#ffffffb3]'>A site that hits entire online themeforest site</div>
                     </div>
                 </div>
