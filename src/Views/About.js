@@ -152,10 +152,6 @@ function About() {
         </div>
       </Narrow>
 
-      <div className="sliderdiv mb-32">
-        <Slider />
-      </div>
-
       <div className="bg-[#F3F6FD]">
         <Narrow>
           <div className="OURCOMPANY py-5 px-3">
@@ -178,12 +174,12 @@ function About() {
                 </Link>
               </div>
             </div>
-            <Row>
-              <Col className="my-2">
+            <div>
+              <div className="my-2">
                 <img
                   src="https://wpriverthemes.com/synck/wp-content/uploads/2024/01/hero-company-about.jpg"
                   alt=""
-                  className="ourpopulaityimage"
+                  className="ourpopulaityimage w-full"
                 />
                 <p style={{ marginTop: "30px" }}>
                   Our team is a collective force of top talents, pros, experts,
@@ -194,8 +190,8 @@ function About() {
                   implementation, we maintain the highest standards of quality
                   and craftsmanship, leaving no room for compromise.
                 </p>
-              </Col>
-            </Row>
+              </div>
+            </div>
             <br />
             <div className="grid grid-cols-3 gap-2 max-md:grid-cols-1">
               <div className="flex items-center">
@@ -315,7 +311,7 @@ function About() {
       </div>
 
       <Narrow>
-        <div className="ourexpert1 p-28 max-xl:p-3  max-xl:py-20 mt-32 max-xl:mt-0">
+        <div className="ourexpert1 p-28 max-xl:p-3  max-xl:py-20 mt-32 max-xl:mt-0 mb-32 max-xl:mb-10">
           <div className="flex max-xl:flex-col max-xl:text-center max-xl:mx-auto">
             <div className="w-2/3 max-xl:w-full">
               <p className="delinglogheading">WHAT WE’RE OFFERING</p>
@@ -339,7 +335,7 @@ function About() {
         </div>
       </Narrow>
 
-      <Narrow>
+      {/* <Narrow>
         <div className="team mb-32">
           <Row className="ourexpertrow mt-3">
             <Col className="ourexpert">
@@ -453,7 +449,7 @@ function About() {
             </Col>
           </Row>
         </div>
-      </Narrow>
+      </Narrow> */}
 
       <div className="whybetter py-36 max-xl:p-3">
         <Narrow>
@@ -513,6 +509,12 @@ function About() {
       </div>
 
       <Narrow>
+      <div className="sliderdiv mb-32 mt-40">
+        <Slider />
+      </div>
+      </Narrow>
+
+      <Narrow>
         <div className="assitance py-28 mb-32">
           <Row>
             <Col className="assistanceimg">
@@ -544,7 +546,7 @@ function About() {
                 Feel free to reach out for any inquiries or assistance.
               </h3>
               <Link to="/contactus">
-                <Button className="bookappoinmentnow">
+                <Button className=" bg-blue-600 hover:bg-white font-semibold rounded-xl hover:text-black py-3 px-5 mt-10">
                   Book an appointment now
                 </Button>
               </Link>
@@ -552,6 +554,8 @@ function About() {
           </div>
         </div>
       </Narrow>
+
+      
 
       <Getintouch />
     </>
