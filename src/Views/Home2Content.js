@@ -25,16 +25,16 @@ export default function Home2Content() {
             <div className='bg-gray-50'>
                 <Narrow>
                     <div className='pt-10 max-lg:text-center'>
-                        <div className='text-blue-500'>OUR TEAM</div>
+                        <div className='home1para'>OUR TEAM</div>
                         <div className='flex justify-between max-md:flex-col my-2'>
-                            <div className='text-5xl max-lg:text-3xl font-semibold'>Our team consists of<br />
+                            <div className='text-5xl max-lg:text-3xl font-bold'>Our team consists of<br />
                                 world class experts</div>
-                            <div className='w-4/12 text-sm max-md:my-10 max-lg:w-8/12 max-md:mx-auto'>We are proud to introduce you to the talented individuals who make up our consultancy's backbone, each contributing their unique skills and wealth of experience to drive transformative results.</div>
+                            <div className='w-6/12 text-xl max-md:my-10 max-lg:w-8/12 max-md:mx-auto'>We are proud to introduce you to the talented individuals who make up our consultancy's backbone, each contributing their unique skills and wealth of experience to drive transformative results.</div>
                         </div>
                     </div>
                 </Narrow>
 
-                <Narrow class="pt-4">
+                <Narrow class="pt-5">
                     <div className={`flex max-lg:flex-col gap-5 ${isLarge? " stickycard1": " "} `}>
                         <div className='w-5/12 p-3 bg-white rounded-2xl max-lg:w-10/12 max-lg:mx-auto'>
                             <img src='https://wpriverthemes.com/synck/wp-content/uploads/2023/12/team-2.jpg' className='mx-auto' />
@@ -132,9 +132,9 @@ export default function Home2Content() {
             <div className='bg-[rgb(243,246,253)]'>
                 <Narrow>
                     <div className='pt-20'>
-                        <div className='text-center'>TESTIMONIAL</div>
-                        <div className='text-center my-3 text-4xl font-semibold'>What people think about us</div>
-                        <div className='text-center my-8'>Their professionalism and commitment to our success were evident<br />
+                        <div className='text-center home1para'>TESTIMONIAL</div>
+                        <div className='text-center my-3 text-5xl font-bold'>What people think about us</div>
+                        <div className='text-center my-8 text-xl text-gray-600'>Their professionalism and commitment to our success were evident<br />
                             throughout the entire process.</div>
                     </div>
                 </Narrow>
@@ -147,10 +147,10 @@ export default function Home2Content() {
 
 
             <Narrow class='max-md:p-3 py-10'>
-                <div className='text-blue-500'>CONTACT </div>
+                <div className='home1para'>CONTACT </div>
                 <div className='flex justify-between max-md:flex-col my-2'>
-                    <div className='text-5xl max-lg:text-3xl font-semibold'>We have branches all <br /> over the world</div>
-                    <div className='w-4/12 text-sm max-md:my-10 max-md:w-8/12'>Reach out to us through the contact form below, and a member of our dedicated team will respond promptly. We're here to listen, assist, and collaborate.</div>
+                    <div className='text-5xl max-lg:text-3xl font-bold'>We have branches all <br /> over the world</div>
+                    <div className='w-6/12 max-xl:w-full text-xl'>Reach out to us through the contact form below, and a member of our dedicated team will respond promptly. We're here to listen, assist, and collaborate.</div>
                 </div>
                 <div className='bg-[#F3F6FD] p-2 rounded-lg my-5'>
                     <div className='bg-[#1351d80d] p-20 border-[#1351d81a] border-2 max-lg:p-10 max-md:p-5'>

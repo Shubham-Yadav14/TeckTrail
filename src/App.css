@@ -1145,20 +1145,45 @@ li {
 }
 
 .sliderimage {
-  box-sizing: border-box;
-  height: 128px;
-  width: 100%;
+  position: relative; /* Ensure the container is positioned relative for the pseudo-element to position correctly */
+  height: 110px;
   display: flex;
   align-items: center;
-  border-radius: 10px;
   justify-content: center;
-  border: 1px solid #f3f2f2;
-  box-shadow: 0px 4px 10px 5px rgba(0, 0, 0, 0.03);
+  padding-left: 10px; /* Optional: add padding to avoid content touching the border */
+  box-sizing: border-box;
+  border: 0px;
 }
 
+.sliderimage::before {
+  content: '';
+  position: absolute;
+  left: 0; /* Position the border at the left edge */
+  top: 50%; /* Start the border in the middle vertically */
+  transform: translateY(-50%); /* Adjust position to center the pseudo-element */
+  height: 35%;
+  width: 1px;
+  background-color: rgb(190, 190, 190);
+}
+
+.swiperbg{
+  border: 1px solid #f3f2f2;
+  box-shadow: 0px 4px 10px 5px rgba(0, 0, 0, 0.03);
+  border-radius: 15px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.swiperbg:hover{
+  cursor:grab;
+}
+.swiperbg:active {
+  cursor: grabbing;
+}
+
+
 .home-slider-img {
-  height: 108px;
-  width: 128px;
+  height: 60%;
+  width: 70%;
   object-fit: contain;
 }
 

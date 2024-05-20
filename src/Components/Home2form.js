@@ -190,7 +190,7 @@ export default function Home2form() {
                       <label className="mb-4 text-md font-medium">
                         What's the type of your company?
                       </label>
-                      <div className="flex space-x-4">
+                      <div className="grid grid-cols-4 gap-2 max-xl:grid-cols-2">
                         {companyTypes.map((type) => (
                           <button
                             key={type}
@@ -211,7 +211,7 @@ export default function Home2form() {
                       <label className="mb-4 text-md font-medium">
                         What you need from us?
                       </label>
-                      <div className="grid grid-cols-3 gap-4">
+                      <div className="grid grid-cols-3 gap-2 max-xl:grid-cols-2">
                         {options.map((option) => (
                           <button
                             key={option}
@@ -284,7 +284,7 @@ export default function Home2form() {
                     />
                     <label
                       htmlFor="terms"
-                      className="ml-2 text-xl text-gray-600"
+                      className="ml-2 text-base text-gray-500"
                     >
                       Click the box and agree to our <u>terms and conditions</u>
                       .

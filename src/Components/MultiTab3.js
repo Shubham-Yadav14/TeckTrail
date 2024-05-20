@@ -23,8 +23,9 @@ export default function MultiTab3() {
             >
               {" "}
               <img
-                className="bg-white rounded-full h-7"
+                className={`${tab === "Business Strategy" ? 'bg-white' : 'bg-[#F3F6Fd]'} rounded-full h-7 p-2`}
                 src="https://wpriverthemes.com/synck/wp-content/uploads/2023/12/hwd-icon-1.svg"
+                style={{height:"40px"}}
                 alt=""
               />{" "}
               <div className="my-auto">Business Strategy</div>
@@ -40,8 +41,9 @@ export default function MultiTab3() {
             >
               {" "}
               <img
-                className="bg-white rounded-full"
+                className={`${tab === "Business Strategy" ? 'bg-white' : 'bg-[#F3F6Fd]'} rounded-full h-7 p-2`}
                 src="https://wpriverthemes.com/synck/wp-content/uploads/2023/12/hwd-icon-1.svg"
+                style={{height:"40px"}}
                 alt=""
               />{" "}
               <div className="my-auto">Market Analysis</div>
@@ -57,8 +59,9 @@ export default function MultiTab3() {
             >
               {" "}
               <img
-                className="bg-white rounded-full"
+                className={`${tab === "Business Strategy" ? 'bg-white' : 'bg-[#F3F6Fd]'} rounded-full h-7 p-2`}
                 src="https://wpriverthemes.com/synck/wp-content/uploads/2023/12/hwd-icon-1.svg"
+                style={{height:"40px"}}
                 alt=""
               />{" "}
               
@@ -75,8 +78,9 @@ export default function MultiTab3() {
             >
               {" "}
               <img
-                className="bg-white rounded-full"
+                className={`${tab === "Business Strategy" ? 'bg-white' : 'bg-[#F3F6Fd]'} rounded-full h-7 p-2`}
                 src="https://wpriverthemes.com/synck/wp-content/uploads/2023/12/hwd-icon-1.svg"
+                style={{height:"40px"}}
                 alt=""
               />{" "}
               
@@ -93,8 +97,9 @@ export default function MultiTab3() {
             >
               {" "}
               <img
-                className="bg-white rounded-full"
+                className={`${tab === "Business Strategy" ? 'bg-white' : 'bg-[#F3F6Fd]'} rounded-full h-7 p-2`}
                 src="https://wpriverthemes.com/synck/wp-content/uploads/2023/12/hwd-icon-1.svg"
+                style={{height:"40px"}}
                 alt=""
               />{" "}
               
@@ -111,8 +116,9 @@ export default function MultiTab3() {
             >
               {" "}
               <img
-                className="bg-white rounded-full"
+                className={`${tab === "Business Strategy" ? 'bg-white' : 'bg-[#F3F6Fd]'} rounded-full h-7 p-2`}
                 src="https://wpriverthemes.com/synck/wp-content/uploads/2023/12/hwd-icon-1.svg"
+                style={{height:"40px"}}
                 alt=""
               />{" "}
               
@@ -129,8 +135,9 @@ export default function MultiTab3() {
             >
               {" "}
               <img
-                className="bg-white rounded-full"
+                className={`${tab === "Business Strategy" ? 'bg-white' : 'bg-[#F3F6Fd]'} rounded-full h-7 p-2`}
                 src="https://wpriverthemes.com/synck/wp-content/uploads/2023/12/hwd-icon-1.svg"
+                style={{height:"40px"}}
                 alt=""
               />{" "}
               
