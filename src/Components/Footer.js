@@ -107,101 +107,100 @@ function Footer() {
               </Col>
             </Row>
           </div>
-          <div className="footersignup">
-            <Row>
-              <Col md="9">
-                <Row className="footerdivider leading-10 p-3 pt-5">
-                  <Col md="3" className="footitem max-xl:mt-10">
-                    <h5 className="text-xl font-semibold">Services</h5>
-                    <a href="/ourservices/itsupport">
-                      <li>IT Support</li>
-                    </a>
-                    <a href="/ourservices/itsupport">
-                      <li>Web Design</li>
-                    </a>
-                    <a href="/ourservices/itsupport">
-                      <li>Development</li>
-                    </a>
-                    <a href="/ourservices/itsupport">
-                      <li>Cloud Things</li>
-                    </a>
-                    <a href="/ourservices/itsupport">
-                      <li>E-Commerce</li>
-                    </a>
-                    <a href="/ourservices/itsupport">
-                      <li>CRM Solutions</li>
-                    </a>
-                  </Col>
+          <div>
+            <div className="flex max-lg:flex-col">
+              <div className="grid grid-cols-4 max-lg:grid-cols-2 max-md:grid-cols-1 leading-10  w-9/12 max-lg:w-full">
+                <div className="max-lg:mb-10 max-md:p-5 ">
+                  <h5 className="text-xl font-semibold">Services</h5>
+                  <a href="/ourservices/itsupport">
+                    <li>IT Support</li>
+                  </a>
+                  <a href="/ourservices/itsupport">
+                    <li>Web Design</li>
+                  </a>
+                  <a href="/ourservices/itsupport">
+                    <li>Development</li>
+                  </a>
+                  <a href="/ourservices/itsupport">
+                    <li>Cloud Things</li>
+                  </a>
+                  <a href="/ourservices/itsupport">
+                    <li>E-Commerce</li>
+                  </a>
+                  <a href="/ourservices/itsupport">
+                    <li>CRM Solutions</li>
+                  </a>
+                </div>
 
-                  <Col md="3" className="footitem">
-                    <h5 className="text-xl font-semibold max-xl:mt-10">
-                      Company
-                    </h5>
-                    <a href="/">
-                      <li>Blog</li>
-                    </a>
-                    <a href="/">
-                      <li>About Us</li>
-                    </a>
-                    <a href="/">
-                      <li>Partners</li>
-                    </a>
-                    <a href="/career">
-                      <li>Careers </li>
-                    </a>
-                    <a href="/">
-                      <li>Events</li>
-                    </a>
-                    <a href="/">
-                      <li>Team</li>
-                    </a>
-                  </Col>
-                  <Col md="3" className="footitem max-xl:mt-10">
-                    <h5 className="text-xl font-semibold">Product</h5>
-                    <a href="/">
-                      <li>Case Studies</li>
-                    </a>
-                    <a href="/">
-                      <li>Our Pricing</li>
-                    </a>
-                    <a href="/">
-                      <li>Features</li>
-                    </a>
-                    <a href="/">
-                      <li>Overview</li>
-                    </a>
-                    <a href="/">
-                      <li>New Releases</li>
-                    </a>
-                    <a href="/">
-                      <li>Solutions</li>
-                    </a>
-                  </Col>
-                  <Col md="3" className="footitem ">
-                    <h5 className="text-xl font-semibold">Our Fields</h5>
-                    <a href="/ourservices/healthcare">
-                      <li>Healthcare</li>
-                    </a>
-                    <a href="/ourservices/healthcare">
-                      <li>Banks</li>
-                    </a>
-                    <a href="/ourservices/healthcare">
-                      <li>Logistics</li>
-                    </a>
-                    <a href="/ourservices/healthcare">
-                      <li>Supermarkets</li>
-                    </a>
-                    <a href="/ourservices/healthcare">
-                      <li>Industries</li>
-                    </a>
-                    <a href="/ourservices/healthcare">
-                      <li>Hotels</li>
-                    </a>
-                  </Col>
-                </Row>
-              </Col>
+                <div className="max-lg:mb-10 max-md:p-5">
+                  <h5 className="text-xl font-semibold ">
+                    Company
+                  </h5>
+                  <a href="/">
+                    <li>Blog</li>
+                  </a>
+                  <a href="/">
+                    <li>About Us</li>
+                  </a>
+                  <a href="/">
+                    <li>Partners</li>
+                  </a>
+                  <a href="/career">
+                    <li>Careers </li>
+                  </a>
+                  <a href="/">
+                    <li>Events</li>
+                  </a>
+                  <a href="/">
+                    <li>Team</li>
+                  </a>
+                </div>
+                <div className="max-lg:mb-10 max-md:p-5 ">
+                  <h5 className="text-xl font-semibold">Product</h5>
+                  <a href="/">
+                    <li>Case Studies</li>
+                  </a>
+                  <a href="/">
+                    <li>Our Pricing</li>
+                  </a>
+                  <a href="/">
+                    <li>Features</li>
+                  </a>
+                  <a href="/">
+                    <li>Overview</li>
+                  </a>
+                  <a href="/">
+                    <li>New Releases</li>
+                  </a>
+                  <a href="/">
+                    <li>Solutions</li>
+                  </a>
+                </div>
+                <div className="max-lg:mb-10 max-md:p-5">
+                  <h5 className="text-xl font-semibold">Our Fields</h5>
+                  <a href="/ourservices/healthcare">
+                    <li>Healthcare</li>
+                  </a>
+                  <a href="/ourservices/healthcare">
+                    <li>Banks</li>
+                  </a>
+                  <a href="/ourservices/healthcare">
+                    <li>Logistics</li>
+                  </a>
+                  <a href="/ourservices/healthcare">
+                    <li>Supermarkets</li>
+                  </a>
+                  <a href="/ourservices/healthcare">
+                    <li>Industries</li>
+                  </a>
+                  <a href="/ourservices/healthcare">
+                    <li>Hotels</li>
+                  </a>
+                </div>
 
-              <Col md="3" className="footcontact pl-24 max-xl:pl-6">
+              </div>
+
+              <div className="max-md:p-5 ">
                 <p className="text-xl font-semibold">Phone</p>
                 <a href="/">
                   <p>9650900190</p>
@@ -212,19 +211,11 @@ function Footer() {
                 <a href="/">
                   <p>infopanacee@gmail.com</p>
                 </a>
-              </Col>
-            </Row>
+              </div>
+            </div>
           </div>
-          <div style={{ marginTop: "35px" }} className="max-xl:p-3">
-            <Row
-              style={{
-                display: "flex",
-                flexDirection: "row",
-                justifyContent: "space-between",
-              }}
-            >
-              <Col
-                md="4"
+          <div className="flex max-md:p-5 w-full max-md:flex-col justify-between mt-3">
+              <div
                 style={{ display: "flex", alignItems: "center", gap: "28px" }}
               >
                 <a href="/">
@@ -255,15 +246,15 @@ function Footer() {
                     className="connection-logo w-10"
                   />
                 </a>
-              </Col>
-              <Col md="5">
+              </div>
+              <div>
                 <Link to="/contactus">
-                  <p className=" text-right max-xl:text-left max-xl:mt-5">
+                  <p className=" text-right max-xl:text-left max-md:mt-5">
                     © Copyright 2023, Panacea Software Solutions
                   </p>
                 </Link>
-              </Col>
-            </Row>
+              </div>
+            
           </div>
         </Narrow>
       </div>
