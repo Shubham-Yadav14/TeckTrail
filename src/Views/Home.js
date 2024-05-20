@@ -119,7 +119,7 @@ function Home() {
       </div>
 
       <Narrow>
-        <div className="howedo py-20 px-10 max-xl:p-5 max-xl:py-10 max-xl:rounded-none mt-36 max-xl:mt-20 mx-auto">
+        <div className="bg-[url('https://wpriverthemes.com/synck/wp-content/uploads/2023/11/bg-shape-1-1.svg')] bg-cover bg-top howedo py-20 px-10 max-xl:p-5 max-xl:py-10 max-xl:rounded-none mt-36 max-xl:mt-20 mx-auto">
           <div className="flex max-lg:flex-col">
             <div className="flex w-1/3 max-xl:w-3/12 flex-col justify-between max-lg:w-full">
               <div>

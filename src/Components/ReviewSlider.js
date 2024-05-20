@@ -32,7 +32,7 @@ export default function ReviewSlider() {
         }}
       >
         <SwiperSlide className="px-24 max-xl:px-3">
-          <div className="darkbg rounded-lg py-20 px-40 max-xl:px-20">
+          <div className="bg-[url('https://wpriverthemes.com/synck/wp-content/uploads/2023/11/bg-shape-3-1.svg')] bg-cover bg-top darkbg rounded-lg py-20 px-40 max-xl:px-20">
             <h1 className="text-white text-4xl font-bold max-xl:text-3xl">
               Bluebase give the best service and top customer support. Really
               like to have more projects with you
@@ -61,7 +61,7 @@ export default function ReviewSlider() {
           </div>
         </SwiperSlide>
         <SwiperSlide className="px-24 max-xl:px-3">
-          <div className="darkbg rounded-lg py-20 px-40 max-xl:px-20">
+          <div className="bg-[url('https://wpriverthemes.com/synck/wp-content/uploads/2023/11/bg-shape-3-1.svg')] bg-cover bg-top darkbg rounded-lg py-20 px-40 max-xl:px-20">
             <h1 className="text-white text-4xl font-bold max-xl:text-3xl">
               Bluebase give the best service and top customer support. Really
               like to have more projects with you
@@ -90,7 +90,7 @@ export default function ReviewSlider() {
           </div>
         </SwiperSlide>
         <SwiperSlide className="px-24 max-xl:px-3">
-          <div className="darkbg rounded-lg py-20 px-40 max-xl:px-20">
+          <div className="bg-[url('https://wpriverthemes.com/synck/wp-content/uploads/2023/11/bg-shape-3-1.svg')] bg-cover bg-top darkbg rounded-lg py-20 px-40 max-xl:px-20">
             <h1 className="text-white text-4xl font-bold max-xl:text-3xl">
               Bluebase give the best service and top customer support. Really
               like to have more projects with you
@@ -119,7 +119,7 @@ export default function ReviewSlider() {
           </div>
         </SwiperSlide>
         <SwiperSlide className="px-24 max-xl:px-3">
-          <div className="darkbg rounded-lg py-20 px-40 max-xl:px-20">
+          <div className="bg-[url('https://wpriverthemes.com/synck/wp-content/uploads/2023/11/bg-shape-3-1.svg')] bg-cover bg-top darkbg rounded-lg py-20 px-40 max-xl:px-20">
             <h1 className="text-white text-4xl font-bold max-xl:text-3xl">
               Bluebase give the best service and top customer support. Really
               like to have more projects with you
@@ -148,7 +148,7 @@ export default function ReviewSlider() {
           </div>
         </SwiperSlide>
         <SwiperSlide className="px-24 max-xl:px-3">
-          <div className="darkbg rounded-lg py-20 px-40 max-xl:px-20">
+          <div className="bg-[url('https://wpriverthemes.com/synck/wp-content/uploads/2023/11/bg-shape-3-1.svg')] bg-cover bg-top darkbg rounded-lg py-20 px-40 max-xl:px-20">
             <h1 className="text-white text-4xl font-bold max-xl:text-3xl">
               Bluebase give the best service and top customer support. Really
               like to have more projects with you
