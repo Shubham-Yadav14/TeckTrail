@@ -437,9 +437,16 @@ Button {
 .contentNavbar>span {
   width: 110px;
 }
-@media screen and (max-width:890px){
+.contentNavbar .small {
+  width: 90px;
+}
+
+@media screen and (max-width:950px){
   .contentNavbar>span{
-    width:80px;
+    width:75px;
+  }
+  .contentNavbar .small {
+    width:60px;
   }
   .contentNavbar>Span{
     font-size: small;
