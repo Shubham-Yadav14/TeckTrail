@@ -385,14 +385,14 @@ function Home() {
             >
               <div className="my-auto">
                 <div
-                  className=" background max-xl:ml-0 max-xl:mt-5 hover:bg-black hover:text-gray-100 transition duration-500 ease-in-out"
+                  className=" background bg-[url('https://wpriverthemes.com/synck/wp-content/uploads/2023/11/bg-shape-2-1.svg')] bg-cover bg-right-bottom max-xl:ml-0 max-xl:mt-5 hover:bg-black hover:text-gray-100 transition duration-500 ease-in-out"
                   style={{
                     padding: "2rem",
                     width: "320px",
                     borderRadius: "15px",
                   }}
                 >
-                  <div className="text-xl font-bold">Tailored Solutions</div>
+                  <div className=" text-xl font-bold">Tailored Solutions</div>
                   <p className=" text-lg text-gray-500 mt-2">
                     Develop IT solutions based on the analysis phase.
                   </p>
@@ -403,7 +403,7 @@ function Home() {
               </div>
               <div className="flex flex-col justify-between max-xl:-mt-10">
                 <div
-                  className=" background max-xl:ml-0 max-xl:mt-5 hover:bg-black hover:text-gray-100 transition duration-500 ease-in-out"
+                  className="background bg-[url('https://wpriverthemes.com/synck/wp-content/uploads/2023/11/bg-shape-2-1.svg')] bg-cover bg-right-bottom background max-xl:ml-0 max-xl:mt-5 hover:bg-black hover:text-gray-100 transition duration-500 ease-in-out"
                   style={{
                     padding: "2rem",
                     width: "320px",
@@ -416,7 +416,7 @@ function Home() {
                   </p>
                 </div>
                 <div
-                  className=" background max-xl:ml-0 max-xl:mt-5 hover:bg-black hover:text-gray-100 transition duration-500 ease-in-out"
+                  className="background bg-[url('https://wpriverthemes.com/synck/wp-content/uploads/2023/11/bg-shape-2-1.svg')] bg-cover bg-right-bottom background max-xl:ml-0 max-xl:mt-5 hover:bg-black hover:text-gray-100 transition duration-500 ease-in-out"
                   style={{
                     padding: "2rem",
                     width: "320px",

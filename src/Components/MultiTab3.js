@@ -41,7 +41,7 @@ export default function MultiTab3() {
             >
               {" "}
               <img
-                className={`${tab === "Business Strategy" ? 'bg-white' : 'bg-[#F3F6Fd]'} rounded-full h-7 p-2`}
+                className={`${tab === "Market Analysis" ? 'bg-white' : 'bg-[#F3F6Fd]'} rounded-full h-7 p-2`}
                 src="https://wpriverthemes.com/synck/wp-content/uploads/2023/12/hwd-icon-1.svg"
                 style={{height:"40px"}}
                 alt=""
@@ -59,7 +59,7 @@ export default function MultiTab3() {
             >
               {" "}
               <img
-                className={`${tab === "Business Strategy" ? 'bg-white' : 'bg-[#F3F6Fd]'} rounded-full h-7 p-2`}
+                className={`${tab === "Process Optimization" ? 'bg-white' : 'bg-[#F3F6Fd]'} rounded-full h-7 p-2`}
                 src="https://wpriverthemes.com/synck/wp-content/uploads/2023/12/hwd-icon-1.svg"
                 style={{height:"40px"}}
                 alt=""
@@ -77,7 +77,7 @@ export default function MultiTab3() {
             >
               {" "}
               <img
-                className={`${tab === "Business Strategy" ? 'bg-white' : 'bg-[#F3F6Fd]'} rounded-full h-7 p-2`}
+                className={`${tab === "Performance Improvement" ? 'bg-white' : 'bg-[#F3F6Fd]'} rounded-full h-7 p-2`}
                 src="https://wpriverthemes.com/synck/wp-content/uploads/2023/12/hwd-icon-1.svg"
                 style={{height:"40px"}}
                 alt=""
@@ -95,7 +95,7 @@ export default function MultiTab3() {
             >
               {" "}
               <img
-                className={`${tab === "Business Strategy" ? 'bg-white' : 'bg-[#F3F6Fd]'} rounded-full h-7 p-2`}
+                className={`${tab === "Entrepreneurial Guidance" ? 'bg-white' : 'bg-[#F3F6Fd]'} rounded-full h-7 p-2`}
                 src="https://wpriverthemes.com/synck/wp-content/uploads/2023/12/hwd-icon-1.svg"
                 style={{height:"40px"}}
                 alt=""
@@ -113,7 +113,7 @@ export default function MultiTab3() {
             >
               {" "}
               <img
-                className={`${tab === "Business Strategy" ? 'bg-white' : 'bg-[#F3F6Fd]'} rounded-full h-7 p-2`}
+                className={`${tab === "Organizational Excellence" ? 'bg-white' : 'bg-[#F3F6Fd]'} rounded-full h-7 p-2`}
                 src="https://wpriverthemes.com/synck/wp-content/uploads/2023/12/hwd-icon-1.svg"
                 style={{height:"40px"}}
                 alt=""
@@ -131,7 +131,7 @@ export default function MultiTab3() {
             >
               {" "}
               <img
-                className={`${tab === "Business Strategy" ? 'bg-white' : 'bg-[#F3F6Fd]'} rounded-full h-7 p-2`}
+                className={`${tab === "Market Research" ? 'bg-white' : 'bg-[#F3F6Fd]'} rounded-full h-7 p-2`}
                 src="https://wpriverthemes.com/synck/wp-content/uploads/2023/12/hwd-icon-1.svg"
                 style={{height:"40px"}}
                 alt=""
