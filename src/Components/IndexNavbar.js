@@ -37,10 +37,10 @@ function IndexNavbar() {
                     <div className='flex w-full justify-between h-full items-center'>
                         <div className='flex h-full '>
                             <div className='h-full flex items-center'><Link to="/"><img src="https://ik.imagekit.io/2q7cgnqzi/Panacee%20React%20/logo/Panacee%20logo.png?updatedAt=1710924589184" alt="" className='navlogo' style={{ margin: "0px" }} /></Link></div>
-                            <div className='contentNavbar  flex items-center max-md:hidden text-lg '>
-                                <span className=''><Link to="/" className='text-center block hover:text-black' >Home</Link></span>
-                                <span className=' '><Link to='/home' className='text-center block hover:text-black'>Home2</Link></span>
-                                <span className=' '><Link to='/about' className='text-center block hover:text-black'>About Us</Link></span>
+                            <div className='contentNavbar  flex items-center max-md:hidden text-base '>
+                                <span className='small'><Link to="/" className='text-center block hover:text-black' >Home</Link></span>
+                                <span className=' small'><Link to='/home' className='text-center block hover:text-black'>Home2</Link></span>
+                                <span className='small  '><Link to='/about' className='text-center block hover:text-black'>About Us</Link></span>
                                 <span className='h-full Port '><Link to='/portfolio' className=' w-full h-full flex justify-center items-center hover:text-black'>Portfolio &nbsp;<svg xmlns="http://www.w3.org/2000/svg" height="14" width="8.75" viewBox="0 0 320 512"><path fill="#000000" d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z" /></svg></Link>
 
                                     <div className='bg-white dropPort1 border-b' style={{ minHeight: "385px", width: '100vw' }}>
