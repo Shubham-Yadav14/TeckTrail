@@ -14,9 +14,9 @@ import img1 from "../../src/Images/lshape.png";
 import ReviewSlider from "../Components/ReviewSlider";
 
 function Home() {
-  // useEffect(() => {
-  //   window.scrollTo(0, 0);
-  // }, []);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   
 
   const [isVisible, setIsVisible] = useState(false);
