@@ -1,4 +1,4 @@
-import React,{useEffect} from 'react'
+import React,{useEffect,useState} from 'react'
 import { Row, Col } from 'reactstrap';
 
 import Narrow from '../Components/Common/Narrow'
@@ -8,7 +8,11 @@ export default function Portfolio() {
     useEffect(() => {
         window.scrollTo(0, 0);
       }, []);
+      const [isVisible, setIsVisible] = useState(false);
 
+    useEffect(() => {
+      setIsVisible(true);
+    }, []);
 
 
     return (
@@ -20,7 +24,7 @@ export default function Portfolio() {
                     </Col>
                 </Row>
                 <Row
-                    className=''
+                    className={`header ${isVisible ? "fade-in" : ""}`}
                     style={{ marginTop: "10px" }}
                 >
                     <Col>
@@ -131,9 +135,9 @@ export default function Portfolio() {
                     <div className="bg-[url('https://wpriverthemes.com/synck/wp-content/uploads/2024/01/project-9.png')] bg-cover bg-center rounded-xl p-5 text-2xl text-white" style={{ minHeight: '500px' }}>
                         <div>Unique personal prtfolio on market</div>
                     </div>
-                    <div className='flex h-full flex-col bg-[#62759A] text-white rounded-xl px-5 py-4 my-3' >
+                    <div className='flex h-full flex-col bg-[#999999] text-white rounded-xl px-5 py-4 my-3' >
                         <div className='mb-3 text-xl'>Uniqe Personal Portfolio</div>
-                        <div className='text-sm text-[#999999]'> Personal portfolio that hits everybody resume</div>
+                        <div className='text-sm text-white'> Personal portfolio that hits everybody resume</div>
                     </div>
                 </div>
 
