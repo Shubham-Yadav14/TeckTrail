@@ -23,8 +23,9 @@ export default function MultiTab3() {
             >
               {" "}
               <img
-                className="bg-white rounded-full"
+                className={`${tab === "Business Strategy" ? 'bg-white' : 'bg-[#F3F6Fd]'} rounded-full h-7 p-2`}
                 src="https://wpriverthemes.com/synck/wp-content/uploads/2023/12/hwd-icon-1.svg"
+                style={{height:"40px"}}
                 alt=""
               />{" "}
               Business Strategy
@@ -40,8 +41,9 @@ export default function MultiTab3() {
             >
               {" "}
               <img
-                className="bg-white rounded-full"
+                className={`${tab === "Business Strategy" ? 'bg-white' : 'bg-[#F3F6Fd]'} rounded-full h-7 p-2`}
                 src="https://wpriverthemes.com/synck/wp-content/uploads/2023/12/hwd-icon-1.svg"
+                style={{height:"40px"}}
                 alt=""
               />{" "}
               Market Analysis
@@ -57,8 +59,9 @@ export default function MultiTab3() {
             >
               {" "}
               <img
-                className="bg-white rounded-full"
+                className={`${tab === "Business Strategy" ? 'bg-white' : 'bg-[#F3F6Fd]'} rounded-full h-7 p-2`}
                 src="https://wpriverthemes.com/synck/wp-content/uploads/2023/12/hwd-icon-1.svg"
+                style={{height:"40px"}}
                 alt=""
               />{" "}
               Process Optimization
@@ -74,8 +77,9 @@ export default function MultiTab3() {
             >
               {" "}
               <img
-                className="bg-white rounded-full"
+                className={`${tab === "Business Strategy" ? 'bg-white' : 'bg-[#F3F6Fd]'} rounded-full h-7 p-2`}
                 src="https://wpriverthemes.com/synck/wp-content/uploads/2023/12/hwd-icon-1.svg"
+                style={{height:"40px"}}
                 alt=""
               />{" "}
               Performance Improvement
@@ -91,8 +95,9 @@ export default function MultiTab3() {
             >
               {" "}
               <img
-                className="bg-white rounded-full"
+                className={`${tab === "Business Strategy" ? 'bg-white' : 'bg-[#F3F6Fd]'} rounded-full h-7 p-2`}
                 src="https://wpriverthemes.com/synck/wp-content/uploads/2023/12/hwd-icon-1.svg"
+                style={{height:"40px"}}
                 alt=""
               />{" "}
               Entrepreneurial Guidance
@@ -108,8 +113,9 @@ export default function MultiTab3() {
             >
               {" "}
               <img
-                className="bg-white rounded-full"
+                className={`${tab === "Business Strategy" ? 'bg-white' : 'bg-[#F3F6Fd]'} rounded-full h-7 p-2`}
                 src="https://wpriverthemes.com/synck/wp-content/uploads/2023/12/hwd-icon-1.svg"
+                style={{height:"40px"}}
                 alt=""
               />{" "}
               Organizational Excellence
@@ -125,8 +131,9 @@ export default function MultiTab3() {
             >
               {" "}
               <img
-                className="bg-white rounded-full"
+                className={`${tab === "Business Strategy" ? 'bg-white' : 'bg-[#F3F6Fd]'} rounded-full h-7 p-2`}
                 src="https://wpriverthemes.com/synck/wp-content/uploads/2023/12/hwd-icon-1.svg"
+                style={{height:"40px"}}
                 alt=""
               />{" "}
               Market Research

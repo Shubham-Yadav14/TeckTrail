@@ -27,20 +27,20 @@ export default function Home2() {
                 style={{ marginTop: "10px" }}
               >
                 <div>
-                  <p className="aboutheader1 max-xl:text-3xl font-semibold text-black">
+                  <p className="aboutheader1 max-xl:text-4xl max-xl:px-3 font-semibold text-black">
                     Empowering business with
                   </p>
-                  <p className="aboutheader1 max-xl:text-3xl font-semibold">
+                  <p className="aboutheader1 max-xl:text-4xl max-xl:px-3 font-semibold">
                     modern rules and insights{" "}
                   </p>
 
-                  <p className="aboutheader2 max-xl:px-3 text-2xl text-black">
+                  <p className="aboutheader2 max-xl:px-3 text-2xl max-xl:text-base text-black">
                     Welcome to slack business consulting and solutions, <br />{" "}
                     where success is not just a destination.
                   </p>
                 </div>
-                <div className=" max-xl:w-1/2 mx-auto text-center  mt-10">
-                  <button className="text-blue-700  bg-[#1351D81A] py-3 px-5 text-xl hover:bg-blue-600 rounded-full hover:text-white">
+                <div className=" max-xl:w-full mx-auto text-center  mt-10">
+                  <button className="text-blue-700  bg-[#1351D81A] py-3 px-5 text-xl max-xl:text-lg hover:bg-blue-600 rounded-full hover:text-white">
                     Let's talk to our team
                   </button>
                 </div>
@@ -61,18 +61,18 @@ export default function Home2() {
       </Narrow>
 
       <Narrow>
-        <hr className="mt-28 mb-28" />
+        <hr className="my-28 max-xl:my-5 max-xl:hidden" />
       </Narrow>
 
       <Narrow>
         <div className="text-center">
-          <p className="text-3xl text-gray-600">
+          <p className="text-3xl text-gray-600 max-xl:text-xl max-xl:mt-5">
             Slack is used by over 60,000+ companies across the world
           </p>
         </div>
       </Narrow>
 
-      <div className="mt-20">
+      <div className="mt-20 max-xl:mt-10 max-xl:px-3">
         <Narrow>
           <Slider />
         </Narrow>
@@ -247,7 +247,7 @@ export default function Home2() {
                 Build a solution that wins you more clients.
               </h1>
 
-              <hr className="bg-white mt-5 mb-5" />
+              <hr className="bg-white mt-5 mb-5 max-xl:mt-2 max-xl:mb-2 max-xl:hidden" />
 
               <div className="grid grid-cols-2 gap-10">
                 <div>
@@ -312,7 +312,7 @@ export default function Home2() {
                 </div>
               </div>
             </div>
-            <div className="w-1/3 bg-white p-4 rounded-xl">
+            <div className="w-1/3 max-xl:w-full bg-white p-4 rounded-xl">
               <img
                 src="https://wpriverthemes.com/synck/wp-content/uploads/2023/12/iphone-13.png"
                 className="m-auto"
@@ -352,7 +352,7 @@ export default function Home2() {
               Stock markets opened on a mixed note today, with tech stocks
             </h1>
             <hr className="mt-3" />
-            <p className="text-lg mt-3">
+            <p className="text-base text-gray-600 mt-3">
               Our journey is guided by a clear vision - is to be at the
               forefront of transformative solutions that shape to the industries
               and enrich lives. This vision is deeply rooted in our core values:
@@ -369,7 +369,7 @@ export default function Home2() {
               vehicles
             </h1>
             <hr className="mt-3" />
-            <p className="text-lg mt-3">
+            <p className="text-base text-gray-600 mt-3">
               Our journey is guided by a clear vision - is to be at the
               forefront of transformative solutions that shape to the industries
               and enrich lives. This vision is deeply rooted in our core values:
@@ -385,7 +385,7 @@ export default function Home2() {
               The healthcare sector is adapting to new remote patient monitoring
             </h1>
             <hr className="mt-3" />
-            <p className="text-lg mt-3">
+            <p className="text-base text-gray-600 mt-3">
               Our journey is guided by a clear vision - is to be at the
               forefront of transformative solutions that shape to the industries
               and enrich lives. This vision is deeply rooted in our core values:
@@ -423,12 +423,12 @@ export default function Home2() {
         </div>
       </Narrow>
 
-      <div className="bg-[#F3F6FD] mt-32 py-10">
+      <div className="bg-[#F3F6FD] bg-[url('https://wpriverthemes.com/synck/wp-content/uploads/2023/12/bg-shape-9.svg')] bg-cover bg-bottom mt-32 max-xl:mt-0 mb-32 py-10">
         <Narrow>
           <div className="flex max-xl:flex-col gap-10">
             <div className="w-1/2">
               <h1 className="home1para">OUR TEAM</h1>
-              <h1 className="text-5xl font-bold mt-3 pr-14">
+              <h1 className="text-5xl font-bold mt-3 ">
                 Our team consists of world class experts
               </h1>
             </div>
@@ -442,7 +442,7 @@ export default function Home2() {
             </div>
           </div>
 
-          <hr className="mt-10 mb-10" />
+          <hr className="mt-10 mb-10 max-xl:hidden" />
 
           <div className="grid grid-cols-3 max-xl:grid-cols-1 gap-3">
             <div className="flex flex-col gap-3">
