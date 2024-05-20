@@ -5,7 +5,7 @@ import Narrow from "./Common/Narrow";
 function Footer() {
   return (
     <>
-      <div className="footer pb-5">
+      <div className="footer bg-[url('https://wpriverthemes.com/synck/wp-content/uploads/2024/03/bg-shape-4.svg')] bg-cover pb-5">
         <Narrow>
           <div>
             <Row className="footercontainer">
