@@ -1067,12 +1067,13 @@ li {
 .home1 {
   /* padding: 3rem; */
   box-sizing: border-box;
-  margin-top: 150px;
+  margin-top: 6rem;
   padding-bottom: 40px;
   opacity: 0;
   transform: scale(0.8);
   /* height: 90vh !important; */
 }
+
 
 .fade-in {
   opacity: 1;

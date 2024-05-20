@@ -71,7 +71,7 @@ function Home() {
     <>
       <Narrow>
         <div
-          className={`home1 mt-24 mb-48 max-xl:mt-0 max-xl:mb-20 ${
+          className={`home1  mb-48 max-xl:mt-0 max-xl:mb-20 ${
             isVisible ? "fade-in" : ""
           }`}
         >

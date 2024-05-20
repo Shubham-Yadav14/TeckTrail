@@ -159,7 +159,7 @@ function Getintouch() {
                     ></textarea>
                   </div>
                   <div className="">
-                    <button
+                    <button 
                       className="bg-blue-700 w-full hover:bg-black text-white font-bold py-2 px-4 rounded-xl focus:outline-none focus:shadow-outline"
                       type="submit"
                     >
