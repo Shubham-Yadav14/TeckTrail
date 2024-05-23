@@ -21,6 +21,7 @@ import Partners from './Views/Partners';
 import Events from './Views/Events';
 import Team from './Views/Team';
 import CaseStudies from './Views/CaseStudies';
+import Solutions from './Views/Solutions';
 
 function App() {
   return (
@@ -47,6 +48,7 @@ function App() {
           <Route path='/events' element = {<Events/>}/>
           <Route path='/team' element = {<Team/>}/>
           <Route path='/caseStudies' element = {<CaseStudies/>}/>
+          <Route path='/solutions' element = {<Solutions/>}/>
         </Routes>
         <Footer />
       </BrowserRouter>
