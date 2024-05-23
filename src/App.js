@@ -16,6 +16,14 @@ import Brainstorming from './Views/Brainstorming';
 import PortfolioDetails from './Views/PortfolioDetails';
 import Viewmore from './Views/Viewmore';
 import Home2 from './Views/Home2';
+import Blogs from './Views/Blogs';
+import Partners from './Views/Partners';
+import Events from './Views/Events';
+import Team from './Views/Team';
+import CaseStudies from './Views/CaseStudies';
+import Solutions from './Views/Solutions';
+import Overview from './Views/Overview';
+import Features from './Views/Features';
 
 function App() {
   return (
@@ -37,6 +45,14 @@ function App() {
           <Route path='/portfolio/portfolio-details' element = {<PortfolioDetails/>}/>
           <Route path='/viewmore' element = {<Viewmore/>}/>
           <Route path='/home' element = {<Home2/>}/>
+          <Route path='/blogs' element = {<Blogs/>}/>
+          <Route path='/partners' element = {<Partners/>}/>
+          <Route path='/events' element = {<Events/>}/>
+          <Route path='/team' element = {<Team/>}/>
+          <Route path='/caseStudies' element = {<CaseStudies/>}/>
+          <Route path='/solutions' element = {<Solutions/>}/>
+          <Route path='/overview' element = {<Overview/>}/>
+          <Route path='/features' element = {<Features/>}/>
         </Routes>
         <Footer />
       </BrowserRouter>

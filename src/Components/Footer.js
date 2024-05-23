@@ -1,8 +1,42 @@
-import React from "react";
+import React, { useState} from "react";
 import { Row, Col, Button, Container } from "reactstrap";
 import { Link } from "react-router-dom";
 import Narrow from "./Common/Narrow";
+import emailjs from 'emailjs-com';
+
 function Footer() {
+
+  const [email, setEmail] = useState('');
+
+  const handleEmailChange = (e) => {
+    setEmail(e.target.value);
+  };
+
+  const handleContactUsClick = (e) => {
+    e.preventDefault();
+
+    if (email.trim() === "") {
+      alert("Please enter a valid email address.");
+      return;
+    }
+
+    const templateParams = {
+      user_email: email,
+    };
+
+    emailjs.send('service_tp0xe6o', 'template_mpmyhub', templateParams, 'ZUPy5599PTvnFBYus')
+      .then((result) => {
+        console.log(result.text);
+        alert('Email sent successfully!');
+      }, (error) => {
+        console.log(error.text);
+        alert('Failed to send the email, please try again.');
+      });
+
+    setEmail("");
+  };
+
+
   return (
     <>
       <div className="footer bg-[url('https://wpriverthemes.com/synck/wp-content/uploads/2024/03/bg-shape-4.svg')] bg-cover pb-5">
@@ -35,10 +69,12 @@ function Footer() {
                       type="text"
                       className="footerinput"
                       placeholder="Enter Your Email"
+                      value={email}
+                      onChange={handleEmailChange}
                     ></input>
                   </Col>
                   <Col md="5">
-                    <Link to="/contactus">
+                    <Link to="/contactus" onClick={handleContactUsClick}>
                       <Button className="contactusbtnfoot">Contact Us</Button>
                     </Link>
                   </Col>
@@ -109,7 +145,7 @@ function Footer() {
           </div>
           <div>
             <div className="flex max-lg:flex-col">
-              <div className="grid grid-cols-4 max-lg:grid-cols-2 max-md:grid-cols-1 leading-10  w-9/12 max-lg:w-full">
+              <div className="grid grid-cols-5 max-lg:grid-cols-2 max-md:grid-cols-1 leading-10  w-9/12 max-lg:w-full">
                 <div className="max-lg:mb-10 max-md:p-5 ">
                   <h5 className="text-xl font-semibold">Services</h5>
                   <a href="/ourservices/itsupport">
@@ -136,43 +172,37 @@ function Footer() {
                   <h5 className="text-xl font-semibold ">
                     Company
                   </h5>
-                  <a href="/">
+                  <a href="/blogs">
                     <li>Blog</li>
                   </a>
-                  <a href="/">
+                  <a href="/about">
                     <li>About Us</li>
                   </a>
-                  <a href="/">
+                  <a href="/partners">
                     <li>Partners</li>
                   </a>
                   <a href="/career">
                     <li>Careers </li>
                   </a>
-                  <a href="/">
+                  <a href="/events">
                     <li>Events</li>
                   </a>
-                  <a href="/">
+                  <a href="/team">
                     <li>Team</li>
                   </a>
                 </div>
                 <div className="max-lg:mb-10 max-md:p-5 ">
                   <h5 className="text-xl font-semibold">Product</h5>
-                  <a href="/">
+                  <a href="/caseStudies">
                     <li>Case Studies</li>
                   </a>
-                  <a href="/">
-                    <li>Our Pricing</li>
-                  </a>
-                  <a href="/">
+                  <a href="/features">
                     <li>Features</li>
                   </a>
-                  <a href="/">
+                  <a href="/overview">
                     <li>Overview</li>
                   </a>
-                  <a href="/">
-                    <li>New Releases</li>
-                  </a>
-                  <a href="/">
+                  <a href="/solutions">
                     <li>Solutions</li>
                   </a>
                 </div>
@@ -197,8 +227,18 @@ function Footer() {
                     <li>Hotels</li>
                   </a>
                 </div>
+                <div className="max-lg:mb-10 max-md:p-5 ">
+                  <h5 className="text-xl font-semibold">Legal</h5>
+                  <a href="/team">
+                    <li>Terms</li>
+                  </a>
+                  <a href="/team">
+                    <li>Document</li>
+                  </a>
+                </div>
 
               </div>
+              
 
               <div className="max-md:p-5 ">
                 <p className="text-xl font-semibold">Phone</p>

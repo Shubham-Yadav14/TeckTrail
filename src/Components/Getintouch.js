@@ -2,6 +2,8 @@ import React from "react";
 import { Container, Row, Col, Button } from "reactstrap";
 import { useState } from "react";
 import Narrow from "./Common/Narrow";
+import emailjs from "emailjs-com";
+
 function Getintouch() {
   const [formData, setFormData] = useState({
     firstName: "",
@@ -33,6 +35,19 @@ function Getintouch() {
       country: "",
       message: "",
     });
+
+    emailjs
+      .send("service_6j9s08f", "template_6wtjmgj", formData, "vXdY1WfdvQ9-YJWwN")
+      .then(
+        (result) => {
+          console.log(result.text);
+          alert("Message sent successfully!");
+        },
+        (error) => {
+          console.log(error.text);
+          alert("Failed to send the message, please try again.");
+        }
+      );
   };
   return (
     <>
@@ -67,6 +82,7 @@ function Getintouch() {
                         type="text"
                         value={formData.firstName}
                         onChange={handleChange}
+                        required={true}
                       />
                     </div>
                     <div style={{ width: "48%" }} className="mb-4">
@@ -84,6 +100,7 @@ function Getintouch() {
                         placeholder="Last Name"
                         value={formData.lastName}
                         onChange={handleChange}
+                        required={true}
                       />
                     </div>
                   </div>
@@ -102,11 +119,12 @@ function Getintouch() {
                       placeholder="Your Email"
                       value={formData.email}
                       onChange={handleChange}
+                      required={true}
                     />
                   </div>
 
                   <div className="flex justify-between">
-                    <div style={{width:"48%"}} className="mb-4">
+                    <div style={{ width: "48%" }} className="mb-4">
                       <label
                         className="block text-gray-700 text-sm font-semibold mb-2"
                         htmlFor="firstName"
@@ -121,9 +139,10 @@ function Getintouch() {
                         placeholder="Your Number"
                         value={formData.phoneNumber}
                         onChange={handleChange}
+                        required={true}
                       />
                     </div>
-                    <div style={{width:"48%"}} className="mb-4">
+                    <div style={{ width: "48%" }} className="mb-4">
                       <label
                         className="block text-gray-700 text-sm font-semibold mb-2"
                         htmlFor="firstName"
@@ -138,6 +157,7 @@ function Getintouch() {
                         placeholder="Your Country"
                         value={formData.country}
                         onChange={handleChange}
+                        required={true}
                       />
                     </div>
                   </div>
@@ -156,10 +176,11 @@ function Getintouch() {
                       placeholder="Leave us a message..."
                       value={formData.message}
                       onChange={handleChange}
+                      required={true}
                     ></textarea>
                   </div>
                   <div className="">
-                    <button 
+                    <button
                       className="bg-blue-700 w-full hover:bg-black text-white font-bold py-2 px-4 rounded-xl focus:outline-none focus:shadow-outline"
                       type="submit"
                     >
