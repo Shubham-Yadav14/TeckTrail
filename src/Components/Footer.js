@@ -193,7 +193,7 @@ function Footer() {
                 </div>
                 <div className="max-lg:mb-10 max-md:p-5 ">
                   <h5 className="text-xl font-semibold">Product</h5>
-                  <a href="/">
+                  <a href="/caseStudies">
                     <li>Case Studies</li>
                   </a>
                   <a href="/">
