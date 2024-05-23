@@ -1,8 +1,42 @@
-import React from "react";
+import React, { useState} from "react";
 import { Row, Col, Button, Container } from "reactstrap";
 import { Link } from "react-router-dom";
 import Narrow from "./Common/Narrow";
+import emailjs from 'emailjs-com';
+
 function Footer() {
+
+  const [email, setEmail] = useState('');
+
+  const handleEmailChange = (e) => {
+    setEmail(e.target.value);
+  };
+
+  const handleContactUsClick = (e) => {
+    e.preventDefault();
+
+    if (email.trim() === "") {
+      alert("Please enter a valid email address.");
+      return;
+    }
+
+    const templateParams = {
+      user_email: email,
+    };
+
+    emailjs.send('service_tp0xe6o', 'template_mpmyhub', templateParams, 'ZUPy5599PTvnFBYus')
+      .then((result) => {
+        console.log(result.text);
+        alert('Email sent successfully!');
+      }, (error) => {
+        console.log(error.text);
+        alert('Failed to send the email, please try again.');
+      });
+
+    setEmail("");
+  };
+
+
   return (
     <>
       <div className="footer bg-[url('https://wpriverthemes.com/synck/wp-content/uploads/2024/03/bg-shape-4.svg')] bg-cover pb-5">
@@ -35,10 +69,12 @@ function Footer() {
                       type="text"
                       className="footerinput"
                       placeholder="Enter Your Email"
+                      value={email}
+                      onChange={handleEmailChange}
                     ></input>
                   </Col>
                   <Col md="5">
-                    <Link to="/contactus">
+                    <Link to="/contactus" onClick={handleContactUsClick}>
                       <Button className="contactusbtnfoot">Contact Us</Button>
                     </Link>
                   </Col>
