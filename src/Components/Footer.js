@@ -196,10 +196,10 @@ function Footer() {
                   <a href="/caseStudies">
                     <li>Case Studies</li>
                   </a>
-                  <a href="/">
+                  <a href="/features">
                     <li>Features</li>
                   </a>
-                  <a href="/">
+                  <a href="/overview">
                     <li>Overview</li>
                   </a>
                   <a href="/solutions">
