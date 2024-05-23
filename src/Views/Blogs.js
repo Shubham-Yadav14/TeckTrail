@@ -23,7 +23,7 @@ export default function Blogs() {
         >
           <div>
             <p className="aboutheader1 max-xl:text-3xl font-semibold">
-            Explore our blog for expert{" "}
+              Explore our blog for expert{" "}
             </p>
             <p className="aboutheader1 max-xl:text-3xl font-semibold">
               {" "}
@@ -31,8 +31,9 @@ export default function Blogs() {
             </p>
 
             <p className="aboutheader2 max-xl:px-3">
-            Stay connected with us by subscribing to our blog updates. By doing so, <br />
-you'll receive notifications whenever we publish new articles.
+              Stay connected with us by subscribing to our blog updates. By
+              doing so, <br />
+              you'll receive notifications whenever we publish new articles.
             </p>
           </div>
         </div>
@@ -104,9 +105,7 @@ you'll receive notifications whenever we publish new articles.
                   alt=""
                   className="righticonimagesize h-5"
                 />
-                <h5 className=" text-base my-auto">
-                  Collaborative Tools{" "}
-                </h5>
+                <h5 className=" text-base my-auto">Collaborative Tools </h5>
               </div>
               <div className="tasksign mt-3">
                 <img
@@ -114,9 +113,7 @@ you'll receive notifications whenever we publish new articles.
                   alt=""
                   className="righticonimagesize h-5"
                 />
-                <h5 className=" text-base my-auto">
-                  Smart Reminders{" "}
-                </h5>
+                <h5 className=" text-base my-auto">Smart Reminders </h5>
               </div>
               <div className="tasksign mt-3">
                 <img
@@ -124,9 +121,7 @@ you'll receive notifications whenever we publish new articles.
                   alt=""
                   className="righticonimagesize h-5"
                 />
-                <h5 className=" text-base my-auto">
-                  Requirement{" "}
-                </h5>
+                <h5 className=" text-base my-auto">Requirement </h5>
               </div>
               <div className="tasksign mt-3">
                 <img
@@ -134,9 +129,7 @@ you'll receive notifications whenever we publish new articles.
                   alt=""
                   className="righticonimagesize h-5"
                 />
-                <h5 className=" text-base my-auto">
-                  Task Management{" "}
-                </h5>
+                <h5 className=" text-base my-auto">Task Management </h5>
               </div>
             </div>
           </div>
@@ -164,9 +157,7 @@ you'll receive notifications whenever we publish new articles.
                   alt=""
                   className="righticonimagesize h-5"
                 />
-                <h5 className=" text-base my-auto">
-                  Collaborative Tools{" "}
-                </h5>
+                <h5 className=" text-base my-auto">Collaborative Tools </h5>
               </div>
               <div className="tasksign mt-3">
                 <img
@@ -174,9 +165,7 @@ you'll receive notifications whenever we publish new articles.
                   alt=""
                   className="righticonimagesize h-5"
                 />
-                <h5 className=" text-base my-auto">
-                  Smart Reminders{" "}
-                </h5>
+                <h5 className=" text-base my-auto">Smart Reminders </h5>
               </div>
               <div className="tasksign mt-3">
                 <img
@@ -184,9 +173,7 @@ you'll receive notifications whenever we publish new articles.
                   alt=""
                   className="righticonimagesize h-5"
                 />
-                <h5 className=" text-base my-auto">
-                  Requirement{" "}
-                </h5>
+                <h5 className=" text-base my-auto">Requirement </h5>
               </div>
               <div className="tasksign mt-3">
                 <img
@@ -194,9 +181,7 @@ you'll receive notifications whenever we publish new articles.
                   alt=""
                   className="righticonimagesize h-5"
                 />
-                <h5 className=" text-base my-auto">
-                  Task Management{" "}
-                </h5>
+                <h5 className=" text-base my-auto">Task Management </h5>
               </div>
             </div>
           </div>
@@ -224,9 +209,7 @@ you'll receive notifications whenever we publish new articles.
                   alt=""
                   className="righticonimagesize h-5"
                 />
-                <h5 className=" text-base my-auto">
-                  Collaborative Tools{" "}
-                </h5>
+                <h5 className=" text-base my-auto">Collaborative Tools </h5>
               </div>
               <div className="tasksign mt-3">
                 <img
@@ -234,9 +217,7 @@ you'll receive notifications whenever we publish new articles.
                   alt=""
                   className="righticonimagesize h-5"
                 />
-                <h5 className=" text-base my-auto">
-                  Smart Reminders{" "}
-                </h5>
+                <h5 className=" text-base my-auto">Smart Reminders </h5>
               </div>
               <div className="tasksign mt-3">
                 <img
@@ -244,9 +225,7 @@ you'll receive notifications whenever we publish new articles.
                   alt=""
                   className="righticonimagesize h-5"
                 />
-                <h5 className=" text-base my-auto">
-                  Requirement{" "}
-                </h5>
+                <h5 className=" text-base my-auto">Requirement </h5>
               </div>
               <div className="tasksign mt-3">
                 <img
@@ -254,9 +233,7 @@ you'll receive notifications whenever we publish new articles.
                   alt=""
                   className="righticonimagesize h-5"
                 />
-                <h5 className=" text-base my-auto">
-                  Task Management{" "}
-                </h5>
+                <h5 className=" text-base my-auto">Task Management </h5>
               </div>
             </div>
           </div>
@@ -284,9 +261,7 @@ you'll receive notifications whenever we publish new articles.
                   alt=""
                   className="righticonimagesize h-5"
                 />
-                <h5 className=" text-base my-auto">
-                  Collaborative Tools{" "}
-                </h5>
+                <h5 className=" text-base my-auto">Collaborative Tools </h5>
               </div>
               <div className="tasksign mt-3">
                 <img
@@ -294,9 +269,7 @@ you'll receive notifications whenever we publish new articles.
                   alt=""
                   className="righticonimagesize h-5"
                 />
-                <h5 className=" text-base my-auto">
-                  Smart Reminders{" "}
-                </h5>
+                <h5 className=" text-base my-auto">Smart Reminders </h5>
               </div>
               <div className="tasksign mt-3">
                 <img
@@ -304,9 +277,7 @@ you'll receive notifications whenever we publish new articles.
                   alt=""
                   className="righticonimagesize h-5"
                 />
-                <h5 className=" text-base my-auto">
-                  Requirement{" "}
-                </h5>
+                <h5 className=" text-base my-auto">Requirement </h5>
               </div>
               <div className="tasksign mt-3">
                 <img
@@ -314,18 +285,13 @@ you'll receive notifications whenever we publish new articles.
                   alt=""
                   className="righticonimagesize h-5"
                 />
-                <h5 className=" text-base my-auto">
-                  Task Management{" "}
-                </h5>
+                <h5 className=" text-base my-auto">Task Management </h5>
               </div>
             </div>
           </div>
         </div>
 
-
-        
-
-        <Getintouch/>
+        <Getintouch />
       </Narrow>
     </div>
   );
