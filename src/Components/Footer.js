@@ -184,7 +184,7 @@ function Footer() {
                   <a href="/career">
                     <li>Careers </li>
                   </a>
-                  <a href="/">
+                  <a href="/events">
                     <li>Events</li>
                   </a>
                   <a href="/">
