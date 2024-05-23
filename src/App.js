@@ -19,6 +19,7 @@ import Home2 from './Views/Home2';
 import Blogs from './Views/Blogs';
 import Partners from './Views/Partners';
 import Events from './Views/Events';
+import Team from './Views/Team';
 
 function App() {
   return (
@@ -43,6 +44,7 @@ function App() {
           <Route path='/blogs' element = {<Blogs/>}/>
           <Route path='/partners' element = {<Partners/>}/>
           <Route path='/events' element = {<Events/>}/>
+          <Route path='/team' element = {<Team/>}/>
         </Routes>
         <Footer />
       </BrowserRouter>

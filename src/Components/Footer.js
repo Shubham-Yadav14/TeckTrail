@@ -187,7 +187,7 @@ function Footer() {
                   <a href="/events">
                     <li>Events</li>
                   </a>
-                  <a href="/">
+                  <a href="/team">
                     <li>Team</li>
                   </a>
                 </div>
