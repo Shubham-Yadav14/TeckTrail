@@ -14,7 +14,7 @@ export default function Blogs() {
       <Narrow>
         <div>
           <div className="firstbtnsec ">
-            <span className="abouta1">Company</span>
+            <span className="abouta1">Blog</span>
           </div>
         </div>
         <div
@@ -23,17 +23,16 @@ export default function Blogs() {
         >
           <div>
             <p className="aboutheader1 max-xl:text-3xl font-semibold">
-              Our company provide a best{" "}
+            Explore our blog for expert{" "}
             </p>
             <p className="aboutheader1 max-xl:text-3xl font-semibold">
               {" "}
-              horizon tech solutions
+              knowledge and inspiration
             </p>
 
             <p className="aboutheader2 max-xl:px-3">
-              Experience the transformative power of innovation and seamless
-              solutions with <br /> dynamics. Our journey doesn't end with the
-              delivery of a solution.
+            Stay connected with us by subscribing to our blog updates. By doing so, <br />
+you'll receive notifications whenever we publish new articles.
             </p>
           </div>
         </div>
