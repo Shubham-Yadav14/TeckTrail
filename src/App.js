@@ -16,6 +16,8 @@ import Brainstorming from './Views/Brainstorming';
 import PortfolioDetails from './Views/PortfolioDetails';
 import Viewmore from './Views/Viewmore';
 import Home2 from './Views/Home2';
+import Blogs from './Views/Blogs';
+import Partners from './Views/Partners';
 
 function App() {
   return (
@@ -37,6 +39,8 @@ function App() {
           <Route path='/portfolio/portfolio-details' element = {<PortfolioDetails/>}/>
           <Route path='/viewmore' element = {<Viewmore/>}/>
           <Route path='/home' element = {<Home2/>}/>
+          <Route path='/blogs' element = {<Blogs/>}/>
+          <Route path='/partners' element = {<Partners/>}/>
         </Routes>
         <Footer />
       </BrowserRouter>

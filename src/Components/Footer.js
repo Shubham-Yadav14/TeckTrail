@@ -172,13 +172,13 @@ function Footer() {
                   <h5 className="text-xl font-semibold ">
                     Company
                   </h5>
-                  <a href="/">
+                  <a href="/blogs">
                     <li>Blog</li>
                   </a>
-                  <a href="/">
+                  <a href="/about">
                     <li>About Us</li>
                   </a>
-                  <a href="/">
+                  <a href="/partners">
                     <li>Partners</li>
                   </a>
                   <a href="/career">
