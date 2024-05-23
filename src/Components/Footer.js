@@ -145,7 +145,7 @@ function Footer() {
           </div>
           <div>
             <div className="flex max-lg:flex-col">
-              <div className="grid grid-cols-4 max-lg:grid-cols-2 max-md:grid-cols-1 leading-10  w-9/12 max-lg:w-full">
+              <div className="grid grid-cols-5 max-lg:grid-cols-2 max-md:grid-cols-1 leading-10  w-9/12 max-lg:w-full">
                 <div className="max-lg:mb-10 max-md:p-5 ">
                   <h5 className="text-xl font-semibold">Services</h5>
                   <a href="/ourservices/itsupport">
@@ -197,16 +197,10 @@ function Footer() {
                     <li>Case Studies</li>
                   </a>
                   <a href="/">
-                    <li>Our Pricing</li>
-                  </a>
-                  <a href="/">
                     <li>Features</li>
                   </a>
                   <a href="/">
                     <li>Overview</li>
-                  </a>
-                  <a href="/">
-                    <li>New Releases</li>
                   </a>
                   <a href="/">
                     <li>Solutions</li>
@@ -233,8 +227,18 @@ function Footer() {
                     <li>Hotels</li>
                   </a>
                 </div>
+                <div className="max-lg:mb-10 max-md:p-5 ">
+                  <h5 className="text-xl font-semibold">Legal</h5>
+                  <a href="/team">
+                    <li>Terms</li>
+                  </a>
+                  <a href="/team">
+                    <li>Document</li>
+                  </a>
+                </div>
 
               </div>
+              
 
               <div className="max-md:p-5 ">
                 <p className="text-xl font-semibold">Phone</p>
