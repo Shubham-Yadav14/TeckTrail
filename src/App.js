@@ -22,6 +22,8 @@ import Events from './Views/Events';
 import Team from './Views/Team';
 import CaseStudies from './Views/CaseStudies';
 import Solutions from './Views/Solutions';
+import Overview from './Views/Overview';
+import Features from './Views/Features';
 
 function App() {
   return (
@@ -49,6 +51,8 @@ function App() {
           <Route path='/team' element = {<Team/>}/>
           <Route path='/caseStudies' element = {<CaseStudies/>}/>
           <Route path='/solutions' element = {<Solutions/>}/>
+          <Route path='/overview' element = {<Overview/>}/>
+          <Route path='/features' element = {<Features/>}/>
         </Routes>
         <Footer />
       </BrowserRouter>
