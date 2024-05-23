@@ -18,6 +18,7 @@ import Viewmore from './Views/Viewmore';
 import Home2 from './Views/Home2';
 import Blogs from './Views/Blogs';
 import Partners from './Views/Partners';
+import Events from './Views/Events';
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
           <Route path='/home' element = {<Home2/>}/>
           <Route path='/blogs' element = {<Blogs/>}/>
           <Route path='/partners' element = {<Partners/>}/>
+          <Route path='/events' element = {<Events/>}/>
         </Routes>
         <Footer />
       </BrowserRouter>
