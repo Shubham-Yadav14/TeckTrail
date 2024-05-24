@@ -2,6 +2,7 @@ import React from "react";
 import Narrow from "../Components/Common/Narrow";
 import { useState, useEffect } from "react";
 import Getintouch from "../Components/Getintouch";
+import { Link } from "react-router-dom";
 
 export default function Brainstorming() {
   const [isVisible, setIsVisible] = useState(false);
@@ -37,9 +38,10 @@ export default function Brainstorming() {
                 </p>
               </div>
               <div className="bg-blue-600 w-1/6 max-xl:w-1/2 mx-auto text-center rounded-lg mt-10">
+                <Link to="/contactus">
                 <button className="text-white p-3">
                   Book an appointment now
-                </button>
+                </button></Link>
               </div>
             </div>
           </div>

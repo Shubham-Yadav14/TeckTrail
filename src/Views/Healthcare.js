@@ -38,7 +38,7 @@ export default function Healthcare() {
                 </p>
               </div>
               <div className="bg-blue-600 w-1/6 max-xl:w-1/2 mx-auto text-center rounded-lg mt-10">
-                <button className="text-white p-3">Book an appointment</button>
+                <Link to="/contactus"><button className="text-white p-3">Book an appointment</button></Link>
               </div>
             </div>
           </div>

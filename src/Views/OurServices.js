@@ -8,6 +8,12 @@ import Getintouch from "../Components/Getintouch";
 
 export default function OurServices() {
   useEffect(() => {
+
+    window.scrollTo(0, 0);
+  }, [])
+
+  
+  useEffect(() => {
     const elements = document.querySelectorAll(".professionalservicescard");
 
     const observer = new IntersectionObserver((entries) => {

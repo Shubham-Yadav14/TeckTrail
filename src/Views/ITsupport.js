@@ -112,7 +112,7 @@ export default function ITsupport() {
                 </div>
               </div>
 
-              <div className="flex-col gap-10 max-xl:gap-0 max-xl:flex-col">
+              <div className="flex-col max-xl:gap-0 max-xl:flex-col mt-5">
                 <div className="tasksign">
                   <img
                     src="https://ik.imagekit.io/2q7cgnqzi/icon/check.png?updatedAt=1711451555962"
@@ -123,13 +123,13 @@ export default function ITsupport() {
                     PPD Development{" "}
                   </h5>
                 </div>
-                <div className="tasksign">
+                <div className="tasksign mt-3">
                   <img
                     src="https://ik.imagekit.io/2q7cgnqzi/icon/check.png?updatedAt=1711451555962"
                     alt=""
                     className="righticonimagesize h-10"
                   />
-                  <h5 className="fetureproductabout my-auto">Easy to use </h5>
+                  <h5 className="fetureproductabout my-auto ">Easy to use </h5>
                 </div>
               </div>
             </div>
