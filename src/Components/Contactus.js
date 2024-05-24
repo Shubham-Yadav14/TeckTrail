@@ -41,7 +41,7 @@ function Contactus() {
         <div className="mb-36 mt-24 max-xl:mt-3">
           <Row>
             <Col className="firstbtnsec ">
-              <span className="abouta1">Company</span>
+              <span className="abouta1">Contact Us</span>
             </Col>
           </Row>
           <Row

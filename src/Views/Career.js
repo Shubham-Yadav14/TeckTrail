@@ -59,9 +59,10 @@ function Career() {
                 </p>
               </div>
               <div className="bg-blue-600 w-1/6 max-xl:w-1/2 mx-auto text-center rounded-lg mt-10">
+                <Link to="/contactus">
                 <button className="text-white p-3">
                   Book an appointment now
-                </button>
+                </button></Link>
               </div>
             </div>
           </div>
@@ -229,7 +230,7 @@ function Career() {
         <div className=" bg-[url('https://wpriverthemes.com/synck/wp-content/uploads/2024/01/bg-shape-11.svg')] rounded-xl bg-cover bg-[#F3F6FD] mb-20 text-center py-20">
             <div className="text-3xl font-semibold">Need any further assistance ?</div>
             <p className="text-gray-600 text-2xl mt-3">Feel free to reach out for any inquiries or assistance.</p>
-            <button className="mt-4 bg-blue-700 text-white text-lg py-3 px-5 rounded-xl">Book an appointment now</button>
+            <Link to="/contactus"><button className="mt-4 bg-blue-700 text-white text-lg py-3 px-5 rounded-xl">Book an appointment now</button></Link>
         </div>
     </Narrow>
 
@@ -241,7 +242,7 @@ function Career() {
                     <div className="text-5xl text-white font-bold mt-3">Our leadership and mentors</div>
                     <p className="text-xl text-gray-200 mt-3">Our team is a collective force of top talents, experts, and visionaries from diverse fields.</p>
                 </div>
-                <button className="text-white bg-blue-700 h-14 px-4 rounded-xl my-auto">Meet Our Experts Now</button>
+                <Link to="/contactus" className="my-auto"><button className="text-white bg-blue-700 h-14 px-4 rounded-xl my-auto">Meet Our Experts Now</button></Link>
             </div>
             <hr className="my-20 bg-gray-200" />
 
