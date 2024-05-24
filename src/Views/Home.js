@@ -578,7 +578,7 @@ function Home() {
                 </Col>
               </Row>
 
-              <div className="flex gap-10 max-xl:gap-0 max-xl:flex-col">
+              <div className="flex gap-10 max-xl:gap-0 max-xl:flex-col mt-5">
                 <div className="tasksign">
                   <img
                     src="https://ik.imagekit.io/2q7cgnqzi/icon/check.png?updatedAt=1711451555962"
@@ -599,17 +599,18 @@ function Home() {
                 </div>
               </div>
 
-              <Row className="productivitybutton">
-                <Col md="3">
-                  <Link to="/contactus"></Link>{" "}
-                  <Button className="productivitybtn">Get Started Now!</Button>
-                </Col>
-                <Col>
+              <div className="productivitybutton">
+              <div>
+                  <Link to="/contactus">
+                    <Button className="productivitybtn">Get Started Now!</Button>
+                  </Link>
+                </div>
+                <div>
                   <Link to="/contactus">
                     <Button className="productivitybtn">Learn More</Button>
                   </Link>
-                </Col>
-              </Row>
+                </div>
+              </div>
             </Col>
           </Row>
         </Narrow>
