@@ -4,7 +4,7 @@ import Narrow from "../Components/Common/Narrow";
 import { Link } from "react-router-dom";
 import Getintouch from "../Components/Getintouch";
 
-export default function ITsupport() {
+export default function Development() {
   const [isVisible, setIsVisible] = useState(false);
   useEffect(() => {
     setIsVisible(true);
@@ -16,7 +16,7 @@ export default function ITsupport() {
         <div className="mb-36 mt-24 max-xl:mt-3">
           <Row>
             <Col className="firstbtnsec ">
-              <span className="abouta1">IT Support</span>
+              <span className="abouta1">Development</span>
             </Col>
           </Row>
           <Row
@@ -25,11 +25,18 @@ export default function ITsupport() {
           >
             <Col>
               <p className="aboutheader1 max-xl:text-3xl font-semibold">
-              24/7 IT Support: <br /> We're Here to Help
+                Development is the pillar of our{" "}
+              </p>
+              <p className="aboutheader1 max-xl:text-3xl font-semibold">
+                {" "}
+                company
               </p>
 
               <p className="aboutheader2 max-xl:px-3 text-2xl">
-              Effortlessly Manage Your Website Content with Our Intuitive CMS Solutions
+                Software development is the process of designing, programming,
+                testing,
+                <br />
+                and maintaining software applications and systems.
               </p>
             </Col>
           </Row>
@@ -55,9 +62,8 @@ export default function ITsupport() {
                 Development as stone of innovation.
               </h1>
               <p className="homepara3">
-              Take control of your website's content with our intuitive CMS solutions designed for ease of use and efficiency. Our content management system (CMS) empowers you to update, modify, and add content effortlessly, without needing any technical expertise. This ensures that your website remains dynamic, engaging, and reflective of the latest developments in your business or industry. <br /> <br />
-              We're not just here for the initial development; we provide ongoing maintenance and support services to ensure your website continues to perform optimally, remains secure, and adapts to new technologies
-              <br /><br />A beautiful website is only effective if it's visible. We integrate SEO best practices into our development process, helping your website rank higher in search engine results and drive organic traffic. Additionally, our digital marketing experts can assist you in creating effective online marketing strategies.
+              We design, develop, test, deploy, and maintain software applications and solutions for various platforms and industries including startups, medium-sized businesses, and large enterprises. We work on a wide spectrum of technologies, depending on the specific needs of our clients. <br /> <br />
+              Creating tailored software solutions from scratch to meet the specific requirements of a client or organisation. This involves understanding the client's business processes, designing the software architecture, coding, and implementing the solution.
 
               </p>
             </div>
@@ -77,7 +83,7 @@ export default function ITsupport() {
         </div>
       </Narrow>
 
-      {/* <div className="productivity mb-32 mt-32">
+      <div className="productivity mb-32 mt-32">
         <Narrow>
           <div className="py-28 max-xl:py-5 flex gap-24 justify-between max-xl:flex-col">
             <div className="w-1/2 max-xl:w-full">
@@ -124,9 +130,9 @@ export default function ITsupport() {
             </div>
           </div>
         </Narrow>
-      </div> */}
+      </div>
 
-      {/* <Narrow>
+      <Narrow>
         <div className="background p-20 max-xl:p-3 rounded-lg">
           <div className="w-full max-xl:w-full">
             <p className="home1para">FEATURES</p>
@@ -219,7 +225,7 @@ export default function ITsupport() {
             </div>
           </div>
         </div>
-      </Narrow> */}
+      </Narrow>
 
       <Getintouch />
     </div>

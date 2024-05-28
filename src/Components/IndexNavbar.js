@@ -47,19 +47,20 @@ function IndexNavbar() {
                                         <Narrow class="flex ">
                                             <div className='w-9/12 border-r-2'>
                                                 <div className=' grid grid-cols-2 gap-5 text-sm max-lg:text-xs pt-5 pb-5 pr-5 '>
-                                                    <a href='/portfolio/portfolio-details'><div className='flex justify-center items-center hover:cursor-pointer' >
+                                                    <a href='/e-commerce'><div className='flex justify-center items-center hover:cursor-pointer' >
                                                         <img src='https://wpriverthemes.com/synck/wp-content/uploads/2024/02/portfolio-mega-menu-1.jpg' alt='' className='w-5/12 max-lg:w-4/12 max-lg:h-1/2' />
                                                         <div className='flex flex-col justify-center pl-3 w-7/12 max-lg:w-8/12 '> <h3 className=' font-semibold'>E-commerce</h3><p>We undertook a project to migrate their existing.</p></div>
                                                     </div>
                                                     </a>
-                                                    <a href='/portfolio/portfolio-details'>
+                                                    <a href='/portfolio/appdevelopment'>
                                                         <div className='flex justify-center items-center hover:cursor-pointer' >
                                                             <img src='https://wpriverthemes.com/synck/wp-content/uploads/2024/02/portfolio-mega-menu-2.jpg' alt='' className='w-5/12 max-lg:w-4/12 max-lg:h-1/2' />
                                                             <div className='flex flex-col justify-center pl-3 w-7/12 max-lg:w-8/12 '> <h3 className=' font-semibold'>App Development</h3><p>The mobile application has significantly improved.</p></div>
                                                         </div></a>
-                                                    <a href='/portfolio/portfolio-details'><div className='flex justify-center items-center hover:cursor-pointer' >
+                                                    <a href='/ourservices/crm'><div className='flex justify-center items-center hover:cursor-pointer' >
                                                         <img src='https://wpriverthemes.com/synck/wp-content/uploads/2024/02/portfolio-mega-menu-3.jpeg' alt='' className='w-5/12 max-lg:w-4/12 max-lg:h-1/2' />
-                                                        <div className='flex flex-col justify-center pl-3 w-7/12 max-lg:w-8/12 '> <h3 className=' font-semibold'>SAAS Integration</h3><p>We partnered with DEF to upgrade their outdated IT.</p></div>
+                                                        <div className='flex flex-col justify-center pl-3 w-7/12 max-lg:w-8/12 '> <h3 className=' font-semibold'>CRM Integration</h3><p>Your Trusted Partner for CRM Software Services
+</p></div>
                                                     </div></a>
                                                     <a href='/portfolio/portfolio-details'><div className='flex justify-center items-center hover:cursor-pointer' >
                                                         <img src='https://wpriverthemes.com/synck/wp-content/uploads/2024/02/portfolio-mega-menu-4.jpeg' alt='' className='w-5/12 max-lg:w-4/12 max-lg:h-1/2' />
@@ -122,11 +123,11 @@ function IndexNavbar() {
                                                     </div>
                                                     <div className='w-3/12 pl-10 py-10 leading-8 -' >
                                                         <span className=' font-semibold'>Services</span>
-                                                        <a href="/ourservices/itsupport"><li>Development</li></a>
-                                                        <a href="/ourservices/itsupport"><li>Web Design</li></a>
+                                                        <a href="/ourservices/development"><li>Development</li></a>
+                                                        <a href="/ourservices/webdesign"><li>Web Design</li></a>
                                                         <a href="/ourservices/itsupport"><li>IT Support</li></a>
-                                                        <a href="/ourservices/itsupport"><li>E-Commerce</li></a>
-                                                        <a href="/ourservices/itsupport"><li>CRM Solutions</li></a>
+                                                        <a href="/e-commerce"><li>E-Commerce</li></a>
+                                                        <a href="/ourservices/crm"><li>CRM Solutions</li></a>
 
                                                     </div>
                                                     <div className='w-3/12 pl-10 leading-8 py-10'>
@@ -193,12 +194,12 @@ function IndexNavbar() {
                         </Link></button>
                             {PortMobile && (<div className={`dropPort ${PortMobile ? 'open' : ''}  my-2`}>
                                 <div className=' grid grid-cols-1 gap-3  text-sm px-2 py-2'>
-                                    <a href='/portfolio/portfolio-details'><div className='flex justify-center items-center hover:cursor-pointer' >
+                                    <a href='/e-commerce'><div className='flex justify-center items-center hover:cursor-pointer' >
                                         <img src='https://wpriverthemes.com/synck/wp-content/uploads/2024/02/portfolio-mega-menu-1.jpg' alt='' className='w-5/12 max-lg:w-4/12 max-lg:h-1/2' />
                                         <div className='flex flex-col justify-center pl-3 w-7/12 max-lg:w-8/12 '> <h3 className=' font-semibold'>E-commerce</h3><p>We undertook a project to migrate their existing.</p></div>
                                     </div>
                                     </a>
-                                    <a href='/portfolio/portfolio-details'>
+                                    <a href='/portfolio/appdevelopment'>
                                         <div className='flex justify-center items-center hover:cursor-pointer' >
                                             <img src='https://wpriverthemes.com/synck/wp-content/uploads/2024/02/portfolio-mega-menu-2.jpg' alt='' className='w-5/12 max-lg:w-4/12 max-lg:h-1/2' />
                                             <div className='flex flex-col justify-center pl-3 w-7/12 max-lg:w-8/12 '> <h3 className=' font-semibold'>App Development</h3><p>The mobile application has significantly improved.</p></div>
@@ -267,11 +268,11 @@ function IndexNavbar() {
                                         </div>
                                         <div className='mb-4'>
                                             <span className=' font-semibold'>Services</span>
-                                            <a href="/ourservices/itsupport"><li>Development</li></a>
-                                            <a href="/ourservices/itsupport"><li>Web Design</li></a>
+                                            <a href="/ourservices/development"><li>Development</li></a>
+                                            <a href="/ourservices/webdesign"><li>Web Design</li></a>
                                             <a href="/ourservices/itsupport"><li>IT Support</li></a>
-                                            <a href="/ourservices/itsupport"><li>E-Commerce</li></a>
-                                            <a href="/ourservices/itsupport"><li>CRM Solutions</li></a>
+                                            <a href="/e-commerce"><li>E-Commerce</li></a>
+                                            <a href="/ourservices/crm"><li>CRM Solutions</li></a>
 
                                         </div>
                                         <div className='my-3'>
