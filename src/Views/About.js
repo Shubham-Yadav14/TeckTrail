@@ -5,12 +5,12 @@ import { Link } from "react-router-dom";
 import Slider from "../Components/Slider";
 import Getintouch from "../Components/Getintouch";
 import Narrow from "../Components/Common/Narrow";
+import img from "../Images/VISION-icon.jpg"
 
 function About() {
-  useEffect(() => {
-
-    window.scrollTo(0, 0);
-  }, [])
+  // useEffect(() => {
+  //   window.scrollTo(0, 0);
+  // }, []);
 
   useEffect(() => {
     const elements = document.querySelectorAll(".professionalservicescard");
@@ -88,7 +88,7 @@ function About() {
         <div className="mb-36 mt-24 max-xl:mt-3">
           <Row>
             <Col className="firstbtnsec ">
-              <span className="abouta1">Company</span>
+              <span className="abouta1">About Us</span>
             </Col>
           </Row>
           <Row
@@ -97,12 +97,9 @@ function About() {
           >
             <Col>
               <p className="aboutheader1 max-xl:text-3xl font-semibold">
-                Our company provide a best{" "}
+                We are the Panacea for all <br /> your Tech challenges.
               </p>
-              <p className="aboutheader1 max-xl:text-3xl font-semibold">
-                {" "}
-                horizon tech solutions
-              </p>
+              <p className="aboutheader1 max-xl:text-3xl font-semibold"> </p>
 
               <p className="aboutheader2 max-xl:px-3">
                 Experience the transformative power of innovation and seamless
@@ -181,14 +178,13 @@ function About() {
                   alt=""
                   className="ourpopulaityimage w-full"
                 />
-                <p style={{ marginTop: "30px" }}>
-                  Our team is a collective force of top talents, pros, experts,
-                  and visionaries from diverse fields. With a passion for
-                  excellence, our professionals bring a wealth of experience and
-                  knowledge to every project. At Slack, we are committed to
-                  delivering nothing short of excellence. From concept to
-                  implementation, we maintain the highest standards of quality
-                  and craftsmanship, leaving no room for compromise.
+                <p style={{ marginTop: "30px" }} className="text-xl">
+                  At Panacea Infosolutions we strive to innovate. We find unique
+                  solutions for the current challenges of industry by using our
+                  strong business acumen. Our mission is to develop easy to use,
+                  good technology with innovative touch. We believe in
+                  customization that caters to your business needs. We optimise
+                  the use of technology integrated with human potential.
                 </p>
               </div>
             </div>
@@ -229,17 +225,7 @@ function About() {
             <Row>
               <Col md="6">
                 <p className="delinglogheading">WHAT WE’RE OFFERING</p>
-                <h1 className="delingheading text-white">
-                  Dealing in all professional <br />
-                  IT services.
-                </h1>
-              </Col>
-              <Col md="6">
-                <h6 className="delingcontent text-white">
-                  One fundamental aspect of IT services is infrastructure
-                  management. This involves the design, implementation, and
-                  maintenance of the hardware, software, networks, and servers.
-                </h6>
+                <h1 className="delingheading text-white">Core Features</h1>
               </Col>
             </Row>
           </div>
@@ -249,60 +235,36 @@ function About() {
       <div className="bg-black py-14 max-xl:py-2">
         <Narrow>
           <div className="professionalservicescontainer pb-32 max-xl:pb-0">
-            <div className="professionalservicesrow justify-between w-full max-xl:p-3 flex max-xl:flex-col max-xl:gap-3">
-              <div sm="1" md="2">
-                <Card className="professionalservicescard">
-                  <img
-                    src="https://wpriverthemes.com/synck/wp-content/uploads/2023/11/service-icon-1-2.svg"
-                    alt=""
-                    className="services5"
-                  />
-                  <div className="text-xl font-bold">Development</div>
-                  <p>Our development is pixel perfect in all ways.</p>
+            <div className="professionalservicesrow  w-full max-xl:p-3 flex max-xl:flex-col gap-20 max-xl:gap-3">
+              <div className="">
+                <Card className="professionalservicescard w-full">
+                  <p className="text-lg">
+                    <span className="text-3xl font-semibold">
+                      Understand the needs and provide customised solutions:
+                    </span>{" "}
+                    <br />
+                    <br /> Our expert team dive deeper into the existing system
+                    and understand its challenges to meet the requirements.
+                    Having a team with diverse experience in tech-business
+                    allows us to identify the needs of customers from different
+                    domains and design unique solutions that meet their needs.
+                  </p>
                 </Card>
               </div>
-              <div sm="1" md="2">
-                <div className="professionalservicescard bg-white">
-                  <img
-                    src="https://wpriverthemes.com/synck/wp-content/uploads/2023/11/service-icon-2-2.svg"
-                    alt=""
-                    className="services5"
-                  />
-                  <div className="text-xl font-bold">Woo Commerce</div>
-                  <p>Our development is pixel perfect in all ways.</p>
-                </div>
-              </div>
-              <div sm="1" md="2">
-                <Card className="professionalservicescard">
-                  <img
-                    src="https://wpriverthemes.com/synck/wp-content/uploads/2023/11/service-icon-3-2.svg"
-                    alt=""
-                    className="services5"
-                  />
-                  <div className="text-xl font-bold">CRM Solutions</div>
-                  <p>Our development is pixel perfect in all ways.</p>
-                </Card>
-              </div>
-              <div sm="1" md="2">
-                <Card className="professionalservicescard">
-                  <img
-                    src="https://wpriverthemes.com/synck/wp-content/uploads/2023/11/service-icon-4-2.svg"
-                    alt=""
-                    className="services5"
-                  />
-                  <div className="text-xl font-bold">Web Design</div>
-                  <p>Our development is pixel perfect in all ways.</p>
-                </Card>
-              </div>
-              <div sm="1" md="2">
-                <Card className="professionalservicescard">
-                  <img
-                    src="https://wpriverthemes.com/synck/wp-content/uploads/2023/11/service-icon-5-2.svg"
-                    alt=""
-                    className="services5"
-                  />
-                  <div className="text-xl font-bold">IT Support</div>
-                  <p>Our development is pixel perfect in all ways.</p>
+              <div className="">
+                <Card className="professionalservicescard w-full h-full">
+                  <p className="text-lg">
+                    <span className="text-3xl font-semibold">
+                      Fast delivery and Continuous Support:
+                    </span>{" "}
+                    <br />
+                    <br /> We have a highly skilled team experienced in various
+                    domains of technology, capable of quick understanding of
+                    requirements and rapid development of client specific
+                    solutions. We endeavour to provide continuous support within
+                    the specified time frame for any challenges faced by our
+                    client.
+                  </p>
                 </Card>
               </div>
             </div>
@@ -312,24 +274,19 @@ function About() {
 
       <Narrow>
         <div className="ourexpert1 p-28 max-xl:p-3  max-xl:py-20 mt-32 max-xl:mt-0 mb-32 max-xl:mb-10">
-          <div className="flex max-xl:flex-col max-xl:text-center max-xl:mx-auto">
+          <div className="flex max-xl:flex-col max-xl:text-center max-xl:mx-auto gap-14" >
             <div className="w-2/3 max-xl:w-full">
-              <p className="delinglogheading">WHAT WE’RE OFFERING</p>
+              <p className="delinglogheading">OUR VISION</p>
               <h1 className="text-5xl font-bold mt-3">
                 Our professional experts
               </h1>
               <p className="text-xl mt-3">
-                Our team is a collective force of top talents, experts, and{" "}
-                <br />
-                visionaries from diverse fields.
+              Our vision is to be a driving force behind businesses that prioritise customer-centric strategies. We envision a world where companies of all sizes harness the power of technology to understand, anticipate, and fulfil the needs of their customers seamlessly.
+
               </p>
             </div>
-            <div className="max-xl: mt-5">
-              <Link to="/contactus">
-                <Button className="bookappwexp bg-blue-600 hover:bg-black font-semibold">
-                  Book an appointment with our expert now
-                </Button>
-              </Link>
+            <div className=" w-1/3 max-xl:">
+              <img src={img} className="w-[100%] rounded-xl " alt="" />
             </div>
           </div>
         </div>
@@ -466,18 +423,16 @@ function About() {
                 <h1 className="text-5xl font-bold">
                   Why our services are better than others?
                 </h1>
-                <h5 className="text-xl text-gray-200">
-                  We don't believe in a one-size-fit-all approach. Our services
-                  are carefully customized to suit your specific need, ensuring
-                  you to achieve your goals.
-                </h5>
-                <h5 className="text-xl text-gray-200">
-                  We believe in delivering value that extends your beyond the
-                  immediate project. Our services are designed to provide a
-                  long-term benefits.
-                </h5>
+                <p className="text-xl mt-3">
+                  Panacea Infosolutions is a software company that specialises
+                  in Web Technologies, Artificial intelligence and automation
+                  solutions. <br />
+                  Our highly skilled experts provide solutions in various
+                  technical domains to grow existing business and bring new
+                  business online.
+                </p>
 
-                <div>
+                <div className="mt-3">
                   <div className="flex max-xl:flex-col gap-10">
                     <div className="tasksign">
                       <img
@@ -509,9 +464,9 @@ function About() {
       </div>
 
       <Narrow>
-      <div className="sliderdiv mb-32 mt-40">
-        <Slider />
-      </div>
+        <div className="sliderdiv mb-32 mt-40">
+          <Slider />
+        </div>
       </Narrow>
 
       <Narrow>
@@ -554,8 +509,6 @@ function About() {
           </div>
         </div>
       </Narrow>
-
-      
 
       <Getintouch />
     </>

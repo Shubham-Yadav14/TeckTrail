@@ -151,19 +151,19 @@ function Footer() {
                   <a href="/ourservices/itsupport">
                     <li>IT Support</li>
                   </a>
-                  <a href="/ourservices/itsupport">
+                  <a href="/ourservices/webdesign">
                     <li>Web Design</li>
                   </a>
-                  <a href="/ourservices/itsupport">
+                  <a href="/ourservices/development">
                     <li>Development</li>
                   </a>
                   <a href="/ourservices/itsupport">
                     <li>Cloud Things</li>
                   </a>
-                  <a href="/ourservices/itsupport">
+                  <a href="/e-commerce">
                     <li>E-Commerce</li>
                   </a>
-                  <a href="/ourservices/itsupport">
+                  <a href="/ourservices/crm">
                     <li>CRM Solutions</li>
                   </a>
                 </div>
