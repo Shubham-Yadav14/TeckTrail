@@ -110,7 +110,7 @@ function IndexNavbar() {
                                                             <div className='pl-3' > <h3 className=' font-semibold'>Product</h3><p>Design</p></div>
                                                         </div>
                                                         </a>
-                                                        <a href="/brainstorming"><div className='flex p-3 bg-gray-100 rounded-md  hover:bg-gray-400 hover:text-white hover:cursor-pointer'>
+                                                        <a href="/services/seo"><div className='flex p-3 bg-gray-100 rounded-md  hover:bg-gray-400 hover:text-white hover:cursor-pointer'>
                                                             <img src='https://ik.imagekit.io/2q7cgnqzi/Panacee%20React%20/logo/hwd-icon-3.svg?updatedAt=1713440667501' alt='' className='w-4/12 p-1 bg-gray-300 rounded-lg' />
                                                             <div className='pl-3' > <h3 className=' font-semibold'>SEO</h3><p>Optimisation</p></div>
                                                         </div>
@@ -255,7 +255,7 @@ function IndexNavbar() {
                                                 <div className='pl-3' > <h3 className=' font-semibold'>Product</h3><p>Design</p></div>
                                             </div>
                                             </a>
-                                            <a href="/brainstorming"><div className='flex p-3 bg-gray-100 rounded-md  hover:bg-gray-400 hover:text-white hover:cursor-pointer'>
+                                            <a href="/services/seo"><div className='flex p-3 bg-gray-100 rounded-md  hover:bg-gray-400 hover:text-white hover:cursor-pointer'>
                                                 <img src='https://ik.imagekit.io/2q7cgnqzi/Panacee%20React%20/logo/hwd-icon-3.svg?updatedAt=1713440667501' alt='' className='w-4/12 p-1 bg-gray-300 rounded-lg' />
                                                 <div className='pl-3' > <h3 className=' font-semibold'>SEO</h3><p>Optimisation</p></div>
                                             </div>
