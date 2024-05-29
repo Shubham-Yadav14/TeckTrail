@@ -31,6 +31,7 @@ import CRM from './Views/CRM';
 import AppDevelopment from './Views/AppDevelopment';
 import SEO from "./Views/SeoServices"
 import FrontEnd from './Views/FrontEnd';
+import Testimonials from './Views/Testimonials';
 
 function App() {
   return (
@@ -66,6 +67,7 @@ function App() {
           <Route path='/ourservices/webdesign' element = {<WebDesign/>}/>
           <Route path='/e-commerce' element = {<Ecommerce/>}/>
           <Route path='/services/frontend' element = {<FrontEnd/>}/>
+          <Route path='/portfolio/testimonials' element = {<Testimonials/>}/>
         </Routes> 
         <Footer />
       </BrowserRouter>

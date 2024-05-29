@@ -29,7 +29,7 @@ const JobForm = (props) => {
 
   const handleSubmit = (e) => {
     const position = formData.position;
-    e.preventDefault();
+    // e.preventDefault();
     console.log(formData);
     alert(`Your application has been sent for the position of ${position}`);
     setFormData({

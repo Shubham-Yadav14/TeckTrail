@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import Getintouch from "../Components/Getintouch";
 import { Link } from "react-router-dom";
 import img from "../Images/frontend.png";
+import img2 from "../Images/frontend2.jpg";
 
 export default function FrontEnd() {
   const [isVisible, setIsVisible] = useState(false);
@@ -51,9 +52,9 @@ export default function FrontEnd() {
 
       <Narrow>
         <img
-          src="https://wpriverthemes.com/synck/wp-content/uploads/2024/01/how-we-do-single.jpg"
+          src={img2}
           alt=""
-          className="mb-32"
+          className="mb-32 w-full rounded-xl"
         />
       </Narrow>
 
