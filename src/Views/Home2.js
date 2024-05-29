@@ -5,6 +5,7 @@ import Narrow from "../Components/Common/Narrow";
 import MultiTab3 from "../Components/MultiTab3";
 import Home2Content from './Home2Content'
 import Home2form from "../Components/Home2form";
+import { Link } from "react-router-dom";
 
 export default function Home2() {
   const [isVisible, setIsVisible] = useState(false);
@@ -46,9 +47,10 @@ export default function Home2() {
                   </p>
                 </div>
                 <div className=" max-xl:w-full mx-auto text-center  mt-10">
+                  <Link to="/contactus">
                   <button className="text-blue-700  bg-[#1351D81A] py-3 px-5 text-xl max-xl:text-lg hover:bg-blue-600 rounded-full hover:text-white">
                     Let's talk to our team
-                  </button>
+                  </button></Link>
                 </div>
               </div>
             </div>
@@ -96,9 +98,10 @@ export default function Home2() {
               </div>
               <div>
                 <div className="text-right max-xl:text-left mt-3">
+                  <Link to="/ourservices">
                   <button className="text-white bg-blue-700 hover:bg-gray-700 py-3 px-5 rounded-full text-xl">
                     Learn More
-                  </button>
+                  </button></Link>
                 </div>
               </div>
             </div>
@@ -334,9 +337,10 @@ export default function Home2() {
             </p>
           </div>
           <div className="ml-auto max-xl:ml-3">
-            <button className="px-5 py-3 rounded-full bg-blue-700 text-white text-xl">
+           <Link to="/blogs">
+           <button className="px-5 py-3 rounded-full bg-blue-700 text-white text-xl">
               Learn more
-            </button>
+            </button></Link>
           </div>
         </div>
 

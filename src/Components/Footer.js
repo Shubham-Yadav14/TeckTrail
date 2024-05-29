@@ -151,19 +151,19 @@ function Footer() {
                   <a href="/ourservices/itsupport">
                     <li>IT Support</li>
                   </a>
-                  <a href="/ourservices/itsupport">
+                  <a href="/ourservices/webdesign">
                     <li>Web Design</li>
                   </a>
-                  <a href="/ourservices/itsupport">
+                  <a href="/ourservices/development">
                     <li>Development</li>
                   </a>
                   <a href="/ourservices/itsupport">
                     <li>Cloud Things</li>
                   </a>
-                  <a href="/ourservices/itsupport">
+                  <a href="/e-commerce">
                     <li>E-Commerce</li>
                   </a>
-                  <a href="/ourservices/itsupport">
+                  <a href="/ourservices/crm">
                     <li>CRM Solutions</li>
                   </a>
                 </div>
@@ -258,28 +258,28 @@ function Footer() {
               <div
                 style={{ display: "flex", alignItems: "center", gap: "28px" }}
               >
-                <a href="/">
+                <a href="https://facebook.com" target="_blank">
                   <img
                     src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/facebook-round-color-icon.png"
                     alt=""
                     className="connection-logo w-10"
                   />
                 </a>
-                <a href="/">
+                <a href="https://instagram.com" target="_blank">
                   <img
                     src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/ig-instagram-icon.png"
                     alt=""
                     className="connection-logo w-10"
                   />
                 </a>
-                <a href="https://www.linkedin.com/company/panacee-software-solutions/">
+                <a target="_blank" href="https://www.linkedin.com/company/panacee-software-solutions/">
                   <img
                     src="https://ik.imagekit.io/2q7cgnqzi/icon/icons8-linkedin.svg?updatedAt=1710492054727"
                     alt=""
                     className="connection-logo-linkedin w-10"
                   />
                 </a>
-                <a href="/">
+                <a href="https://youtube.com" target="_blank">
                   <img
                     src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/youtube-app-icon.png"
                     alt=""

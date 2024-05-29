@@ -24,6 +24,11 @@ import CaseStudies from './Views/CaseStudies';
 import Solutions from './Views/Solutions';
 import Overview from './Views/Overview';
 import Features from './Views/Features';
+import WebDesign from './Views/WebDesign';
+import Ecommerce from './Views/Ecommerce';
+import Development from './Views/Development';
+import CRM from './Views/CRM';
+import AppDevelopment from './Views/AppDevelopment';
 
 function App() {
   return (
@@ -39,10 +44,12 @@ function App() {
           <Route path='/ourservices/healthcare' element = {<Healthcare/>}/>
           <Route path='/brainstorming' element = {<Brainstorming/>}/>
           <Route path='/ourservices/itsupport' element = {<ITsupport/>}/>
+          <Route path='/ourservices/development' element = {<Development/>}/>
+          <Route path='/ourservices/crm' element = {<CRM/>}/>
           <Route path='/impact' element = {<Impact/>}/>
           <Route path='/career' element = {<Career/>}/>
           <Route path='/portfolio' element = {<Portfolio/>}/>
-          <Route path='/portfolio/portfolio-details' element = {<PortfolioDetails/>}/>
+          <Route path='/portfolio/appdevelopment' element = {<AppDevelopment/>}/>
           <Route path='/viewmore' element = {<Viewmore/>}/>
           <Route path='/home' element = {<Home2/>}/>
           <Route path='/blogs' element = {<Blogs/>}/>
@@ -53,6 +60,8 @@ function App() {
           <Route path='/solutions' element = {<Solutions/>}/>
           <Route path='/overview' element = {<Overview/>}/>
           <Route path='/features' element = {<Features/>}/>
+          <Route path='/ourservices/webdesign' element = {<WebDesign/>}/>
+          <Route path='/e-commerce' element = {<Ecommerce/>}/>
         </Routes>
         <Footer />
       </BrowserRouter>

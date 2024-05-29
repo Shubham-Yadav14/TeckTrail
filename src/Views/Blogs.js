@@ -3,6 +3,12 @@ import Narrow from "../Components/Common/Narrow";
 import Getintouch from "../Components/Getintouch";
 
 export default function Blogs() {
+
+  useEffect(() => {
+
+    window.scrollTo(0, 0);
+  }, [])
+  
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {

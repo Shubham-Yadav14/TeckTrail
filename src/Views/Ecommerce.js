@@ -4,7 +4,7 @@ import Narrow from "../Components/Common/Narrow";
 import { Link } from "react-router-dom";
 import Getintouch from "../Components/Getintouch";
 
-export default function ITsupport() {
+export default function Ecommerce() {
   const [isVisible, setIsVisible] = useState(false);
   useEffect(() => {
     setIsVisible(true);
@@ -16,7 +16,7 @@ export default function ITsupport() {
         <div className="mb-36 mt-24 max-xl:mt-3">
           <Row>
             <Col className="firstbtnsec ">
-              <span className="abouta1">IT Support</span>
+              <span className="abouta1">E-commerce</span>
             </Col>
           </Row>
           <Row
@@ -25,12 +25,15 @@ export default function ITsupport() {
           >
             <Col>
               <p className="aboutheader1 max-xl:text-3xl font-semibold">
-              24/7 IT Support: <br /> We're Here to Help
+              Ready to take your <br /> business online?
               </p>
 
-              <p className="aboutheader2 max-xl:px-3 text-2xl">
-              Effortlessly Manage Your Website Content with Our Intuitive CMS Solutions
-              </p>
+              {/* <p className="aboutheader2 max-xl:px-3 text-2xl">
+                Software development is the process of designing, programming,
+                testing,
+                <br />
+                and maintaining software applications and systems.
+              </p> */}
             </Col>
           </Row>
         </div>
@@ -49,15 +52,12 @@ export default function ITsupport() {
         <div className="background p-20 max-xl:p-3 rounded-lg">
           <div className="flex max-xl:flex-col gap-14">
             <div className="w-1/2 max-xl:w-full">
-              <p className="home1para">SOFTWARE DEVELOPMENT</p>
+              <p className="home1para">E-COMMERCE</p>
               <h1 className=" text-5xl font-bold mt-3">Engine of progress</h1>
-              <h1 className=" mt-5 text-3xl">
-                Development as stone of innovation.
-              </h1>
               <p className="homepara3">
-              Take control of your website's content with our intuitive CMS solutions designed for ease of use and efficiency. Our content management system (CMS) empowers you to update, modify, and add content effortlessly, without needing any technical expertise. This ensures that your website remains dynamic, engaging, and reflective of the latest developments in your business or industry. <br /> <br />
-              We're not just here for the initial development; we provide ongoing maintenance and support services to ensure your website continues to perform optimally, remains secure, and adapts to new technologies
-              <br /><br />A beautiful website is only effective if it's visible. We integrate SEO best practices into our development process, helping your website rank higher in search engine results and drive organic traffic. Additionally, our digital marketing experts can assist you in creating effective online marketing strategies.
+              E-commerce, short for electronic commerce, revolutionizes the way we shop and do business by allowing transactions to be conducted over the internet. This digital marketplace offers unparalleled convenience, enabling consumers to browse and purchase products or services from the comfort of their own homes, anytime and anywhere. Businesses benefit from reaching a global audience, reducing overhead costs, and leveraging data analytics to understand customer preferences. With secure payment gateways and fast shipping options, e-commerce continues to grow, transforming traditional retail and driving innovation in the digital age. <br /><br />
+              Our e-commerce solutions encompass everything from user-friendly product catalogs to secure payment gateways, creating an enjoyable shopping experience for your customers and maximizing your online sales.
+
 
               </p>
             </div>
@@ -124,9 +124,9 @@ export default function ITsupport() {
             </div>
           </div>
         </Narrow>
-      </div> */}
+      </div>
 
-      {/* <Narrow>
+      <Narrow>
         <div className="background p-20 max-xl:p-3 rounded-lg">
           <div className="w-full max-xl:w-full">
             <p className="home1para">FEATURES</p>
