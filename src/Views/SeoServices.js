@@ -3,7 +3,7 @@ import Narrow from "../Components/Common/Narrow";
 import { useState, useEffect } from "react";
 import Getintouch from "../Components/Getintouch";
 import { Link } from "react-router-dom";
-import img from "../Images/frontend.png";
+import img from "../Images/seo.jpeg";
 
 export default function SeoServices() {
   const [isVisible, setIsVisible] = useState(false);
@@ -65,7 +65,7 @@ export default function SeoServices() {
 
           </p>
 
-          <img src={img} className="mt-10 w-full" alt="" />
+          <img src={img} className="mt-10 w-full rounded-xl" alt="" />
 
           <h1 className="text-5xl mt-5 font-semibold">
           Why Choose Our SEO Services?
