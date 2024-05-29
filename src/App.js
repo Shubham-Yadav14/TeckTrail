@@ -29,6 +29,7 @@ import Ecommerce from './Views/Ecommerce';
 import Development from './Views/Development';
 import CRM from './Views/CRM';
 import AppDevelopment from './Views/AppDevelopment';
+import SEO from './Views/SEO'
 import FrontEnd from './Views/FrontEnd';
 import Testimonials from './Views/Testimonials';
 
@@ -45,6 +46,7 @@ function App() {
           <Route path='/ourservices' element = {<OurServices/>}/>
           <Route path='/ourservices/healthcare' element = {<Healthcare/>}/>
           <Route path='/brainstorming' element = {<Brainstorming/>}/>
+          <Route path='/services/seo' element = {<SEO/>}/>
           <Route path='/ourservices/itsupport' element = {<ITsupport/>}/>
           <Route path='/ourservices/development' element = {<Development/>}/>
           <Route path='/ourservices/crm' element = {<CRM/>}/>
