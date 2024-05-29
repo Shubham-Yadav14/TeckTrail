@@ -30,7 +30,6 @@ import Development from './Views/Development';
 import CRM from './Views/CRM';
 import AppDevelopment from './Views/AppDevelopment';
 import SEO from "./Views/SeoServices"
-import SEO from './Views/SEO'
 import FrontEnd from './Views/FrontEnd';
 import Testimonials from './Views/Testimonials';
 
