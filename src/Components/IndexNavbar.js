@@ -62,10 +62,10 @@ function IndexNavbar() {
                                                         <div className='flex flex-col justify-center pl-3 w-7/12 max-lg:w-8/12 '> <h3 className=' font-semibold'>CRM Integration</h3><p>Your Trusted Partner for CRM Software Services
 </p></div>
                                                     </div></a>
-                                                    <a href='/portfolio/portfolio-details'><div className='flex justify-center items-center hover:cursor-pointer' >
+                                                    {/* <a href='/portfolio/portfolio-details'><div className='flex justify-center items-center hover:cursor-pointer' >
                                                         <img src='https://wpriverthemes.com/synck/wp-content/uploads/2024/02/portfolio-mega-menu-4.jpeg' alt='' className='w-5/12 max-lg:w-4/12 max-lg:h-1/2' />
                                                         <div className='flex flex-col justify-center pl-3 w-7/12 max-lg:w-8/12 '> <h3 className=' font-semibold'>Virtual Reality</h3><p>Enter into the virtual reality world for real experience.</p></div>
-                                                    </div></a>
+                                                    </div></a> */}
                                                 </div>
                                                 <hr />
                                                 <div className='px-5 pt-8 pb-7 max-lg:text-xs flex items-center justify-between'>
@@ -115,7 +115,7 @@ function IndexNavbar() {
                                                             <div className='pl-3' > <h3 className=' font-semibold'>SEO</h3><p>Optimisation</p></div>
                                                         </div>
                                                         </a>
-                                                        <a href="/brainstorming"><div className='flex p-3 bg-gray-100 rounded-md  hover:bg-gray-400 hover:text-white hover:cursor-pointer'>
+                                                        <a href="/services/frontend"><div className='flex p-3 bg-gray-100 rounded-md  hover:bg-gray-400 hover:text-white hover:cursor-pointer'>
                                                             <img src='https://ik.imagekit.io/2q7cgnqzi/Panacee%20React%20/logo/hwd-icon-4.svg?updatedAt=1713441484235' alt='' className='w-4/12 p-1 bg-gray-300 rounded-lg' />
                                                             <div className='pl-3' > <h3 className=' font-semibold'>Front-End</h3><p>Development</p></div>
                                                         </div>
@@ -208,10 +208,10 @@ function IndexNavbar() {
                                         <img src='https://wpriverthemes.com/synck/wp-content/uploads/2024/02/portfolio-mega-menu-3.jpeg' alt='' className='w-5/12 max-lg:w-4/12 max-lg:h-1/2' />
                                         <div className='flex flex-col justify-center pl-3 w-7/12 max-lg:w-8/12 '> <h3 className=' font-semibold'>SAAS Integration</h3><p>We partnered with DEF to upgrade their outdated IT.</p></div>
                                     </div></a>
-                                    <a href='/portfolio/portfolio-details'><div className='flex justify-center items-center hover:cursor-pointer' >
+                                    {/* <a href='/portfolio/portfolio-details'><div className='flex justify-center items-center hover:cursor-pointer' >
                                         <img src='https://wpriverthemes.com/synck/wp-content/uploads/2024/02/portfolio-mega-menu-4.jpeg' alt='' className='w-5/12 max-lg:w-4/12 max-lg:h-1/2' />
                                         <div className='flex flex-col justify-center pl-3 w-7/12 max-lg:w-8/12 '> <h3 className=' font-semibold'>Virtual Reality</h3><p>Enter into the virtual reality world for real experience.</p></div>
-                                    </div></a>
+                                    </div></a> */}
 
                                 </div>
                                 <hr className='my-4' />
@@ -260,7 +260,7 @@ function IndexNavbar() {
                                                 <div className='pl-3' > <h3 className=' font-semibold'>SEO</h3><p>Optimisation</p></div>
                                             </div>
                                             </a>
-                                            <a href="/brainstorming"><div className='flex p-3 bg-gray-100 rounded-md  hover:bg-gray-400 hover:text-white hover:cursor-pointer'>
+                                            <a href="/servies/frontend"><div className='flex p-3 bg-gray-100 rounded-md  hover:bg-gray-400 hover:text-white hover:cursor-pointer'>
                                                 <img src='https://ik.imagekit.io/2q7cgnqzi/Panacee%20React%20/logo/hwd-icon-4.svg?updatedAt=1713441484235' alt='' className='w-4/12 p-1 bg-gray-300 rounded-lg' />
                                                 <div className='pl-3' > <h3 className=' font-semibold'>Front-End</h3><p>Development</p></div>
                                             </div>
