@@ -29,6 +29,7 @@ import Ecommerce from './Views/Ecommerce';
 import Development from './Views/Development';
 import CRM from './Views/CRM';
 import AppDevelopment from './Views/AppDevelopment';
+import SEO from "./Views/SeoServices"
 import FrontEnd from './Views/FrontEnd';
 import Testimonials from './Views/Testimonials';
 import SEO from './Views/SEO'
