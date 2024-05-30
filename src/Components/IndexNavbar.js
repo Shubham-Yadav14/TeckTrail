@@ -400,7 +400,7 @@ function IndexNavbar() {
                         <hr className="mt-3" />
                         <div className="px-5 pt-9 pb-7 max-lg:text-xs flex items-center justify-between">
                           <div className="flex ">
-                          <a
+                            <a
                               href="https://www.linkedin.com/company/panacee-software-solutions/"
                               target="_blank"
                             >
@@ -419,7 +419,7 @@ function IndexNavbar() {
                               </svg>
                             </a>
 
-                            
+
                             <a href="https://facebook.com" target="_blank">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -452,7 +452,7 @@ function IndexNavbar() {
                               </svg>
                             </a>
 
-                            
+
 
                             <a href="https://instagram.com" target="_blank">
                               <svg
@@ -552,9 +552,8 @@ function IndexNavbar() {
       <Narrow>
         {
           <div
-            className={`absolute dropdownMenu shadow-2xl ${
-              isOpen ? "open" : "close"
-            }`}
+            className={`absolute dropdownMenu shadow-2xl ${isOpen ? "open" : "close"
+              }`}
           >
             <div className="flex justify-end pr-4 py-3 ">
               <button onClick={toggle} className="rounded-full border-3 p-2">
@@ -670,9 +669,9 @@ function IndexNavbar() {
                         </div>
                       </a>
                       <a href='/portfolio/testimonials'><div className='flex justify-center items-center hover:cursor-pointer' >
-                                        <img src='https://wpriverthemes.com/synck/wp-content/uploads/2024/02/portfolio-mega-menu-4.jpeg' alt='' className='w-5/12 max-lg:w-4/12 max-lg:h-1/2' />
-                                        <div className='flex flex-col justify-center pl-3 w-7/12 max-lg:w-8/12 '> <h3 className=' font-semibold'>Testimonials</h3><p>Showcase of our projects.</p></div>
-                                    </div></a>
+                        <img src='https://wpriverthemes.com/synck/wp-content/uploads/2024/02/portfolio-mega-menu-4.jpeg' alt='' className='w-5/12 max-lg:w-4/12 max-lg:h-1/2' />
+                        <div className='flex flex-col justify-center pl-3 w-7/12 max-lg:w-8/12 '> <h3 className=' font-semibold'>Testimonials</h3><p>Showcase of our projects.</p></div>
+                      </div></a>
                     </div>
                     <hr className="my-4" />
                     <div className="flex flex-col items-center py-2 px-3">
