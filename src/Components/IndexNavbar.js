@@ -669,10 +669,10 @@ function IndexNavbar() {
                           </div>
                         </div>
                       </a>
-                      {/* <a href='/portfolio/portfolio-details'><div className='flex justify-center items-center hover:cursor-pointer' >
+                      <a href='/portfolio/testimonials'><div className='flex justify-center items-center hover:cursor-pointer' >
                                         <img src='https://wpriverthemes.com/synck/wp-content/uploads/2024/02/portfolio-mega-menu-4.jpeg' alt='' className='w-5/12 max-lg:w-4/12 max-lg:h-1/2' />
-                                        <div className='flex flex-col justify-center pl-3 w-7/12 max-lg:w-8/12 '> <h3 className=' font-semibold'>Virtual Reality</h3><p>Enter into the virtual reality world for real experience.</p></div>
-                                    </div></a> */}
+                                        <div className='flex flex-col justify-center pl-3 w-7/12 max-lg:w-8/12 '> <h3 className=' font-semibold'>Testimonials</h3><p>Showcase of our projects.</p></div>
+                                    </div></a>
                     </div>
                     <hr className="my-4" />
                     <div className="flex flex-col items-center py-2 px-3">
