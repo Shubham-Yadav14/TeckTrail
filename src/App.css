@@ -1736,6 +1736,19 @@ a {
   align-items: center;
 }
 
+.jeevshaktibg{
+  background-image: url(./Images/jeevshakti.png);
+}
+.jeevshaktibg:hover{
+  background-image: url(./Images/jeevshakti2.jpg);
+}
+.medecombg{
+  background-image: url(./Images/Medecom.png);
+}
+.medecombg:hover{
+  background-image: url(./Images/Medecom2.jpg);
+}
+
 .contactpara1 {
   font-size: 75px;
   margin-top: 45px;
