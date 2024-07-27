@@ -39,7 +39,7 @@ function App() {
       <BrowserRouter>
         <IndexNavbar />
         <Routes>
-          <Route index element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contactus" element={<Contactus />} />
           <Route path='/how-we-do' element = {<Hwd/>}/>
