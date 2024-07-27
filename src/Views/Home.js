@@ -10,7 +10,6 @@ import Narrow from "../Components/Common/Narrow";
 import ShowcaseSlider from "../Components/ShowcaseSlider";
 import img from "../../src/Images/Screenshot 2024-05-13 140345.png";
 import MultiTab2 from "../Components/MultiTab2";
-import img1 from "../../src/Images/lshape.png";
 import ReviewSlider from "../Components/ReviewSlider";
 
 function Home() {
