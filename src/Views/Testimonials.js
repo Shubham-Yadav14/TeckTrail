@@ -78,6 +78,7 @@ export default function Testimonials() {
                     <a
                       href="http://jeevshaktifoundation.org/"
                       target="_blank"
+                      rel="noreferrer"
                       className="bg-blue-600 text-white text-xl max-xl:text-base font-bold px-4 py-2 rounded-full"
                     >
                       Visit Website
