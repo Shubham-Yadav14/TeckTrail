@@ -1,6 +1,6 @@
 import { React, useEffect } from 'react'
 import Getintouch from './Getintouch'
-import { Container, Row, Col, Button, Card } from 'reactstrap'
+import { Container, Row, Col, Button} from 'reactstrap'
 function Hwd() {
     useEffect(() => {
 

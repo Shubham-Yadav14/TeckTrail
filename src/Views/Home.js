@@ -1,6 +1,6 @@
 import { React, useEffect } from "react";
 import { Link } from "react-router-dom";
-import { Container, Row, Col, Button, Card } from "reactstrap";
+import { Row, Col, Button, Card } from "reactstrap";
 import "swiper/css";
 import { useState } from "react";
 

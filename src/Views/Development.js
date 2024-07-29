@@ -1,7 +1,6 @@
-import { React, useEffect, useState, useRef } from "react";
-import { Container, Row, Col, Button, Card } from "reactstrap";
+import { React, useEffect, useState} from "react";
+import { Row, Col } from "reactstrap";
 import Narrow from "../Components/Common/Narrow";
-import { Link } from "react-router-dom";
 import Getintouch from "../Components/Getintouch";
 
 export default function Development() {

@@ -3,7 +3,6 @@ import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 import Narrow from "./Common/Narrow";
 import img from "../Images/crm-integrations.png";
-import img2 from "../Images/ecommerce.webp";
 
 function IndexNavbar() {
   const navigate = useNavigate();

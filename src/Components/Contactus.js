@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
-import { Container, Row, Col, Button, Card } from "reactstrap";
+import { Row, Col, Card } from "reactstrap";
 import Getintouch from "./Getintouch";
 import Narrow from "./Common/Narrow";
 

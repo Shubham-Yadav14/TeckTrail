@@ -1,7 +1,6 @@
-import React, { useState, useRef, useEffect } from "react";
-import { Container, Row, Col, Button, Card } from "reactstrap";
+import React, { useState, useEffect } from "react";
+import {  Row, Col, Card } from "reactstrap";
 import Narrow from "../Components/Common/Narrow";
-import { Link } from "react-router-dom";
 import MultiTab2 from "../Components/MultiTab2";
 import img from "../../src/Images/Screenshot 2024-05-13 140345.png";
 import Getintouch from "../Components/Getintouch";
@@ -33,8 +32,6 @@ export default function OurServices() {
     // Cleanup observer on unmount
     return () => observer.disconnect();
   }, []);
-
-  const sectionRef = useRef(null);
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {

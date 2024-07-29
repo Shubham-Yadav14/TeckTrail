@@ -27,7 +27,8 @@
   },
   "scripts": {
     "build": "npm install --legacy-peer-deps && react-scripts build",
-    "start": "serve -s build"
+    "start": "react-scripts start",
+    "serve": "serve -s build"
   },
   "eslintConfig": {
     "extends": [

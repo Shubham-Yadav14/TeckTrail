@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Narrow from "../Components/Common/Narrow";
-import { Link } from "react-router-dom";
-import { Container, Row, Col, Button, Card } from "reactstrap";
+import { Card } from "reactstrap";
 import img from "../../src/Images/Screenshot 2024-05-13 140345.png";
 import Getintouch from "../Components/Getintouch";
 
