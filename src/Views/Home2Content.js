@@ -52,6 +52,7 @@ export default function Home2Content() {
               <img
                 src="https://wpriverthemes.com/synck/wp-content/uploads/2023/12/team-2.jpg"
                 className="mx-auto"
+                alt="image1"
               />
             </div>
             <div className="flex flex-col w-7/12 bg-white rounded-2xl p-4 max-lg:w-11/12 max-lg:mx-auto max-lg:p-1">
@@ -157,6 +158,7 @@ export default function Home2Content() {
               <img
                 src="https://wpriverthemes.com/synck/wp-content/uploads/2023/12/team-1.jpg"
                 className="mx-auto"
+                alt="image2"
               />
             </div>
             <div className="flex flex-col w-7/12 bg-white rounded-2xl p-4 max-lg:w-11/12 max-lg:mx-auto max-lg:p-1">
@@ -262,6 +264,7 @@ export default function Home2Content() {
               <img
                 src="https://wpriverthemes.com/synck/wp-content/uploads/2023/12/team-3.jpg"
                 className="mx-auto"
+                alt="image3"
               />
             </div>
             <div className="flex flex-col w-7/12 bg-white rounded-2xl p-4  max-lg:w-11/12 max-lg:mx-auto max-lg:p-1">
@@ -445,6 +448,7 @@ export default function Home2Content() {
                   <a
                     href="https://www.facebook.com/"
                     target="_blank"
+                    rel="noreferrer"
                     className="flex items-center"
                   >
                     <svg
@@ -466,6 +470,7 @@ export default function Home2Content() {
                   <a
                     href="https://www.youtube.com/"
                     target="_blank"
+                    rel="noreferrer"
                     className="flex items-center"
                   >
                     <svg
@@ -486,6 +491,7 @@ export default function Home2Content() {
 
                   <a
                     target="_blank"
+                    rel="noreferrer"
                     href="https://www.linkedin.com/company/panacee-software-solutions/"
                     className="flex items-center"
                   >
@@ -508,6 +514,7 @@ export default function Home2Content() {
                   <a
                     href="https://www.instagram.com/"
                     target="_blank"
+                    rel="noreferrer"
                     className="flex items-center"
                     accordion
                   >

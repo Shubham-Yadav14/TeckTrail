@@ -538,6 +538,7 @@ function Home() {
                   <img
                     decoding="async"
                     src="https://wpriverthemes.com/synck/wp-content/uploads/2023/11/feature-img-1.png"
+                    alt="image6"
                   />
                 </div>
               </Col>
@@ -558,6 +559,7 @@ function Home() {
                   <img
                     decoding="async"
                     src="https://wpriverthemes.com/synck/wp-content/uploads/2023/11/feature-img-2.png"
+                    alt="image7"
                   />
                 </div>
               </Col>
