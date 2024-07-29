@@ -1,6 +1,5 @@
 import React, {useState , useEffect} from 'react'
 import Narrow from '../Components/Common/Narrow'
-import Slider from '../Components/Slider'
 import { Link } from 'react-router-dom';
 import { Button } from 'reactstrap';
 import Getintouch from '../Components/Getintouch';
@@ -39,7 +38,7 @@ export default function Partners() {
           </div>
         </div>
 
-        <Slider/>
+        
       </Narrow>
 
       <div className="bg-[#F3F6FD]">

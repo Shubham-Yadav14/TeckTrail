@@ -2,7 +2,6 @@ import { React, useEffect, useState, useRef } from "react";
 import {  Row, Col, Button, Card } from "reactstrap";
 import { Link } from "react-router-dom";
 
-import Slider from "../Components/Slider";
 import Getintouch from "../Components/Getintouch";
 import Narrow from "../Components/Common/Narrow";
 import img from "../Images/VISION-icon.jpg"
@@ -462,12 +461,6 @@ function About() {
           </div>
         </Narrow>
       </div>
-
-      <Narrow>
-        <div className="sliderdiv mb-32 mt-40">
-          <Slider />
-        </div>
-      </Narrow>
 
       <Narrow>
         <div className="assitance py-28 mb-32">

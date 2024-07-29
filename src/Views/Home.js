@@ -1,16 +1,12 @@
 import { React, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Row, Col, Button, Card } from "reactstrap";
-import "swiper/css";
 import { useState } from "react";
 
-import Slider from "../Components/Slider";
 import Getintouch from "../Components/Getintouch";
 import Narrow from "../Components/Common/Narrow";
-import ShowcaseSlider from "../Components/ShowcaseSlider";
 import img from "../../src/Images/Screenshot 2024-05-13 140345.png";
 import MultiTab2 from "../Components/MultiTab2";
-import ReviewSlider from "../Components/ReviewSlider";
 
 function Home() {
   useEffect(() => {
@@ -435,9 +431,6 @@ function Home() {
 
 
 
-      <Narrow>
-        <ReviewSlider/>
-      </Narrow>
 
 
 
@@ -445,7 +438,7 @@ function Home() {
       <div className="py-24 max-xl:py-5 px-3 background">
         <Narrow>
           <Row>
-            <Col md="4" className="mt-28 max-xl:mt-5">
+            <Col className="mt-28 max-xl:mt-5">
               <p className="home1para">PROJECTS</p>
               <h1 className="empowermentHeading">
                 Showcase of our recognized work.
@@ -506,14 +499,7 @@ function Home() {
                 </div>
               </div>
             </Col>
-            <Col
-              md="8"
-              style={{
-                padding: "3rem",
-              }}
-            >
-              <ShowcaseSlider></ShowcaseSlider>
-            </Col>
+            
           </Row>
         </Narrow>
       </div>
@@ -617,11 +603,7 @@ function Home() {
         </Narrow>
       </div>
 
-      <div className=" mt-28 max-xl:mt-0">
-        <Narrow>
-          <Slider/>
-        </Narrow>
-      </div>
+      
 
       <Getintouch />
     </>

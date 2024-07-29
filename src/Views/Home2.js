@@ -1,6 +1,5 @@
 import { React, useEffect, useState } from "react";
 
-import Slider from "../Components/Slider";
 import Narrow from "../Components/Common/Narrow";
 import MultiTab3 from "../Components/MultiTab3";
 import Home2Content from './Home2Content'
@@ -72,11 +71,7 @@ export default function Home2() {
         </div>
       </Narrow>
 
-      <div className="mt-20 max-xl:mt-10 max-xl:px-3">
-        <Narrow>
-          <Slider />
-        </Narrow>
-      </div>
+      
 
       <div className="bg-[url('https://wpriverthemes.com/synck/wp-content/uploads/2023/12/bg-shape-7.svg')] bg-cover bg-top darkbg py-3 pb-5 mt-28">
         <Narrow>

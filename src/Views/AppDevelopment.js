@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import Narrow from "../Components/Common/Narrow";
 import { Row, Col, Button } from "reactstrap";
 import { Link } from "react-router-dom";
-import ShowcaseSlider from "../Components/ShowcaseSlider";
 import Getintouch from "../Components/Getintouch";
 import img1 from "../Images/App-development-process-Feature-image.jpg"
 import img2 from "../Images/app-development-courses-header-image.png";
@@ -163,7 +162,7 @@ export default function AppDevelopment() {
       <div className="py-24 max-xl:py-5 px-3 background">
         <Narrow>
           <Row>
-            <Col md="4" className="mt-28 max-xl:mt-5">
+            <Col  className="mt-28 max-xl:mt-5">
               <p className="home1para">PROJECTS</p>
               <h1 className="empowermentHeading">
                 Showcase of our recognized work.
@@ -224,14 +223,7 @@ export default function AppDevelopment() {
                 </div>
               </div>
             </Col>
-            <Col
-              md="8"
-              style={{
-                padding: "3rem",
-              }}
-            >
-              <ShowcaseSlider></ShowcaseSlider>
-            </Col>
+            
           </Row>
         </Narrow>
       </div>

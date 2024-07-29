@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import Narrow from "../Components/Common/Narrow";
-import Home2Review from "../Components/Home2Review";
 
 export default function Home2Content() {
   const isLargeScreen = () => window.innerWidth > 1024;
@@ -364,23 +363,7 @@ export default function Home2Content() {
         </Narrow>
       </div>
 
-      <div className="bg-[rgb(243,246,253)]">
-        <Narrow>
-          <div className="pt-20">
-            <div className="text-center home1para">TESTIMONIAL</div>
-            <div className="text-center my-3 text-5xl font-bold">
-              What people think about us
-            </div>
-            <div className="text-center my-8 text-xl text-gray-600">
-              Their professionalism and commitment to our success were evident
-              <br />
-              throughout the entire process.
-            </div>
-          </div>
-        </Narrow>
-        <Home2Review speed="6000" hello={isLarge} />
-        <Home2Review speed="3000" hello={isLarge} />
-      </div>
+      
 
       <Narrow class="max-md:p-3 py-10">
         <div className="home1para">CONTACT </div>
