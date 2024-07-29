@@ -26,10 +26,12 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-  "build": "npm install --legacy-peer-deps && react-scripts build",
+  "preinstall": "npx npm-force-resolutions",
+  "build": "npm install && react-scripts build",
   "start": "react-scripts start",
   "serve": "serve -s build"
 }
+
 ,
   "eslintConfig": {
     "extends": [
