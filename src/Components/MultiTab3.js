@@ -4,7 +4,7 @@ export default function MultiTab3() {
   const [tab, setTab] = useState("Business Strategy");
   return (
     <div>
-      <div className="bg-[#F3F6Fd] mt-32 rounded-xl py-20 px-20">
+      <div className="bg-[#F3F6Fd] mt-32 max-xl:mt-5 rounded-xl py-20 px-20 max-xl:py-5 max-xl:px-3">
         <div>
           <h1 className="home1para">SPECIALIZATION</h1>
           <h1 className="text-5xl font-bold mt-3">
@@ -19,7 +19,7 @@ export default function MultiTab3() {
               onClick={() => setTab("Business Strategy")}
               className={`${
                 tab === "Business Strategy" ? " bg-blue-700 text-white" : "bg-white"
-              } py-3 px-3 rounded-full text-lg flex gap-3`}
+              } py-3 px-3 rounded-full text-sm flex gap-2`}
             >
               {" "}
               <img
@@ -28,7 +28,7 @@ export default function MultiTab3() {
                 style={{height:"40px"}}
                 alt=""
               />{" "}
-              Business Strategy
+              <div className="my-auto">Business Strategy</div>
             </button>{" "}
           </div>
           <div className="flex">
@@ -37,7 +37,7 @@ export default function MultiTab3() {
               onClick={() => setTab("Market Analysis")}
               className={`${
                 tab === "Market Analysis" ? "bg-blue-700 text-white" : "bg-white"
-              } py-3 px-3 rounded-full text-lg flex gap-3`}
+              } py-3 px-3 rounded-full text-sm flex gap-2`}
             >
               {" "}
               <img
@@ -46,7 +46,7 @@ export default function MultiTab3() {
                 style={{height:"40px"}}
                 alt=""
               />{" "}
-              Market Analysis
+              <div className="my-auto">Market Analysis</div>
             </button>{" "}
           </div>
           <div className="flex">
@@ -55,7 +55,7 @@ export default function MultiTab3() {
               onClick={() => setTab("Process Optimization")}
               className={`${
                 tab === "Process Optimization" ? "bg-blue-700 text-white" : "bg-white"
-              } py-3 px-3 rounded-full text-lg flex gap-3`}
+              } py-3 px-3 rounded-full text-sm flex gap-2`}
             >
               {" "}
               <img
@@ -64,7 +64,8 @@ export default function MultiTab3() {
                 style={{height:"40px"}}
                 alt=""
               />{" "}
-              Process Optimization
+              
+              <div className="my-auto">Process Optimization</div>
             </button>{" "}
           </div>
           <div className="flex">
@@ -73,7 +74,7 @@ export default function MultiTab3() {
               onClick={() => setTab("Performance Improvement")}
               className={`${
                 tab === "Performance Improvement" ? "bg-blue-700 text-white" : "bg-white"
-              } py-3 px-3 rounded-full text-lg flex gap-3`}
+              } py-3 px-3 rounded-full text-sm flex gap-2`}
             >
               {" "}
               <img
@@ -82,7 +83,8 @@ export default function MultiTab3() {
                 style={{height:"40px"}}
                 alt=""
               />{" "}
-              Performance Improvement
+              
+              <div className="my-auto">Performance Improvement</div>
             </button>{" "}
           </div>
           <div className="flex">
@@ -91,7 +93,7 @@ export default function MultiTab3() {
               onClick={() => setTab("Entrepreneurial Guidance")}
               className={`${
                 tab === "Entrepreneurial Guidance" ? "bg-blue-700 text-white" : "bg-white"
-              } py-3 px-3 rounded-full text-lg flex gap-3`}
+              } py-3 px-3 rounded-full text-sm flex gap-2`}
             >
               {" "}
               <img
@@ -100,7 +102,8 @@ export default function MultiTab3() {
                 style={{height:"40px"}}
                 alt=""
               />{" "}
-              Entrepreneurial Guidance
+              
+              <div className="my-auto">Entrepreneurial Guidance</div>
             </button>{" "}
           </div>
           <div className="flex">
@@ -109,7 +112,7 @@ export default function MultiTab3() {
               onClick={() => setTab("Organizational Excellence")}
               className={`${
                 tab === "Organizational Excellence" ? "bg-blue-700 text-white" : "bg-white"
-              } py-3 px-3 rounded-full text-lg flex gap-3`}
+              } py-3 px-3 rounded-full text-sm flex gap-2`}
             >
               {" "}
               <img
@@ -118,7 +121,8 @@ export default function MultiTab3() {
                 style={{height:"40px"}}
                 alt=""
               />{" "}
-              Organizational Excellence
+              
+              <div className="my-auto">Organizational Excellence</div>
             </button>{" "}
           </div>
           <div className="flex">
@@ -127,7 +131,7 @@ export default function MultiTab3() {
               onClick={() => setTab("Market Research")}
               className={`${
                 tab === "Market Research" ? "bg-blue-700 text-white" : "bg-white"
-              } py-3 px-3 rounded-full text-lg flex gap-3`}
+              } py-3 px-3 rounded-full text-sm flex gap-2`}
             >
               {" "}
               <img
@@ -136,20 +140,21 @@ export default function MultiTab3() {
                 style={{height:"40px"}}
                 alt=""
               />{" "}
-              Market Research
+              
+              <div className="my-auto">Market Research</div>
             </button>{" "}
           </div>
         </div>
 
         {tab === "Business Strategy" && (
-          <div className="flex mt-10 gap-4">
-            <div className="bg-white p-4 rounded-xl w-1/2">
+          <div className="flex max-xl:flex-col mt-10 gap-4">
+            <div className="bg-white p-4 rounded-xl w-1/2 max-xl:w-full">
               <img
                 src="https://wpriverthemes.com/synck/wp-content/uploads/2023/12/about2-tab-1.png"
                 alt=""
               />
             </div>
-            <div className="bg-white p-4 rounded-xl w-1/2">
+            <div className="bg-white p-4 rounded-xl w-1/2 max-xl:w-full">
               <div className="bg-[#F3F6FD] p-3 rounded-lg">
                 <h1 className="text-2xl font-semibold">
                   Elevating your business strategy for success
@@ -172,14 +177,14 @@ export default function MultiTab3() {
         )}
 
         {tab === "Market Analysis" && (
-          <div className="flex mt-10 gap-4">
-            <div className="bg-white p-4 rounded-xl w-1/2">
+          <div className="flex max-xl:flex-col mt-10 gap-4">
+            <div className="bg-white p-4 rounded-xl w-1/2 max-xl:w-full">
               <img
                 src="https://wpriverthemes.com/synck/wp-content/uploads/2023/12/about2-tab-2.png"
                 alt=""
               />
             </div>
-            <div className="bg-white p-4 rounded-xl w-1/2">
+            <div className="bg-white p-4 rounded-xl w-1/2 max-xl:w-full">
               <div className="bg-[#F3F6FD] p-3 rounded-lg">
                 <h1 className="text-2xl font-semibold">
                   Unveiling the comprehensive market analysis
@@ -200,14 +205,14 @@ export default function MultiTab3() {
         )}
 
         {tab === "Process Optimization" && (
-          <div className="flex mt-10 gap-4">
-            <div className="bg-white p-4 rounded-xl w-1/2">
+          <div className="flex max-xl:flex-col mt-10 gap-4">
+            <div className="bg-white p-4 rounded-xl w-1/2 max-xl:w-full">
               <img
                 src="https://wpriverthemes.com/synck/wp-content/uploads/2023/12/about2-tab-3.png"
                 alt=""
               />
             </div>
-            <div className="bg-white p-4 rounded-xl w-1/2">
+            <div className="bg-white p-4 rounded-xl w-1/2 max-xl:w-full">
               <div className="bg-[#F3F6FD] p-3 rounded-lg">
                 <h1 className="text-2xl font-semibold">
                   Streamline your operations for maximum efficiency
@@ -229,14 +234,14 @@ export default function MultiTab3() {
         )}
 
         {tab === "Performance Improvement" && (
-          <div className="flex mt-10 gap-4">
-            <div className="bg-white p-4 rounded-xl w-1/2">
+          <div className="flex max-xl:flex-col mt-10 gap-4">
+            <div className="bg-white p-4 rounded-xl w-1/2 max-xl:w-full">
               <img
                 src="https://wpriverthemes.com/synck/wp-content/uploads/2023/12/about2-tab-4.png"
                 alt=""
               />
             </div>
-            <div className="bg-white p-4 rounded-xl w-1/2">
+            <div className="bg-white p-4 rounded-xl w-1/2 max-xl:w-full">
               <div className="bg-[#F3F6FD] p-3 rounded-lg">
                 <h1 className="text-2xl font-semibold">
                   Elevate your business performance to new heights
@@ -257,14 +262,14 @@ export default function MultiTab3() {
         )}
 
         {tab === "Entrepreneurial Guidance" && (
-          <div className="flex mt-10 gap-4">
-            <div className="bg-white p-4 rounded-xl w-1/2">
+          <div className="flex max-xl:flex-col mt-10 gap-4">
+            <div className="bg-white p-4 rounded-xl w-1/2 max-xl:w-full">
               <img
                 src="https://wpriverthemes.com/synck/wp-content/uploads/2023/12/about2-tab-5.png"
                 alt=""
               />
             </div>
-            <div className="bg-white p-4 rounded-xl w-1/2">
+            <div className="bg-white p-4 rounded-xl w-1/2 max-xl:w-full">
               <div className="bg-[#F3F6FD] p-3 rounded-lg">
                 <h1 className="text-2xl font-semibold">
                   Nurturing entrepreneurial excellence using slack
@@ -286,14 +291,14 @@ export default function MultiTab3() {
         )}
 
         {tab === "Organizational Excellence" && (
-          <div className="flex mt-10 gap-4">
-            <div className="bg-white p-4 rounded-xl w-1/2">
+          <div className="flex max-xl:flex-col mt-10 gap-4">
+            <div className="bg-white p-4 rounded-xl w-1/2 max-xl:w-full">
               <img
                 src="https://wpriverthemes.com/synck/wp-content/uploads/2023/12/about2-tab-2.png"
                 alt=""
               />
             </div>
-            <div className="bg-white p-4 rounded-xl w-1/2">
+            <div className="bg-white p-4 rounded-xl w-1/2 max-xl:w-full">
               <div className="bg-[#F3F6FD] p-3 rounded-lg">
                 <h1 className="text-2xl font-semibold">
                   Elevating your business strategy for success
@@ -316,14 +321,14 @@ export default function MultiTab3() {
         )}
 
         {tab === "Market Research" && (
-          <div className="flex mt-10 gap-4">
-            <div className="bg-white p-4 rounded-xl w-1/2">
+          <div className="flex  max-xl:flex-col mt-10 gap-4">
+            <div className="bg-white p-4 rounded-xl w-1/2 max-xl:w-full">
               <img
                 src="https://wpriverthemes.com/synck/wp-content/uploads/2023/12/about2-tab-1.png"
                 alt=""
               />
             </div>
-            <div className="bg-white p-4 rounded-xl w-1/2">
+            <div className="bg-white p-4 rounded-xl w-1/2 max-xl:w-full">
               <div className="bg-[#F3F6FD] p-3 rounded-lg">
                 <h1 className="text-2xl font-semibold">
                   Unveiling the comprehensive market analysis

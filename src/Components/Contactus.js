@@ -1,5 +1,5 @@
-import React, { useState, useRef, useEffect } from "react";
-import { Container, Row, Col, Button, Card } from "reactstrap";
+import React, { useState, useEffect } from "react";
+import { Row, Col, Card } from "reactstrap";
 import Getintouch from "./Getintouch";
 import Narrow from "./Common/Narrow";
 
@@ -91,11 +91,11 @@ function Contactus() {
                 />
                 <h1 className="text-3xl font-bold">Support</h1>
                 <h5 className="text-xl">Contact our fast support team</h5>
-                <a href="">
+                <div>
                   <h6 className=" text-blue-500 hover:text-blue-700 font-semibold text-lg">
                     infopanacee@gmail.com
                   </h6>
-                </a>
+                </div>
               </Card>
             </Col>
 
@@ -108,11 +108,11 @@ function Contactus() {
                 />
                 <h1 className="text-3xl font-bold">Phone</h1>
                 <h5 className="text-xl">Mon-Fri from 9am to 6pm.</h5>
-                <a href="">
+                <div>
                   <h6 className="text-blue-500 hover:text-blue-700 font-semibold text-lg">
                     9650900190
                   </h6>
-                </a>
+                </div>
               </Card>
             </Col>
           </Row>

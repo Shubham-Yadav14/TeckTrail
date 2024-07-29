@@ -1,4 +1,4 @@
-import { React, useEffect, useState, useRef } from "react";
+import { React, useEffect, useState } from "react";
 
 import Slider from "../Components/Slider";
 import Narrow from "../Components/Common/Narrow";
@@ -21,9 +21,9 @@ export default function Home2() {
   return (
     <div className="mb-28 ">
       <div className="bg-[url('https://wpriverthemes.com/synck/wp-content/uploads/2023/12/bg-shape-5.svg')] bg-cover bg-top">
-        <div className="py-14  bg-[url('https://wpriverthemes.com/synck/wp-content/uploads/2023/12/bg-shape-6.svg')] bg-cover bg-top">
+        <div className="pt-14  bg-[url('https://wpriverthemes.com/synck/wp-content/uploads/2023/12/bg-shape-6.svg')] bg-cover bg-top">
           <Narrow>
-            <div className="mb-24 mt-24 max-xl:mt-3">
+            <div className="mb-28 max-xl:mb-10 mt-24 max-xl:mt-3">
               <div>
                 <div className="firstbtnsec ">
                   <span className="home1para">ACCELERATED GROWTH</span>
@@ -58,15 +58,7 @@ export default function Home2() {
         </div>
       </div>
 
-      <Narrow>
-        <div className="bg-[#F3F6FD] p-2 rounded-lg">
-          <div className="bg-[#1351d80d] p-20 border-[#1351d81a] border-2">
-            <div className="bg-white p-3">
-              <img src="https://wpriverthemes.com/synck/wp-content/uploads/2023/12/map.svg" />
-            </div>
-          </div>
-        </div>
-      </Narrow>
+      <Home2form/>
 
       <Narrow>
         <hr className="my-28 max-xl:my-5 max-xl:hidden" />
@@ -89,7 +81,7 @@ export default function Home2() {
       <div className="bg-[url('https://wpriverthemes.com/synck/wp-content/uploads/2023/12/bg-shape-7.svg')] bg-cover bg-top darkbg py-3 pb-5 mt-28">
         <Narrow>
           <div>
-            <div className="whatweareoffering mt-32 max-xl:mt-5 max-xl:px-3 grid grid-cols-2">
+            <div className="whatweareoffering mt-32 max-xl:mt-5 max-xl:px-3 grid grid-cols-2 max-xl:grid-cols-1">
               <div>
                 <div md="6">
                   <p className="delinglogheading">OUR SERVICES</p>
@@ -115,9 +107,9 @@ export default function Home2() {
             </div>
           </div>
 
-          <div className="grid grid-cols-2 gap-3 mt-20">
+          <div className="grid grid-cols-2 max-xl:grid-cols-1 gap-3 mt-20 max-xl:mt-5 max-xl:p-3">
             <div className="flex flex-col gap-4">
-              <div className="flex justify-between">
+              <div className="flex max-xl:flex-col gap-4 justify-between">
                 <div className="bg-white p-4 rounded-xl">
                   <img
                     src="https://wpriverthemes.com/synck/wp-content/uploads/2023/12/service-1.png"
@@ -179,7 +171,7 @@ export default function Home2() {
             </div>
 
             <div className="flex flex-col gap-4">
-              <div className="flex justify-between">
+              <div className="flex max-xl:flex-col gap-4 justify-between">
                 <div className="bg-white p-4 rounded-xl">
                   <img
                     src="https://wpriverthemes.com/synck/wp-content/uploads/2023/12/service-1.png"
@@ -247,18 +239,18 @@ export default function Home2() {
         <MultiTab3 />
       </Narrow>
 
-      <div className="darkbg mt-32 py-20">
+      <div className="darkbg mt-32 max-xl:mt-5 py-20 max-xl:py-10">
         <Narrow>
-          <div className="flex gap-14">
-            <div className="w-2/3">
-              <h1 className="home1para">CONSULTING EXCELLENCE</h1>
-              <h1 className="text-white text-5xl font-bold pr-24 mt-3">
+          <div className="flex max-xl:flex-col gap-14">
+            <div className="w-2/3 max-xl:w-full">
+              <h1 className="home1para max-xl:px-3">CONSULTING EXCELLENCE</h1>
+              <h1 className="text-white text-5xl font-bold pr-24  max-xl:pr-0 mt-3 max-xl:p-3">
                 Build a solution that wins you more clients.
               </h1>
 
               <hr className="bg-white mt-5 mb-5 max-xl:mt-2 max-xl:mb-2 max-xl:hidden" />
 
-              <div className="grid grid-cols-2 gap-10">
+              <div className="grid grid-cols-2 max-xl:grid-cols-1 max-xl:p-3 gap-10">
                 <div>
                   <img
                     src="https://wpriverthemes.com/synck/wp-content/uploads/2023/12/hwd-icon-1.svg"
@@ -333,8 +325,8 @@ export default function Home2() {
       </div>
 
       <Narrow>
-        <div className="flex mt-32">
-          <div className="w-1/2">
+        <div className="flex max-xl:flex-col mt-32 max-xl:mt-10">
+          <div className="w-1/2 max-xl:w-full max-xl:p-3">
             <h1 className="home1para">DAILY NEWS</h1>
             <h1 className="text-5xl font-bold mt-2">
               Read more about daily insights
@@ -352,7 +344,7 @@ export default function Home2() {
           </div>
         </div>
 
-        <div className="flex gap-3 mt-10">
+        <div className="flex max-xl:flex-col max-xl:p-3 gap-3 mt-10 max-xl:mt-3">
           <div className="bg-[#F3F6FD] p-4 rounded-xl">
             <img
               src="https://wpriverthemes.com/synck/wp-content/uploads/2023/12/blog-1.jpg"
@@ -407,15 +399,15 @@ export default function Home2() {
 
       <Narrow>
         <div className="darkbg bg-[url('https://wpriverthemes.com/synck/wp-content/uploads/2023/12/bg-shape-blog-sticky.svg')] bg-cover bg-top  p-4 mt-10 rounded-xl">
-          <div className="flex">
-            <div className="w-2/3">
+          <div className="flex max-xl:flex-col">
+            <div className="w-2/3 max-xl:w-full">
               <img
                 className=" rounded-lg"
                 src="https://wpriverthemes.com/synck/wp-content/uploads/2023/12/blog-4.jpg"
                 alt=""
               />
             </div>
-            <div className="w-1/3 my-auto p-3">
+            <div className="w-1/3 max-xl:w-full my-auto p-3">
               <h1 className="text-2xl text-white">
                 Bluebase launches a new X Tap to Pay on smartphone for
                 international and domestic business
@@ -436,13 +428,13 @@ export default function Home2() {
       <div className="bg-[#F3F6FD] bg-[url('https://wpriverthemes.com/synck/wp-content/uploads/2023/12/bg-shape-9.svg')] bg-cover bg-bottom mt-32 max-xl:mt-0 mb-32 py-10">
         <Narrow>
           <div className="flex max-xl:flex-col gap-10">
-            <div className="w-1/2">
+            <div className="w-1/2 max-xl:w-full max-xl:p-3">
               <h1 className="home1para">OUR TEAM</h1>
               <h1 className="text-5xl font-bold mt-3 pr-14">
                 Our team consists of world class experts
               </h1>
             </div>
-            <div className="w-1/2 my-auto">
+            <div className="w-1/2 max-xl:w-full max-xl:p-3 my-auto max-xl:my-0">
               <p className="text-xl text-gray-700">
                 We are proud to introduce you to the talented individuals who
                 make up our consultancy's backbone, each contributing their
@@ -454,7 +446,7 @@ export default function Home2() {
 
           <hr className="mt-10 mb-10 max-xl:hidden" />
 
-          <div className="grid grid-cols-3 max-xl:grid-cols-1 gap-3">
+          <div className="grid grid-cols-3 max-xl:grid-cols-1 gap-3 max-xl:p-3">
             <div className="flex flex-col gap-3">
               <div className="bg-white rounded-xl flex max-xl:flex-col gap-4 p-3">
                 <img
@@ -568,6 +560,8 @@ export default function Home2() {
           </div>
         </Narrow>
       </div>
+
+      <Home2Content/>
     </div>
   );
 }

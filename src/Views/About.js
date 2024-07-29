@@ -1,5 +1,5 @@
 import { React, useEffect, useState, useRef } from "react";
-import { Container, Row, Col, Button, Card } from "reactstrap";
+import {  Row, Col, Button, Card } from "reactstrap";
 import { Link } from "react-router-dom";
 
 import Slider from "../Components/Slider";

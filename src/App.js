@@ -13,7 +13,6 @@ import Portfolio from './Views/Portfolio';
 import ITsupport from './Views/ITsupport';
 import Healthcare from './Views/Healthcare';
 import Brainstorming from './Views/Brainstorming';
-import PortfolioDetails from './Views/PortfolioDetails';
 import Viewmore from './Views/Viewmore';
 import Home2 from './Views/Home2';
 import Blogs from './Views/Blogs';
@@ -32,7 +31,6 @@ import AppDevelopment from './Views/AppDevelopment';
 import SEO from "./Views/SeoServices"
 import FrontEnd from './Views/FrontEnd';
 import Testimonials from './Views/Testimonials';
-import SEO from './Views/SEO'
 
 function App() {
   return (

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Container, Row, Col, Button, Card } from "reactstrap";
+import { Row, Col, Button, Card } from "reactstrap";
 import Narrow from "../Components/Common/Narrow";
 import { Link } from "react-router-dom";
 import Getintouch from "../Components/Getintouch";

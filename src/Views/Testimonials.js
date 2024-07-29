@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Narrow from "../Components/Common/Narrow";
-import { Row, Col, Button } from "reactstrap";
+import { Row, Col} from "reactstrap";
 import Getintouch from "../Components/Getintouch";
 
 export default function Testimonials() {
@@ -78,6 +78,7 @@ export default function Testimonials() {
                     <a
                       href="http://jeevshaktifoundation.org/"
                       target="_blank"
+                      rel="noreferrer"
                       className="bg-blue-600 text-white text-xl max-xl:text-base font-bold px-4 py-2 rounded-full"
                     >
                       Visit Website
@@ -105,6 +106,7 @@ export default function Testimonials() {
                   <a
                     href="https://mede-com.com/"
                     target="_blank"
+                    rel="noreferrer"
                     className="bg-blue-600 max-xl:text-base text-white text-xl font-bold px-4 py-2 rounded-full"
                   >
                     Visit Website
@@ -138,6 +140,7 @@ export default function Testimonials() {
                   <a
                     href="http://jeevshaktifoundation.org/"
                     target="_blank"
+                    rel="noreferrer"
                     className="bg-blue-600 max-xl:text-base text-white text-xl font-bold px-4 py-2 rounded-full"
                   >
                     Visit Website
@@ -165,6 +168,7 @@ export default function Testimonials() {
                   <a
                     href="https://mede-com.com/"
                     target="_blank"
+                    rel="noreferrer"
                     className="bg-blue-600 max-xl:text-base text-white text-xl font-bold px-4 py-2 rounded-full"
                   >
                     Visit Website

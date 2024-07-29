@@ -3,7 +3,6 @@ import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 import Narrow from "./Common/Narrow";
 import img from "../Images/crm-integrations.png";
-import img2 from "../Images/ecommerce.webp";
 
 function IndexNavbar() {
   const navigate = useNavigate();
@@ -189,6 +188,7 @@ function IndexNavbar() {
                             <a
                               href="https://www.linkedin.com/company/panacee-software-solutions/"
                               target="_blank"
+                              rel="noreferrer"
                             >
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -205,7 +205,7 @@ function IndexNavbar() {
                               </svg>
                             </a>
 
-                            <a href="https://facebook.com" target="_blank">
+                            <a href="https://facebook.com" target="_blank" rel="noreferrer">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 height="40"
@@ -221,7 +221,7 @@ function IndexNavbar() {
                               </svg>
                             </a>
 
-                            <a href="https://youtube.com" target="_blank">
+                            <a href="https://youtube.com" target="_blank" rel="noreferrer">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 height="40"
@@ -237,7 +237,7 @@ function IndexNavbar() {
                               </svg>
                             </a>
 
-                            <a href="https://instagram.com" target="_blank">
+                            <a href="https://instagram.com" target="_blank" rel="noreferrer">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 height="40"
@@ -403,6 +403,7 @@ function IndexNavbar() {
                             <a
                               href="https://www.linkedin.com/company/panacee-software-solutions/"
                               target="_blank"
+                              rel="noreferrer"
                             >
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -420,7 +421,7 @@ function IndexNavbar() {
                             </a>
 
 
-                            <a href="https://facebook.com" target="_blank">
+                            <a href="https://facebook.com" target="_blank" rel="noreferrer">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 height="40"
@@ -436,7 +437,7 @@ function IndexNavbar() {
                               </svg>
                             </a>
 
-                            <a href="https://youtube.com" target="_blank">
+                            <a href="https://youtube.com" target="_blank" rel="noreferrer">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 height="40"
@@ -454,7 +455,7 @@ function IndexNavbar() {
 
 
 
-                            <a href="https://instagram.com" target="_blank">
+                            <a href="https://instagram.com" target="_blank" rel="noreferrer">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 height="40"
@@ -957,7 +958,7 @@ function IndexNavbar() {
                     <div className="flex flex-col justify-center items-center p-3 ">
                       <img
                         src="https://wpriverthemes.com/synck/wp-content/uploads/2024/02/ipad.jpg"
-                        alt="Image"
+                        alt="Image10"
                       />
                       <div>
                         <h3 className=" font-semibold">Our product hits</h3>
