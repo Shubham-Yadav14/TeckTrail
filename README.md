@@ -1,15 +1,8 @@
-# Getting Started with Create React App
+# TITAN SOFTWARE COMPANY
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Titan Infosolutions, based in Janakpuri South, is a leading software company established in 2020, specializing in Web Technologies, Artificial Intelligence, and automation solutions. With over 300 projects completed globally and a 100% client satisfaction rate, the company prides itself on delivering innovative, customized solutions to meet diverse business needs. Their highly skilled team offers fast delivery and continuous support, ensuring seamless integration of technology and human potential. Titan Infosolutions aims to be a driving force for businesses prioritizing customer-centric strategies, helping them harness technology to fulfill customer needs effectively.
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[https://titan-website.netlify.app/](https://titan-website.netlify.app/)
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
